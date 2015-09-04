@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.miui.fm">
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_MTK_MMHW"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:backupAgent="com.miui.fmradio.backup.FmBackupAgent" android:icon="@drawable/appicon" android:label="@string/app_name" android:name="com.miui.fmradio.FmApplication">
+        <uses-library android:name="com.broadcom.bt" android:required="false"/>
+        <uses-library android:name="protobuf.jar"/>
+        <activity android:label="@string/app_name" android:name="com.miui.fmradio.FmActivity" android:screenOrientation="portrait" android:theme="@style/FmActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/stations_list" android:name="com.miui.fmradio.FmStationListActivity" android:screenOrientation="portrait" android:theme="@style/FmStationListTheme"/>
+        <service android:name="com.miui.fmradio.FmLocalService" android:process=":remote"/>
+        <service android:name="com.miui.fmservice.FmService" android:process=":remote"/>
+        <receiver android:name="com.miui.fmradio.FmMediaButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.miui.fmradio" android:exported="true" android:name="com.miui.fmradio.FmStationProvider"/>
+    </application>
+</manifest>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">Удалить %1$d файлов</item>
+        <item quantity="zero">Удалить %1$d файлов</item>
+        <item quantity="one">Удалить %1$d файл</item>
+        <item quantity="two">Удалить %1$d файла</item>
+        <item quantity="few">Удалить %1$d файла</item>
+        <item quantity="many">Удалить %1$d файлов</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" и %1$d папок?"</item>
+        <item quantity="zero">" и %1$d папок?"</item>
+        <item quantity="one">" и %1$d папку?"</item>
+        <item quantity="two">" и %1$d папки?"</item>
+        <item quantity="few">" и %1$d папки?"</item>
+        <item quantity="many">" и %1$d папок?"</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d файлов</item>
+        <item quantity="zero">пусто</item>
+        <item quantity="one">%d файл</item>
+        <item quantity="two">%d файла</item>
+        <item quantity="few">%d файла</item>
+        <item quantity="many">%d файлов</item>
+    </plurals>
+    <plurals name="ui_bar_txt_download_progress">
+        <item quantity="other">Осталось скачать %1$d файлов</item>
+        <item quantity="zero">Осталось скачать %1$d файлов</item>
+        <item quantity="one">Осталось скачать %1$d файл</item>
+        <item quantity="two">Осталось скачать %1$d файла</item>
+        <item quantity="few">Осталось скачать %1$d файла</item>
+        <item quantity="many">Осталось скачать %1$d файлов</item>
+    </plurals>
+    <plurals name="ui_bar_txt_upload_progress">
+        <item quantity="other">Осталось загрузить %1$d файлов</item>
+        <item quantity="zero">Осталось загрузить %1$d файлов</item>
+        <item quantity="one">Осталось загрузить %1$d файл</item>
+        <item quantity="two">Осталось загрузить %1$d файла</item>
+        <item quantity="few">Осталось загрузить %1$d файла</item>
+        <item quantity="many">Осталось загрузить %1$d файлов</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="zero">Выбрано: %1$d</item>
+        <item quantity="one">Выбрано: %1$d</item>
+        <item quantity="two">Выбрано: %1$d</item>
+        <item quantity="few">Выбрано: %1$d</item>
+        <item quantity="many">Выбрано: %1$d</item>
+    </plurals>
+    <plurals name="items_file">
+        <item quantity="other"> (%1$d файлов)</item>
+        <item quantity="zero"> (пусто)</item>
+        <item quantity="one"> (%1$d файл)</item>
+        <item quantity="two"> (%1$d файла)</item>
+        <item quantity="few"> (%1$d файла)</item>
+        <item quantity="many"> (%1$d файлов)</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d файлов)</item>
+        <item quantity="zero"> (пусто)</item>
+        <item quantity="one"> (%1$d файл)</item>
+        <item quantity="two"> (%1$d файла)</item>
+        <item quantity="few"> (%1$d файла)</item>
+        <item quantity="many"> (%1$d файлов)</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">Поиск в приложениях по запросу \"%1$s\" (%2$d элементов)</item>
+        <item quantity="zero">Поиск в приложениях по запросу \"%1$s\" (нет элементов)</item>
+        <item quantity="one">Поиск в приложениях по запросу \"%1$s\" (%2$d элемент)</item>
+        <item quantity="two">Поиск в приложениях по запросу \"%1$s\" (%2$d элемента)</item>
+        <item quantity="few">Поиск в приложениях по запросу \"%1$s\" (%2$d элемента)</item>
+        <item quantity="many">Поиск в приложениях по запросу \"%1$s\" (%2$d элементов)</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">Файлы по запросу \"%1$s\" (%2$d элементов)</item>
+        <item quantity="zero">Файлы по запросу \"%1$s\" (нет элементов)</item>
+        <item quantity="one">Файлы по запросу \"%1$s\" (%2$d элемент)</item>
+        <item quantity="two">Файлы по запросу \"%1$s\" (%2$d элемента)</item>
+        <item quantity="few">Файлы по запросу \"%1$s\" (%2$d элемента)</item>
+        <item quantity="many">Файлы по запросу \"%1$s\" (%2$d элементов)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">Теги по запросу \"%1$s\" (%2$d элементов)</item>
+        <item quantity="zero">Теги по запросу \"%1$s\" (нет элементов)</item>
+        <item quantity="one">Теги по запросу \"%1$s\" (%2$d элемент)</item>
+        <item quantity="two">Теги по запросу \"%1$s\" (%2$d элемента)</item>
+        <item quantity="few">Теги по запросу \"%1$s\" (%2$d элемента)</item>
+        <item quantity="many">Теги по запросу \"%1$s\" (%2$d элементов)</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d минут назад</item>
+        <item quantity="zero">%1$d минут назад</item>
+        <item quantity="one">%1$d минуту назад</item>
+        <item quantity="two">%1$d минуты назад</item>
+        <item quantity="few">%1$d минуты назад</item>
+        <item quantity="many">%1$d минут назад</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d часов назад</item>
+        <item quantity="zero">%1$d часов назад</item>
+        <item quantity="one">%1$d час назад</item>
+        <item quantity="two">%1$d часа назад</item>
+        <item quantity="few">%1$d часа назад</item>
+        <item quantity="many">%1$d часов назад</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d дней назад</item>
+        <item quantity="zero">%1$d дней назад</item>
+        <item quantity="one">%1$d день назад</item>
+        <item quantity="two">%1$d дня назад</item>
+        <item quantity="few">%1$d дня назад</item>
+        <item quantity="many">%1$d дней назад</item>
+    </plurals>
+    <plurals name="found_new_files">
+        <item quantity="other">Найдено %1$d новых файлов</item>
+        <item quantity="zero">Найдено %1$d новых файлов</item>
+        <item quantity="one">Найдено %1$d новый файл</item>
+        <item quantity="two">Найдено %1$d новых файла</item>
+        <item quantity="few">Найдено %1$d новых файла</item>
+        <item quantity="many">Найдено %1$d новых файлов</item>
+    </plurals>
+    <plurals name="file_notify_title">
+        <item quantity="other">Приложение %2$s (%1$d файлов)</item>
+        <item quantity="zero">Приложение %2$s (пусто)</item>
+        <item quantity="one">Приложение %2$s (%1$d файл)</item>
+        <item quantity="two">Приложение %2$s (%1$d файла)</item>
+        <item quantity="few">Приложение %2$s (%1$d файла)</item>
+        <item quantity="many">Приложение %2$s (%1$d файлов)</item>
+    </plurals>
+</resources>

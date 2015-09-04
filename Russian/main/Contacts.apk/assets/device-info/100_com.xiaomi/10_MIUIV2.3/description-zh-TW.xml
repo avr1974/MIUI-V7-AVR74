@@ -1,0 +1,16 @@
+<feature>
+    <name>MIUI V2.3</name>
+    <boolean>TRUE</boolean>
+    <title>
+在您的另一台手機上：
+
+1.在桌面上叫出系統選單（按≡鍵）>“設定”>“系統”>“藍牙”
+
+2.點擊右上角開關開啟藍牙
+
+3.打開“可偵測性”開關, 成功開啟藍牙後，在本手機上點擊“下一步”
+
+本方法適用於所有安裝了MIUI V2.3的機器
+    </title>
+    <header></header>
+</feature>

@@ -1,0 +1,16 @@
+<feature>
+    <name>Galaxy Note</name>
+    <boolean>TRUE</boolean>
+    <title>
+在您的GALAXY Note 上：
+
+1.進入主選單清單，選擇“設定”>“藍牙設定”
+
+2.開啟“藍牙”
+
+3.進入藍牙設定詳細資訊頁面
+
+4.點擊電話名稱開啟可檢測性成功開啟藍牙後，在本手機上點擊“下一步”
+    </title>
+    <header></header>
+</feature>

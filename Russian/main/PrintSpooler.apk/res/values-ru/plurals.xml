@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="print_search_result_count_utterance">
+        <item quantity="other">Найдено %1$s принтеров</item>
+        <item quantity="one">Найден %1$s принтер</item>
+        <item quantity="few">Найдено %1$s принтера</item>
+        <item quantity="many">Найдено %1$s принтеров</item>
+    </plurals>
+    <plurals name="composite_notification_title_template">
+        <item quantity="other">%1$d зданий на печать</item>
+        <item quantity="one">%1$d задание на печать</item>
+        <item quantity="few">%1$d задания на печать</item>
+        <item quantity="many">%1$d заданий на печать</item>
+    </plurals>
+</resources>

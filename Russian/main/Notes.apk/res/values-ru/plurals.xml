@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="note_count_in_folder">
+        <item quantity="other">%1$s заметок</item>
+        <item quantity="one">%1$s заметка</item>
+        <item quantity="few">%1$s заметки</item>
+        <item quantity="many">%1$s заметок</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">Поиск \"%2$s\" (найдено: %1$s)</item>
+        <item quantity="one">Поиск \"%2$s\" (найдено: %1$s)</item>
+    </plurals>
+    <plurals name="note_terms">
+        <item quantity="other">%1$s заметок</item>
+        <item quantity="one">%1$s заметка</item>
+        <item quantity="few">%1$s заметки</item>
+        <item quantity="many">%1$s заметок</item>
+    </plurals>
+    <plurals name="folder_terms">
+        <item quantity="other">%1$s папок</item>
+        <item quantity="one">%1$s папка</item>
+        <item quantity="few">%1$s папки</item>
+        <item quantity="many">%1$s папок</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">%1$s несинхронизированных заметок</item>
+        <item quantity="one">%1$s несинхронизированная заметка</item>
+        <item quantity="few">%1$s несинхронизированных заметки</item>
+        <item quantity="many">%1$s несинхронизированных заметок</item>
+    </plurals>
+</resources>

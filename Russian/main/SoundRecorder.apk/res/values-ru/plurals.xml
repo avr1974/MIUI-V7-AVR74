@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="record_downloading_complete_count">
+        <item quantity="other">Загружено %d записей</item>
+        <item quantity="one">Загружена %d запись</item>
+        <item quantity="few">Загружено %d записи</item>
+        <item quantity="many">Загружено %d записей</item>
+    </plurals>
+</resources>

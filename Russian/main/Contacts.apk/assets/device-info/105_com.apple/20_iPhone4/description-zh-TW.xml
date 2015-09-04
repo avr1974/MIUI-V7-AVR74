@@ -1,0 +1,14 @@
+<feature>
+    <name>iPhone 4</name>
+    <boolean>TRUE</boolean>
+    <title>
+在您的iPhone 4上：
+
+1.在桌面上找到並開啟“設定”
+
+2.點擊“一般”
+
+3.選擇並開啟“藍牙”成功開啟藍牙後，在本手機上點擊“下一步”
+    </title>
+    <header></header>
+</feature>

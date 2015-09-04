@@ -1,0 +1,16 @@
+<feature>
+    <name>Galaxy Note</name>
+    <boolean>TRUE</boolean>
+    <title>
+在您的GALAXY Note 上：
+
+1.进入主菜单列表，选择“设置”>“蓝牙设定”
+
+2.打开“蓝牙”
+
+3.进入蓝牙设置详情页面
+
+4.点击电话名称开启可检测性成功开启蓝牙后，在本手机上点击“下一步”
+    </title>
+    <header></header>
+</feature>

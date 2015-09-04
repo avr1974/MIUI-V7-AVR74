@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d недавних приложений</item>
+        <item quantity="one">%d недавнее приложение</item>
+        <item quantity="few">%d недавних приложения</item>
+        <item quantity="many">%d недавних приложений</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">%d приложений</item>
+        <item quantity="one">%d приложение</item>
+        <item quantity="few">%d приложения</item>
+        <item quantity="many">%d приложений</item>
+    </plurals>
+</resources>

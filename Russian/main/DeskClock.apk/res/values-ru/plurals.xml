@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="timer_message_hour">
+        <item quantity="other">"%1$d ч. "</item>
+        <item quantity="one">"%1$d ч. "</item>
+    </plurals>
+    <plurals name="timer_message_minute">
+        <item quantity="other">"%1$d мин. "</item>
+        <item quantity="one">"%1$d мин. "</item>
+    </plurals>
+    <plurals name="timer_message_second">
+        <item quantity="other">%1$d сек.</item>
+        <item quantity="one">%1$d сек.</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_seconds">
+        <item quantity="other">%1$d сек.</item>
+        <item quantity="one">1$d сек.</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_minutes">
+        <item quantity="other">%1$d мин.</item>
+        <item quantity="one">%1$d мин.</item>
+    </plurals>
+    <plurals name="snooze_message">
+        <item quantity="other">Отложить на %d минут</item>
+        <item quantity="one">Отложить на %d минуту</item>
+        <item quantity="few">Отложить на %d минуты</item>
+        <item quantity="many">Отложить на %d минут</item>
+    </plurals>
+</resources>

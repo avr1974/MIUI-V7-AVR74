@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Осталось %1$d нажатий для открытия меню для разработчиков</item>
+        <item quantity="one">Осталось %1$d нажатие для открытия меню для разработчиков</item>
+        <item quantity="few">Осталось %1$d нажатия для открытия меню для разработчиков</item>
+        <item quantity="many">Осталось %1$d нажатий для открытия меню для разработчиков</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль должен содержать не менее %d букв</item>
+        <item quantity="one">Пароль должен содержать хотя бы 1 букву</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль должен содержать не менее %d строчных букв</item>
+        <item quantity="one">Пароль должен содержать хотя бы 1 строчную букву</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль должен содержать не менее %d заглавных букв</item>
+        <item quantity="one">Пароль должен содержать хотя бы 1 заглавную букву</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль должен содержать не менее %d цифр</item>
+        <item quantity="one">Пароль должен содержать хотя бы 1 цифру</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль должен содержать не менее %d специальных символов</item>
+        <item quantity="one">Пароль должен содержать хотя бы 1 специальный символ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль должен содержать не менее %d небуквенных символов</item>
+        <item quantity="one">Пароль должен содержать хотя бы 1 небуквенный символ</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">"Приложений: %d 
+Доступ к чтению уведомлений."</item>
+        <item quantity="one">"Приложений: %d 
+Доступ к чтению уведомлений."</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Неверный PIN код. Осталось %d попыток.</item>
+        <item quantity="one">Неверный PIN код. Осталось %d попытка.</item>
+        <item quantity="few">Неверный PIN код. Осталось %d попытки.</item>
+        <item quantity="many">Неверный PIN код. Осталось %d попыток.</item>
+    </plurals>
+    <plurals name="print_search_result_count_utterance">
+        <item quantity="other">Найдено %1$s принтеров</item>
+        <item quantity="one">Найден %1$s принтер</item>
+        <item quantity="few">Найдено %1$s принтера</item>
+        <item quantity="many">Найдено %1$s принтеров</item>
+    </plurals>
+    <plurals name="show_pho_countdown">
+        <item quantity="other">Осталось %1$d нажатий для открытия дополнительной информации</item>
+        <item quantity="one">Осталось %1$d нажатие для открытия дополнительной информации</item>
+        <item quantity="few">Осталось %1$d нажатия для открытия дополнительной информации</item>
+        <item quantity="many">Осталось %1$d нажатий для открытия дополнительной информации</item>
+    </plurals>
+    <plurals name="show_cit_countdown">
+        <item quantity="other">Осталось %1$d нажатий для входа в инженерное меню</item>
+        <item quantity="one">Осталось %1$d нажатие для входа в инженерное меню</item>
+        <item quantity="few">Осталось %1$d нажатия для входа в инженерное меню</item>
+        <item quantity="many">Осталось %1$d нажатий для входа в инженерное меню</item>
+    </plurals>
+    <plurals name="show_rep_countdown">
+        <item quantity="other">Осталось %1$d нажатий для отправки отчета об ошибках</item>
+        <item quantity="one">Осталось %1$d нажатие для отправки отчета об ошибках</item>
+        <item quantity="few">Осталось %1$d нажатия для отправки отчета об ошибках</item>
+        <item quantity="many">Осталось %1$d нажатий для отправки отчета об ошибках</item>
+    </plurals>
+</resources>

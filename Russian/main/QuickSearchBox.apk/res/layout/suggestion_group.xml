@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/suggestion_padding_side" android:paddingRight="@dimen/suggestion_padding_side" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/suggestion_group_spacing" style="@miui:style/Widget.ListView.Item.SingleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="middle" android:id="@id/name" style="@style/CorpusName" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<feature>
+    <name>MIUI V4</name>
+    <boolean>TRUE</boolean>
+    <title>
+在您的另一台手机上：
+
+1.在桌面上呼出系统菜单（按≡键）>“设置” >“蓝牙”
+
+2.点击右上角按钮打开蓝牙
+
+3.触摸“小米手机”打开设备可检测性, 成功开启蓝牙后，在本手机上点击“下一步”
+
+本方法适用于所有安装了MIUI V4的机器
+    </title>
+    <header></header>
+</feature>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Ntracks_search_result">
+        <item quantity="other">Найдено %d треков</item>
+        <item quantity="one">Найден %d трек</item>
+        <item quantity="few">Найдено %d трека</item>
+        <item quantity="many">Найдено %d треков</item>
+    </plurals>
+    <plurals name="Nexpired_remind">
+        <item quantity="other">Осталось %d дней</item>
+        <item quantity="one">Остался %d день</item>
+        <item quantity="few">Осталось %d дня</item>
+        <item quantity="many">Осталось %d дней</item>
+    </plurals>
+    <plurals name="NTrackstoDownload">
+        <item quantity="other">Загружено %d треков</item>
+        <item quantity="one">Трек загружен</item>
+        <item quantity="few">Загружено %d трека</item>
+        <item quantity="many">Загружено %d треков</item>
+    </plurals>
+    <plurals name="Nnew_tracks_count">
+        <item quantity="other">%d новых</item>
+        <item quantity="one">%d новый</item>
+    </plurals>
+    <plurals name="Ntracks_count">
+        <item quantity="other">%d треков</item>
+        <item quantity="zero">Нет треков</item>
+        <item quantity="one">%d трек</item>
+        <item quantity="few">%d трека</item>
+        <item quantity="many">%d треков</item>
+    </plurals>
+    <plurals name="Ntracks_similar_count">
+        <item quantity="other">%d похожих треков</item>
+        <item quantity="one">%d похожий трек</item>
+        <item quantity="few">%d похожих трека</item>
+        <item quantity="many">%d похожих треков</item>
+    </plurals>
+    <plurals name="Ntracks_add_to_playlist">
+        <item quantity="other">Добавлено %d треков в плейлист</item>
+        <item quantity="one">Трек добавлен в плейлист</item>
+        <item quantity="few">Добавлено %d трека в плейлист</item>
+        <item quantity="many">Добавлено %d треков в плейлист</item>
+    </plurals>
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="other">Удалено %d треков из плейлиста</item>
+        <item quantity="one">Трек удален из плейлиста</item>
+        <item quantity="few">Удалено %d трека из плейлиста</item>
+        <item quantity="many">Удалено %d треков из плейлиста</item>
+    </plurals>
+    <plurals name="artist_list_fragment_item_count_format">
+        <item quantity="other">%d треков</item>
+        <item quantity="zero">Нет треков</item>
+        <item quantity="one">%d трек</item>
+        <item quantity="few">%d трека</item>
+        <item quantity="many">%d треков</item>
+    </plurals>
+    <plurals name="send_songs_toast">
+        <item quantity="other">Отправка %d треков</item>
+        <item quantity="one">Отправка трека</item>
+    </plurals>
+    <plurals name="folder_songs_count">
+        <item quantity="other">%d треков</item>
+        <item quantity="zero">Нет треков</item>
+        <item quantity="one">%d трек</item>
+        <item quantity="few">%d трека</item>
+        <item quantity="many">%d треков</item>
+    </plurals>
+    <plurals name="Nnew_local_audios">
+        <item quantity="other">Добавлено %d треков</item>
+        <item quantity="one">Добавлен %d трек</item>
+        <item quantity="few">Добавлено %d трека</item>
+        <item quantity="many">Добавлено %d треков</item>
+    </plurals>
+</resources>

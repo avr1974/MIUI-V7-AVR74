@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Осталось %1$d нажатий для открытия возможностей для разработчиков VoIP</item>
+        <item quantity="one">Осталось %1$d нажатие для открытия возможностей для разработчиков VoIP</item>
+        <item quantity="few">Осталось %1$d нажатия для открытия возможностей для разработчиков VoIP</item>
+        <item quantity="many">Осталось %1$d нажатий для открытия возможностей для разработчиков VoIP</item>
+    </plurals>
+    <plurals name="show_nondev_countdown">
+        <item quantity="other">Осталось %1$d нажатий для закрытия возможностей для разработчиков VoIP</item>
+        <item quantity="one">Осталось %1$d нажатие для закрытия возможностей для разработчиков VoIP</item>
+        <item quantity="few">Осталось %1$d нажатия для закрытия возможностей для разработчиков VoIP</item>
+        <item quantity="many">Осталось %1$d нажатий для закрытия возможностей для разработчиков VoIP</item>
+    </plurals>
+</resources>

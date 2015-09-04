@@ -1,0 +1,14 @@
+<feature>
+    <name>iPhone 5</name>
+    <boolean>TRUE</boolean>
+    <title>
+在您的iPhone 5上：
+
+1.在桌面上找到并打开“设置”
+
+2.点击“通用”
+
+3.选择并打开“蓝牙”成功开启蓝牙后，在本手机上点击“下一步”
+    </title>
+    <header></header>
+</feature>
