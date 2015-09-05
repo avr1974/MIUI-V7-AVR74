@@ -2,7 +2,7 @@
 <resources>
     <string name="delete">Сброс</string>
     <string name="unlockscreen_recharging_message">Зарядка: %d%%</string>
-    <string name="unlockscreen_recharge_completed">Батарея заряжена</string>
+    <string name="unlockscreen_recharge_completed">Зарядка завершена</string>
     <string name="unlockscreen_low_battery">Батарея разряжена</string>
     <string name="lockscreen_charging_msg">Зарядка</string>
     <string name="emergency_call_string">Экстренный вызов</string>

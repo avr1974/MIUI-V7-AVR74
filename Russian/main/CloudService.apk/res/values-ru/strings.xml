@@ -47,7 +47,7 @@
     <string name="sync_sub_dspt">Для активации сервиса будет отправлено SMS</string>
     <string name="sync_sub_int_dspt">Для активации сервиса будет отправлено SMS в роуминг</string>
     <string name="access_denied">Доступ запрещен</string>
-    <string name="internet_access_dspt">Для нормальной работы этого приложения требуется подключение к интернету</string>
+    <string name="internet_access_dspt">" Для нормальной работы требуется подключение к интернету."</string>
     <string name="sync_on">Вкл.</string>
     <string name="sync_off">Выкл.</string>
     <string name="mx_dspt">Облачные сообщения</string>

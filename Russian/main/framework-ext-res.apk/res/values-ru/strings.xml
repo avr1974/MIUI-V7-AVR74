@@ -17,14 +17,31 @@
     <string name="status_bar_toggle_vibrate">Вибрация</string>
     <string name="status_bar_toggle_wifi">Wi-Fi</string>
     <string name="status_bar_toggle_power_mode">Произв.</string>
-    <string name="status_bar_toggle_wifi_ap">Wi-Fi модем</string>
-    <string name="status_bar_toggle_quiet_mode">Тишина</string>
-    <string name="status_bar_toggle_paper_mode">Чтение</string>
+    <string name="status_bar_toggle_wifi_ap">Wi-Fi точка</string>
+    <string name="status_bar_toggle_quiet_mode">Не беспокоить</string>
+    <string name="status_bar_toggle_paper_mode">Режим чтения</string>
+    <string name="status_bar_toggle_data_action">com.android.phone/.settings.MobileNetworkSettings</string>
+    <string name="status_bar_toggle_bluetooth_action">com.android.settings/com.android.settings.Settings$BluetoothSettingsActivity</string>
+    <string name="status_bar_toggle_brightness_action">com.android.settings/com.android.settings.display.BrightnessActivity</string>
+    <string name="status_bar_toggle_flight_mode_action">com.android.settings/com.android.settings.Settings$WirelessSettingsActivity</string>
+    <string name="status_bar_toggle_gps_action">com.android.settings/com.android.settings.Settings$LocationSettingsActivity</string>
+    <string name="status_bar_toggle_mute_action">com.android.settings/com.android.settings.Settings$SoundSettingsActivity</string>
+    <string name="status_bar_toggle_rotate_action">com.android.settings/com.android.settings.Settings$DisplaySettingsActivity</string>
+    <string name="status_bar_toggle_sync_action">com.android.settings/com.android.settings.Settings$ManageAccountsSettingsActivity</string>
+    <string name="status_bar_toggle_vibrate_action">com.android.settings/com.android.settings.Settings$SoundSettingsActivity</string>
+    <string name="status_bar_toggle_wifi_action">com.android.settings/com.android.settings.Settings$WifiSettingsActivity</string>
+    <string name="status_bar_toggle_power_mode_action">com.android.settings/com.android.settings.Settings$BatterySettingsActivity</string>
+    <string name="status_bar_toggle_wifi_ap_action">com.android.settings/com.android.settings.Settings$TetherSettingsActivity</string>
+    <string name="status_bar_toggle_quiet_mode_action">com.android.settings/.dndmode.DoNotDisturbModeActivity</string>
+    <string name="status_bar_toggle_privacy_mode_action">com.android.settings/.Settings$AccessControlActivity</string>
+    <string name="status_bar_toggle_ac_action">com.android.settings/.Settings$AccessControlActivity</string>
+    <string name="status_bar_toggle_paper_mode_action">com.android.settings/.display.ScreenPaperModeActivity</string>
     <string name="screen_rotation_freeze_message">Поворот экрана заблокирован</string>
-    <string name="screen_button_disabled_message">Кнопки будут отключены. Вы можете включить их снова, нажав кнопки \"Домой\" и \"Питание\".</string>
-    <string name="screen_button_enabled_message">Кнопки включены</string>
-    <string name="perm_send_push_dspt">Разрешить Push-сообщения</string>
-    <string name="perm_send_push_lab">Отправить Push-сообщение</string>
+    <string name="screen_button_disabled_message">Клавиши навигации отключены. Вы можете включить их снова, нажав клавиши \"Домой\" + \"Питание\".</string>
+    <string name="screen_button_enabled_message">Клавиши навигации включены</string>
+    <string name="miui">miui</string>
+    <string name="perm_send_push_dspt">Разрешить Push сообщения Xiaomi</string>
+    <string name="perm_send_push_lab">Отправить Push сообщение</string>
     <string name="select">Выбрать</string>
     <string name="select_all">Выбрать все</string>
     <string name="cut">Вырезать</string>
@@ -38,9 +55,12 @@
     <string name="call_record_sample_prefix_miui">Вызов</string>
     <string name="call_record_or">" или "</string>
     <string name="caller_info_name_delimiter">" или "</string>
-    <string name="first_back_long_press_message">Закрывать текущее приложение при длительном нажатии клавиши \"Назад\"?</string>
+    <string name="first_back_long_press_message">"Закрывать при длительном нажатии клавиши \"Назад\" текущее приложение и его службы? 
+
+Включите эту возможность через настройки клавиш."</string>
     <string name="force_exit_message">Приложение \"%1$s\" закрыто</string>
-    <string name="force_exit_skip_message">Невозможно принудительно завершить системное приложение \"%1$s\"</string>
+    <string name="force_exit_skip_message">"Приложение \"%1$s\" является ключевым компонентом системы. 
+Невозможно принудительно завершить процесс."</string>
     <string name="fm_record_smaple_prefix_miui">Запись FM</string>
     <string name="global_actions_airplane_mode">Режим полета</string>
     <string name="global_actions_reboot">Перезагрузка</string>

@@ -14,9 +14,9 @@
     <string-array name="owner_relation">
         <item>Папа</item>
         <item>Мама</item>
-        <item>Дедушка</item>
-        <item>Бабушка</item>
-        <item>Дедушка</item>
-        <item>Бабушка</item>
+        <item>Дедушка по папе</item>
+        <item>Бабушка по папе</item>
+        <item>Дедушка по маме</item>
+        <item>Бабушка по маме</item>
     </string-array>
 </resources>

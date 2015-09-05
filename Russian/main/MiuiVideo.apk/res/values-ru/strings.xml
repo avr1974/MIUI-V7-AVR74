@@ -17,7 +17,7 @@
     <string name="score_by">Оценка: %s</string>
     <string name="minute">" мин."</string>
     <string name="second">" сек."</string>
-    <string name="count_ge_media">Видео: %d</string>
+    <string name="count_ge_media">%d видео</string>
     <string name="download_geturl_fail">Ошибка получения ссылки. Проверьте параметры сети.</string>
     <string name="download_percent_hint">Загрузка: %d%%</string>
     <string name="waiting_to_download">Ожидание…</string>
@@ -124,6 +124,7 @@
     <string name="toast_message_continue_play_minute">" мин. "</string>
     <string name="toast_message_continue_play_second_and_play">" сек. "</string>
     <string name="vp_VideoView_error_network_not_available">Интернет недоступен</string>
+    <string name="vp_media_type_banned">Тип файла не поддерживается</string>
     <string name="top_status_local_media">Локальное</string>
     <string name="top_status_online_media">Онлайн</string>
     <string name="top_status_offline_media">Автономный режим</string>
@@ -285,7 +286,7 @@
     <string name="personal_center">Личный центр</string>
     <string name="not_login">Вход</string>
     <string name="click_to_login">Нажмите для входа</string>
-    <string name="gong_count_ge">Видео: %d</string>
+    <string name="gong_count_ge">%d видео</string>
     <string name="online_video">Онлайн</string>
     <string name="online_video_oneweek">На этой неделе</string>
     <string name="online_video_oneweek_ago">Неделю назад</string>
@@ -360,7 +361,7 @@
     <string name="delete">Удалить</string>
     <string name="edit">Изменить</string>
     <string name="unfavorite">Из избранных</string>
-    <string name="video_count">Видео: %d</string>
+    <string name="video_count">%d видео</string>
     <string name="updatedalready">Обновлено</string>
     <string name="hint_apk_install">Загрузить приложение</string>
     <string name="hint_apk_download">Установить приложение</string>
@@ -385,7 +386,7 @@
     <string name="install_plugin">Установить плагин</string>
     <string name="video_plugin">Плагин видео</string>
     <string name="video_plugin_prepare">Подготовка плагина видео</string>
-    <string name="video_plugin_downloading">Загрузка…</string>
+    <string name="video_plugin_downloading">Загрузка %1$s</string>
     <string name="download_fail">Ошибка загрузки</string>
     <string name="download_finished">Загрузка завершена</string>
     <string name="download_paused">Пауза</string>

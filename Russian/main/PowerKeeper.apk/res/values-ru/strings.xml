@@ -113,7 +113,7 @@
     <string name="power_hide_mode_summary">Управление доступом приложений в фоновом режиме для экономии заряда батареи</string>
     <string name="low_power_auto_title">Включать при заряде менее 20%</string>
     <string name="power_hide_mode_app_list_title">Приложения</string>
-    <string name="power_hide_mode_app_list_summary">Выбор приложений, которым будет запрещен доступ в функциям в фоновом режиме.</string>
+    <string name="power_hide_mode_app_list_summary">Выбор приложений, которым будет запрещен доступ к функциям в фоновом режиме.</string>
     <string name="power_hide_mode_app_list_total">Выбрано: %d</string>
     <string name="empty_title_apps_container_list">Нет приложений</string>
     <string name="hints_loading_text">Загрузка…</string>

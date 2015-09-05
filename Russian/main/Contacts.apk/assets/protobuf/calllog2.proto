@@ -1,0 +1,26 @@
+package calllog2;
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "com.android.contacts.backup";
+option java_outer_classname = "CalllogProtos2";
+
+message Call {
+  enum CallType {
+    INCOMING = 1;
+    OUTGOING = 2;
+    MISSED = 3;
+    NEWCONTACT = 4;
+  }
+  optional string guid = 1;
+  optional string luid = 2;
+  optional string number = 3;
+  optional int64 date = 4;
+  optional int64 duration = 5;
+  optional int32 type = 6;
+  optional int32 new = 7;
+
+}
+
+message Calllog {
+  repeated Call call = 1;
+}

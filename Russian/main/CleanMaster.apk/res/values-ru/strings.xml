@@ -99,7 +99,7 @@
     <string name="hints_installed_apps_header_left">Установленных приложений: %d</string>
     <string name="toast_resolve_apk_error">Устранить ошибку APK</string>
     <string name="hints_apk_version">Версия: %s</string>
-    <string name="apk_status_uninstalled">Не установлено</string>
+    <string name="apk_status_uninstalled">не установлено</string>
     <string name="apk_status_installed_old">Старая версия</string>
     <string name="apk_status_install">Установлено</string>
     <string name="apk_status_duplicate">Дубликат приложения</string>
@@ -245,8 +245,8 @@
     <string name="hints_storage_clean_size">Освобождено памяти: %s</string>
     <string name="hints_storage_news">Новости безопасности</string>
     <string name="hints_list_item_clean">Очистка</string>
-    <string name="hints_list_item_keep">Блокировать</string>
-    <string name="hints_list_item_lock">Блокировать</string>
+    <string name="hints_list_item_keep">Очистка отключена</string>
+    <string name="hints_list_item_lock">Очистка отключена</string>
     <string name="hints_list_item_unlock">Очистка</string>
     <string name="memeory_check_content">Приложений: %1$d | Памяти: %2$s</string>
     <string name="deepclean_cache_content">Очистка данных приложений</string>

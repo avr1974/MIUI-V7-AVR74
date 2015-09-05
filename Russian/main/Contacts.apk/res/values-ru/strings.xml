@@ -656,7 +656,7 @@
     <string name="miprofile_save_alertdialog_title">Визитка получена</string>
     <string name="miprofile_save_alertdialog_message">Ваша визитка будет отправлена контакту автоматически</string>
     <string name="miprofile_notice_text">Нажмите для просмотра фото профиля</string>
-    <string name="miprofile_switch_on_alertdialog_title">Обновление фото профиля</string>
+    <string name="miprofile_switch_on_alertdialog_title">Предупреждение</string>
     <string name="miprofile_switch_on_alertdialog_message">Включить обмен визитками?</string>
     <string name="miprofile_switch_on_alertdialog_positive">ОК</string>
     <string name="miprofile_alertdialog_title">Введите имя</string>
@@ -706,7 +706,7 @@
     <string name="in_call_show_guide_start_recording">Запись</string>
     <string name="in_call_show_guide_title">Видео профиля</string>
     <string name="in_call_show_guide_intro">Запишите видео профиля, которое будет воспроизводиться у других пользователей MIUI при вызове.</string>
-    <string name="in_call_show_video_pick">Выбрать видео</string>
+    <string name="in_call_show_video_pick">Выбрать</string>
     <string name="in_call_show_video_pick_filter">"Видео должно быть не более 3 Мб и длиться не более 20 секунд. "</string>
     <string name="in_call_show_view_play_error">Ошибка воспроизведения видео</string>
     <string name="in_call_show_camera_open_error">Ошибка запуска камеры</string>
@@ -775,7 +775,6 @@
     <string name="edit_contact_card_title">Изменить контакт</string>
     <string name="preview_contact_card_title">Импорт</string>
     <string name="import_contact_card_button">Импорт</string>
-    <string name="success_message_import_from_account">Импорт завершен</string>
     <string name="unknown_contact_name">Неизвестный номер</string>
     <string name="contactDetailCalllog">Журнал вызовов</string>
     <string name="add_blacklist">Блокировать</string>
@@ -1122,5 +1121,6 @@
     <string name="cloud_state_syncing">Синхронизировано с Mi Cloud</string>
     <string name="cloud_state_loading">Загрузка…</string>
     <string name="cloud_state_disabled">Синхронизация с Mi Cloud отключена</string>
+    <string name="success_message_import_from_account">Импорт завершен</string>
     <string name="play_in_call_show">播放來電秀</string>
 </resources>

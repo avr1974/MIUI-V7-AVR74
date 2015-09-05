@@ -250,6 +250,6 @@
     <string name="children_folder_title">Развлечения</string>
     <string name="children_mode_exit">Выход</string>
     <string name="children_mode_tips">Выберите доступные приложения</string>
-    <string name="wallpaper_auto_change_title">Экран блокировки</string>
+    <string name="wallpaper_auto_change_title">Обои экрана блокировки</string>
     <string name="wallpaper_scaling_message">Масштабирование до фиксированного размера</string>
 </resources>

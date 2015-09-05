@@ -1,0 +1,225 @@
+package contact2;
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "com.android.contacts.backup";
+option java_outer_classname = "ContactProtos2";
+
+message Name {
+  optional string displayName = 1;
+  optional string givenName = 2;
+  optional string middleName = 3;
+  optional string familyName = 4;
+}
+
+message Phone {
+  enum PhoneType {
+    CUSTOM = 0;
+    HOME = 1;
+    MOBILE = 2;
+    WORK = 3;
+    FAX_WORK = 4;
+    FAX_HOME = 5;
+    PAGER = 6;
+    OTHER = 7;
+    CALLBACK = 8;
+    CAR = 9;
+    COMPANY_MAIN = 10;
+    ISDN = 11;
+    MAIN = 12;
+    OTHER_FAX = 13;
+    RADIO = 14;
+    TELEX = 15;
+    TTY_TDD = 16;
+    WORK_MOBILE = 17;
+    WORK_PAGER = 18;
+    ASSISTANT = 19;
+    MMS = 20;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+}
+
+message Email {
+  enum EmailType {
+    CUSTOM = 0;
+    HOME = 1;
+    WORK = 2;
+    OTHER = 3;
+    MOBILE = 4;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+}
+
+message Event {
+  enum EventType {
+    CUSTOM = 0;
+    ANNIVERSARY = 1;
+    OTHER = 2;
+    BIRTHDAY = 3;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+}
+
+message Im {
+  enum ImType {
+    CUSTOM = 0;
+    HOME = 1;
+    WORK = 2;
+    OTHER = 3;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+
+  enum ProtocolType {
+    CUSTOM_PROTOCOL = -1;
+    AIM = 0;
+    MSN = 1;
+    YAHOO = 2;
+    SKYPE = 3;
+    QQ = 4;
+    GOOGLE_TALK = 5;
+    ICQ = 6;
+    JABBER = 7;
+    NETMEETING = 8;
+  }
+  optional int32 protocol = 4;
+  optional string customProtocol = 5;
+}
+
+message Nickname {
+  enum NicknameType {
+    CUSTOM = 0;
+    DEFAULT = 1;
+    OTHER_NAME = 2;
+    MAINDEN_NAME = 3;
+    SHORT_NAME = 4;
+    INITIALS = 5;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+}
+
+message Note {
+  optional string value = 1;
+}
+
+message Organization {
+  enum OrganizationType {
+    CUSTOM = 0;
+    WORK = 1;
+    OTHER = 2;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+
+  optional string title = 4;
+  optional string department = 5;
+  optional string jobDescription = 6;
+  optional string symbol = 7;
+  optional string officeLocation = 8;
+}
+
+message Photo {
+  optional bytes image = 1;
+}
+
+message Postal {
+  enum PostalType {
+    CUSTOM = 0;
+    HOME = 1;
+    WORK = 2;
+    OTHER = 3;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+
+  optional string street = 4;
+  optional string pobox = 5;
+  optional string neighborhood = 6;
+  optional string city = 7;
+  optional string region = 8;
+  optional string postcode = 9;
+  optional string country = 10;
+}
+
+message Website {
+  enum WebsiteType {
+    CUSTOM = 0;
+    HOMEPAGE = 1;
+    BLOG = 2;
+    PROFILE = 3;
+    HOME = 4;
+    WORK = 5;
+    FTP = 6;
+    OTHER = 7;
+  }
+  optional string value = 1;
+  optional int32 type = 2;
+  optional string label = 3;
+}
+
+message GroupMembership {
+  optional string groupGUID = 1;
+  optional string groupLUID = 2;
+  optional string groupTitle = 3;
+}
+
+message Contact {
+  optional string guid = 1;
+  optional string luid = 2;
+  optional int32 version = 3;
+  optional int32 deleted = 4;
+
+  repeated Name name = 5;
+  repeated Phone phone = 6;
+  repeated Email email = 7;
+  repeated Event event = 8;
+  repeated Im im = 9;
+  repeated Nickname nickname = 10;
+  repeated Note note = 11;
+  repeated Organization organization = 12;
+  repeated Photo photo = 13;
+  repeated Postal postal = 14;
+  repeated Website website = 15;
+  repeated GroupMembership groupMembership = 16;
+
+  optional string sourceId = 17;
+  optional bool starred = 18;
+
+  optional string callIncomingPhoto = 25;
+  optional string lunarBirthday = 26;
+}
+
+message Group {
+  optional string guid = 1;
+  optional string luid = 2;
+  optional int32 version = 3;
+  optional int32 deleted = 4;
+
+  optional string title = 5;
+  optional string notes = 6;
+  optional string systemId = 7;
+  optional int32 groupVisible = 8;
+  optional int32 groupOrder = 9;
+
+  optional string sourceId = 10;
+
+}
+
+message AddressBook {
+  repeated Group group = 1;
+  repeated Contact contact = 2;
+}
+
+message ConflictContacts {
+  repeated Contact contact = 1;
+}

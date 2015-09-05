@@ -100,7 +100,7 @@
     <string name="tone_high_quality_summary">Высокое качество по Wi-Fi и мобильной сети</string>
     <string name="dialog_title_tone_quality">Выберите качество воспроизведения</string>
     <string name="share">Отправить</string>
-    <string name="qingting_logo"> | Qingting FM</string>
+    <string name="qingting_logo"> | %1$s </string>
     <string name="channel_off">Программа уже не существует</string>
     <string name="action_item_delete">Удалить</string>
     <string name="confirm_delete_history_text">Удалить выбранное?</string>
@@ -110,6 +110,7 @@
     <string name="continue_play">Играть</string>
     <string name="section">Выбор</string>
     <string name="get_channel_failed">Не удалось получить информацию</string>
+    <string name="default_cp_name">Qingting FM</string>
     <string name="impunity_declaration_title">Условия пользования</string>
     <string name="impunity_declaration">Разрешить использовать мобильный интернет для онлайн радио?</string>
     <string name="impunity_declaration_ignore">Запомнить</string>

@@ -1,0 +1,13 @@
+import "contact2.proto";
+import "calllog2.proto";
+
+package syncroot;
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "com.android.contacts.backup";
+option java_outer_classname = "SyncRootProtos";
+
+message SyncRoot {
+  optional contact2.AddressBook addressBook = 1;
+  optional calllog2.Calllog calllog = 2;
+}
