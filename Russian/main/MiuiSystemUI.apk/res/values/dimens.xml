@@ -107,6 +107,17 @@
     <dimen name="float_notification_content_width">333.0dip</dimen>
     <dimen name="hint_for_app_switch_key_offset_x">13.0dip</dimen>
     <dimen name="hint_for_app_switch_key_offset_y">-5.0dip</dimen>
+    <item type="dimen" name="screen_pinning_request_width">@dimen/match_parent</item>
+    <dimen name="match_parent">-1.0px</dimen>
+    <dimen name="screen_pinning_request_button_height">66.0dip</dimen>
+    <dimen name="screen_pinning_request_button_width">84.0dip</dimen>
+    <dimen name="screen_pinning_request_inner_padding">14.0dip</dimen>
+    <dimen name="screen_pinning_request_nav_icon_padding">18.0dip</dimen>
+    <dimen name="screen_pinning_request_nav_side_padding">7.0dip</dimen>
+    <dimen name="screen_pinning_request_side_width">34.0dip</dimen>
+    <dimen name="screen_pinning_request_frame_padding">0.0dip</dimen>
+    <dimen name="screen_pinning_nav_highlight_size">56.0dip</dimen>
+    <dimen name="screen_pinning_nav_highlight_outer_size">84.0dip</dimen>
     <dimen name="oldman_status_bar_clock_text_size">16.0dip</dimen>
     <dimen name="oldman_status_bar_clock_text_size_s">16.0dip</dimen>
     <dimen name="oldman_status_bar_basic_text_size">16.0dip</dimen>
