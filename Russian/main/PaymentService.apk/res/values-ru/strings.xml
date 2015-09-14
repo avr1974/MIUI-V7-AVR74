@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="mipay_account_confirm_text">Will pay with xiaomi account:%1$s</string>
+    <string name="mipay_account_confirm_title">Xiaomi Account Payment Confirmation</string>
+    <string name="mipay_confirm_button_text">Confirm</string>
+    <string name="mipay_cancel_button_text">Cancel</string>
     <string name="hfb_app_name">话付宝</string>
     <string name="hfb_instruct">"请您按照10658008的短信提示确认回复后，点击'购买完成'。谢谢！"</string>
     <string name="hfb_step_2">Следуйте инструкции</string>
@@ -54,6 +58,7 @@
     <string name="mibi_sms_code_error">Неверный проверочный код</string>
     <string name="mibi_order_price">%1$s Mi Credits</string>
     <string name="mibi_password_hint">Введите пароль аккаунта</string>
+    <string name="mibi_img_captcha_hint">Enter image captcha</string>
     <string name="mibi_password_error">Неверный пароль</string>
     <string name="mibi_password_forget">Забыли пароль?</string>
     <string name="mibi_progress_creating">Получение информации заказа…</string>

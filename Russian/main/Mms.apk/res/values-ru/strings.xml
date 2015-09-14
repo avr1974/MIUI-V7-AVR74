@@ -288,7 +288,7 @@
     <string name="context_menu_call">Вызов</string>
     <string name="context_menu_send_sms">Отправить SMS</string>
     <string name="context_menu_browse_web">Перейти</string>
-    <string name="context_menu_send_mail">Отправить Email</string>
+    <string name="context_menu_send_mail">Отправить email</string>
     <string name="context_menu_copy">Копировать</string>
     <string name="context_menu_copy_notice">Текст скопирован</string>
     <string name="context_menu_new_contact">Новый контакт</string>
@@ -405,7 +405,7 @@ SMS (%1$d), MMS (%2$d)."</string>
     <string name="mx_activate_hint_server">Может взиматься плата за отправляемое SMS для повторной активации облачных сообщений</string>
     <string name="mx_activate_int_hint_server">Может взиматься плата за отправляемое SMS в роуминг для повторной активации облачных сообщений</string>
     <string name="need_download">Ожидание синхронизации…</string>
-    <string name="found_wild_messages_title">Загрузка сообщений</string>
+    <string name="found_wild_messages_title">Синхронизация с Mi Cloud</string>
     <string name="found_wild_messages_guide_settings_desc">Для синхронизации SMS из Mi Could включите синхронизацию в настройках сообщений</string>
     <string name="found_wild_messages_guide_cloud_desc">Для синхронизации SMS с Mi Cloud войдите в Mi аккаунт и включите синхронизацию SMS</string>
     <string name="found_old_messages_title">Загрузка сообщений</string>
@@ -513,7 +513,7 @@ SMS (%1$d), MMS (%2$d)."</string>
     <string name="menu_mark">Отметить</string>
     <string name="menu_yellowpage">Показать %s</string>
     <string name="menu_more">Еще</string>
-    <string name="confirm_send_mms">Один из контактов получателей содержит адрес Email. Это сообщение будет отправлено как MMS, за которое может взиматься дополнительная плата оператором.</string>
+    <string name="confirm_send_mms">Один из контактов получателей содержит адрес email. Это сообщение будет отправлено как MMS, за которое может взиматься дополнительная плата оператором.</string>
     <string name="quick_reply">Ответить</string>
     <string name="msglist_continue_to_pull_for_more">Потяните вниз для загрузки сообщений</string>
     <string name="msglist_release_to_more">Отпустите для загрузки сообщений</string>

@@ -112,7 +112,7 @@
     <string name="sc_service_unavailable">Mi Cloud недоступен</string>
     <string name="sc_unauthorized">Авторизуйтесь заново</string>
     <string name="sc_request_timeout">Время ожидания истекло</string>
-    <string name="sc_precondition_failed">К вашему Mi аккаунту необходимо привязать адрес Email</string>
+    <string name="sc_precondition_failed">К вашему Mi аккаунту необходимо привязать адрес email</string>
     <string name="sc_internal_server_error">Внутренняя ошибка сервера</string>
     <string name="sc_others">Произошла ошибка</string>
     <string name="succeed">Успешно завершено</string>

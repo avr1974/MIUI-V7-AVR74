@@ -91,10 +91,10 @@
         <item quantity="many">%1$d номеров</item>
     </plurals>
     <plurals name="hint_search_emails">
-        <item quantity="other">%1$d адресов Email</item>
-        <item quantity="one">%1$d адрес Email</item>
-        <item quantity="few">%1$d адреса Email</item>
-        <item quantity="many">%1$d адресов Email</item>
+        <item quantity="other">%1$d адресов email</item>
+        <item quantity="one">%1$d адрес email</item>
+        <item quantity="few">%1$d адреса email</item>
+        <item quantity="many">%1$d адресов email</item>
     </plurals>
     <plurals name="pick_favorites_contacts_list_title">
         <item quantity="other">%1$d избранных</item>

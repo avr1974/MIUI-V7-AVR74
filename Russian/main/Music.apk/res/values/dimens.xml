@@ -59,7 +59,7 @@
     <dimen name="tab_group_height">12.0dip</dimen>
     <dimen name="search_view_width">200.0dip</dimen>
     <dimen name="search_view_height">20.0dip</dimen>
-    <dimen name="nowplaying_page_time_text_size">7.3299866dip</dimen>
+    <dimen name="nowplaying_page_time_text_size">7.3299866sp</dimen>
     <dimen name="time_indicator_thumb_offset">13.0dip</dimen>
     <dimen name="lyric_current_margin_bottom">0.0dip</dimen>
     <dimen name="fm_cover_margin_top">65.0dip</dimen>
@@ -87,7 +87,7 @@
     <dimen name="user_diamond_margin">6.0dip</dimen>
     <dimen name="text_size_user_name">12.669983sp</dimen>
     <dimen name="text_size_personal_center">12.669983sp</dimen>
-    <dimen name="text_size_navigator_view_title_large">25.0sp</dimen>
+    <dimen name="text_size_navigator_view_title_large">16.0sp</dimen>
     <dimen name="margin_top_navigator_view_title_large">20.0dip</dimen>
     <dimen name="margin_top_navigator_view_title">10.0dip</dimen>
     <dimen name="padding_top_navigator_view_title">10.0dip</dimen>
@@ -95,7 +95,7 @@
     <dimen name="dialog_margin_edge_horizontal">23.299988dip</dimen>
     <dimen name="dialog_margin_edge_vertical">18.5dip</dimen>
     <dimen name="dialog_margin_between_buttons">8.0dip</dimen>
-    <dimen name="text_size_nowplaying_title_primary">25.0dip</dimen>
+    <dimen name="text_size_nowplaying_title_primary">16.0sp</dimen>
     <dimen name="text_size_nowplaying_title_secondary">12.0dip</dimen>
     <dimen name="text_separator_width">12.0dip</dimen>
     <dimen name="nowplaying_view_pager_padding_horizontal">23.329987dip</dimen>

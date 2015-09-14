@@ -594,7 +594,7 @@
     <string name="open_single_image_failure">Не удалось загрузить изображение</string>
     <string name="damaged_file">Файл поврежден</string>
     <string name="must_pick_file">Выберите изображение</string>
-    <string name="set_lock_or_wallpaper">Установить на обои</string>
+    <string name="set_lock_or_wallpaper">Установить как обои</string>
     <string name="set_lock_and_wallpaper">Установка обоев…</string>
     <string name="set_wallpaper">Установка обоев на рабочий стол…</string>
     <string name="set_lockscreen">Установка обоев на экран блокировки…</string>
@@ -796,9 +796,9 @@
     <string name="alert_init_merged_title">Предупреждение</string>
     <string name="alert_init_merged_message">Локальные и облачные фото будут отображаться вместе</string>
     <string name="by_sms">По SMS</string>
-    <string name="by_email">По Email</string>
+    <string name="by_email">По email</string>
     <string name="by_others">Другие способы</string>
-    <string name="enter_email_hint">Введите адрес Email</string>
+    <string name="enter_email_hint">Введите адрес email</string>
     <string name="messagelist_sender_self">Я</string>
     <string name="adding_recipients">Добавление получателей…</string>
     <string name="pick_too_many_recipients">Слишком много получателей</string>
@@ -815,11 +815,11 @@
 Максимальное количество получателей: %2$s."</string>
     <string name="context_menu_copy">Копировать</string>
     <string name="try_to_send">Отправить</string>
-    <string name="email_picker_title">Отправка по Email</string>
+    <string name="email_picker_title">Отправка по email</string>
     <string name="request_sms_url_failed">Не удалось запросить информацию</string>
     <string name="request_sms_url_title">Предупреждение</string>
     <string name="request_sms_url_msg">Запрос информации…</string>
-    <string name="fail_to_pick_email">Неверный Email</string>
+    <string name="fail_to_pick_email">Неверный email</string>
     <string name="share_by_email_successfully">Вы поделились с \"%1$s\"</string>
     <string name="share_by_email_start">Поделиться \"%1$s\" в фоновом режиме</string>
     <string name="exit_share">Выйти из альбома</string>
@@ -1038,6 +1038,7 @@
     <string name="ignore_face">Игнорировать это лицо</string>
     <string name="who_is_this">Кто это?</string>
     <string name="view_face_album">Показать альбом</string>
+    <string name="name_wrong">Изменить имя %s</string>
     <string name="face_album_rename_hint">Изменить имя</string>
     <string name="face_album_new_name_hint">Новое имя</string>
     <string name="face_choose_tip">Выбрать из альбома</string>
@@ -1062,16 +1063,17 @@
     <string name="baby_birthday">День рождения</string>
     <string name="choose_baby_sexy">Пол</string>
     <string name="choose_owner_relation">Родственная связь</string>
-    <string name="auto_upload_face_summary">Автоматически сравнивать и добавлять фото в детский альбом</string>
-    <string name="auto_upload_face_summary_with_people_name_when_on">Автоматически добавлять фото \"%1$s\" в этот альбом</string>
-    <string name="auto_upload_face_summary_with_people_name_when_off">Автоматически добавлять фото \"%1$s\" в этот альбом</string>
-    <string name="auto_upload_face">Автодобавление фото</string>
+    <string name="auto_update_face_summary">Автоматически добавлять фото в детский альбом</string>
+    <string name="auto_update_face">Автодобавление фото</string>
+    <string name="auto_update_on">Включено</string>
+    <string name="auto_update_off">Выключено</string>
+    <string name="associate_face_album">Выберите альбом</string>
     <string name="finish_fill_baby">Создать</string>
     <string name="create_baby_album_dialog_msg">Создать альбом для \"%s\"?</string>
     <string name="input_nickname_toast">Введите имя ребенка</string>
     <string name="baby_sexy">Пол</string>
     <string name="you_are" />
-    <string name="baby_suffix">ребенок</string>
+    <string name="baby_suffix">" 2"</string>
     <string name="already_create_baby_album">Детский альбом уже существует в Mi Cloud</string>
     <string name="input_baby_name">Введите имя</string>
     <string name="baby_name_reserved">Такое имя уже используется в другом альбоме</string>
@@ -1144,6 +1146,8 @@
     <string name="set_as_baby_lock_wallpaper">Установить как обои экрана блокировки</string>
     <string name="baby_album_sharers_page_title">Поделиться с семьями</string>
     <string name="more">Еще</string>
+    <string name="sync_ok">Синхронизировано</string>
+    <string name="need_to_turn_on_sync">Нажмите для включения Mi Cloud</string>
     <string name="paint_crop_tips">Для получения лучшего эффекта попробуйте поместить интересующую часть фото в сетку</string>
     <string name="saturation_abbr">Н</string>
     <string name="highlight_abbr">Я</string>
@@ -1161,4 +1165,10 @@
     <string name="photo_paint_adjust">Регулировка</string>
     <string name="photo_paint_effect">Эффект</string>
     <string name="highlight2">Яркость</string>
+    <string name="number_of_uploading_finish">Все фото и видео загружены в Mi Cloud</string>
+    <string name="file_finish">Синхронизация завершена</string>
+    <string name="need_to_turn_on_network">Требуется подключение к интернету</string>
+    <string name="need_to_turn_on_wlan">Требуется подключение к сети Wi-Fi</string>
+    <string name="file_uploading">Синхронизация…</string>
+    <string name="sync_cloud_space_full">Память в Mi Cloud заполнена</string>
 </resources>

@@ -156,4 +156,30 @@
         <item quantity="few">%1$d дня</item>
         <item quantity="many">%1$d дней</item>
     </plurals>
+    <plurals name="number_of_images_to_upload">
+        <item quantity="other">%1$d фото для загрузки</item>
+        <item quantity="one">%1$d фото для загрузки</item>
+    </plurals>
+    <plurals name="number_of_videos_to_upload">
+        <item quantity="other">%1$d видео для загрузки</item>
+        <item quantity="one">%1$d видео для загрузки</item>
+    </plurals>
+    <plurals name="number_of_images_and_videos_to_upload">
+        <item quantity="other">%1$d файлов для загрузки</item>
+        <item quantity="one">%1$d файл для загрузки</item>
+        <item quantity="few">%1$d файла для загрузки</item>
+        <item quantity="many">%1$d файлов для загрузки</item>
+    </plurals>
+    <plurals name="number_of_uploading_images">
+        <item quantity="other">Загрузка %1$d фото…</item>
+        <item quantity="one">Загрузка %1$d фото…</item>
+    </plurals>
+    <plurals name="number_of_uploading_videos">
+        <item quantity="other">Загрузка %1$d видео…</item>
+        <item quantity="one">Загрузка %1$d видео…</item>
+    </plurals>
+    <plurals name="number_of_uploading_images_and_videos">
+        <item quantity="other">Загрузка %1$d файлов…</item>
+        <item quantity="one">Загрузка %1$d файла…</item>
+    </plurals>
 </resources>

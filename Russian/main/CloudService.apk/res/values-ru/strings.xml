@@ -44,8 +44,8 @@
     <string name="error_server">Ошибка сервера</string>
     <string name="error_unknown">Не удается авторизоваться</string>
     <string name="sync_dspt">Включить синхронизацию</string>
-    <string name="sync_sub_dspt">Для активации сервиса будет отправлено SMS</string>
-    <string name="sync_sub_int_dspt">Для активации сервиса будет отправлено SMS в роуминг</string>
+    <string name="sync_sub_dspt">Для активации сервиса будет отправлено SMS.</string>
+    <string name="sync_sub_int_dspt">Для активации сервиса будет отправлено SMS в роуминг.</string>
     <string name="access_denied">Доступ запрещен</string>
     <string name="internet_access_dspt">" Для нормальной работы требуется подключение к интернету."</string>
     <string name="sync_on">Вкл.</string>
@@ -181,11 +181,11 @@
     <string name="micloud_user_space_title">Информация о памяти</string>
     <string name="sync_sub_dspt_provision">Просмотр и управление данными с любого устройства</string>
     <string name="btn_return">Назад</string>
-    <string name="sync_sub_1_sms">Для активации SIM карты будет отправлена SMS</string>
-    <string name="sync_sub_1_intl_sms">Для активации SIM карты будет отправлена международная SMS</string>
-    <string name="sync_sub_2_sms">Для активации SIM карт будут отправлены две SMS</string>
-    <string name="sync_sub_2_intl_sms">Для активации SIM карт будут отправлены две международные SMS</string>
-    <string name="sync_sub_1_sms_1_intl_sms">Для активации SIM карт будeт отправлена одна международная и одна обычная SMS</string>
+    <string name="sync_sub_1_sms">Для активации SIM карты будет отправлена SMS.</string>
+    <string name="sync_sub_1_intl_sms">Для активации SIM карты будет отправлена международная SMS.</string>
+    <string name="sync_sub_2_sms">Для активации SIM карт будут отправлены две SMS.</string>
+    <string name="sync_sub_2_intl_sms">Для активации SIM карт будут отправлены две международные SMS.</string>
+    <string name="sync_sub_1_sms_1_intl_sms">Для активации SIM карт будeт отправлена одна международная и одна обычная SMS.</string>
     <string name="sync_item_calllog_title">Синхронизация вызовов</string>
     <string name="sync_item_calllog_summary">Снихронизировать журнал входящих и исходящих вызовов</string>
     <string name="view_storage_title">Место в Mi Cloud</string>

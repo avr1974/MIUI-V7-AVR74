@@ -128,4 +128,28 @@
         <item quantity="few">Приложение %2$s (%1$d файла)</item>
         <item quantity="many">Приложение %2$s (%1$d файлов)</item>
     </plurals>
+    <plurals name="file_notify_title_wechat_video">
+        <item quantity="other">Получено %1$d файлов WeChat</item>
+        <item quantity="zero">Получено %1$d файлов WeChat</item>
+        <item quantity="one">Получен %1$d файл WeChat</item>
+        <item quantity="two">Получено %1$d файла WeChat</item>
+        <item quantity="few">Получено %1$d файла WeChat</item>
+        <item quantity="many">Получено %1$d файлов WeChat</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_video_expire">
+        <item quantity="other">Срок действия %1$d видео WeChat истек</item>
+        <item quantity="zero">Срок действия %1$d видео WeChat истек</item>
+        <item quantity="one">Срок действия %1$d видео WeChat истек</item>
+        <item quantity="two">Срок действия %1$d видео WeChat истек</item>
+        <item quantity="few">Срок действия %1$d видео WeChat истек</item>
+        <item quantity="many">Срок действия %1$d видео WeChat истек</item>
+    </plurals>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">При очистке будет удалено %1$d кэшированных видео WeChat. Создать бэкап?</item>
+        <item quantity="zero">При очистке будет удалено %1$d кэшированных видео WeChat. Создать бэкап?</item>
+        <item quantity="one">При очистке будет удалено %1$d кэшированное видео WeChat. Создать бэкап?</item>
+        <item quantity="two">При очистке будет удалено %1$d кэшированных видео WeChat. Создать бэкап?</item>
+        <item quantity="few">При очистке будет удалено %1$d кэшированных видео WeChat. Создать бэкап?</item>
+        <item quantity="many">При очистке будет удалено %1$d кэшированных видео WeChat. Создать бэкап?</item>
+    </plurals>
 </resources>

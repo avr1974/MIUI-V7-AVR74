@@ -15,7 +15,7 @@
     <bool name="ImsConnectedDefaultValue">false</bool>
     <bool name="config_sf_slowBlur">true</bool>
     <bool name="config_useMasterVolume">false</bool>
-    <bool name="config_useVolumeKeySounds">true</bool>
+    <bool name="config_useVolumeKeySounds">false</bool>
     <bool name="config_sendAudioBecomingNoisy">true</bool>
     <bool name="config_ui_enableFadingMarquee">true</bool>
     <bool name="config_closeDialogWhenTouchOutside">true</bool>

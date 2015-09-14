@@ -40,6 +40,7 @@
         <item>30 минут</item>
     </string-array>
     <string-array name="entries_font_size">
+        <item>XS</item>
         <item>S</item>
         <item>M</item>
         <item>L</item>

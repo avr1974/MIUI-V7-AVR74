@@ -26,6 +26,7 @@
     <string name="query_user_tasks_fail">Не удается получить информацию о задачах</string>
     <string name="my_award">Мои награды</string>
     <string name="validity">Действует до %s</string>
+    <string name="validity_unknown">Неизвестный срок действия</string>
     <string name="expired">Окончено</string>
     <string name="award_time">Получено на %s</string>
     <string name="no_award">Нет наград</string>

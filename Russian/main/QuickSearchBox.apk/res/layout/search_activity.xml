@@ -18,6 +18,8 @@
                     <TextView android:id="@id/searchable_music" android:text="@string/searchable_lable_music" android:drawableTop="@drawable/searchable_music" style="@style/SearchableTipsIcon" />
                     <TextView android:id="@id/searchable_video" android:text="@string/searchable_lable_video" android:drawableTop="@drawable/searchable_video" style="@style/SearchableTipsIcon" />
                     <TextView android:id="@id/searchable_browser" android:text="@string/searchable_lable_browser" android:drawableTop="@drawable/searchable_browser" style="@style/SearchableTipsIcon" />
+                    <TextView android:id="@id/searchable_duokan" android:text="@string/searchable_lable_duokan" android:drawableTop="@drawable/searchable_duokan" style="@style/SearchableTipsIcon" />
+                    <TextView android:id="@id/searchable_o2o" android:text="@string/searchable_lable_o2o" android:drawableTop="@drawable/searchable_o2o" style="@style/SearchableTipsIcon" />
                 </LinearLayout>
             </LinearLayout>
         </FrameLayout>

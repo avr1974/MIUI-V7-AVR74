@@ -125,6 +125,8 @@
     <string name="toast_message_continue_play_second_and_play">" сек. "</string>
     <string name="vp_VideoView_error_network_not_available">Интернет недоступен</string>
     <string name="vp_media_type_banned">Тип файла не поддерживается</string>
+    <string name="vp_play_youku_time_out">Время ожидания подключения вышло</string>
+    <string name="vp_play_youku_failed_get_video_info">Не удается получить информацию о видео</string>
     <string name="top_status_local_media">Локальное</string>
     <string name="top_status_online_media">Онлайн</string>
     <string name="top_status_offline_media">Автономный режим</string>

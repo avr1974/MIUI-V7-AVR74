@@ -385,11 +385,11 @@
     <string name="sms_mms">MMS</string>
     <string name="sms">Текстовое сообщение</string>
     <string name="eventTypeCustom">Пользовательский</string>
-    <string name="email_home">Личный Email</string>
-    <string name="email_mobile">Мобильный Email</string>
-    <string name="email_work">Рабочий Email</string>
+    <string name="email_home">Личный email</string>
+    <string name="email_mobile">Мобильный email</string>
+    <string name="email_work">Рабочий email</string>
     <string name="email_other">Email</string>
-    <string name="email_custom">Написать Email %s</string>
+    <string name="email_custom">Написать email %s</string>
     <string name="email">Email</string>
     <string name="map_home">Просмотреть домашний адрес</string>
     <string name="map_work">Просмотреть рабочий адрес</string>
@@ -642,7 +642,7 @@
     <string name="contact_detail_profile_switch_off_fail_toast">Не удается отключить визитку</string>
     <string name="contact_detail_profile_switch_fail_network_toast">Не удается подключиться к интернету</string>
     <string name="contact_detail_miprofile_settings_header">Настройки обмена</string>
-    <string name="contact_detail_miprofile_binded_label">Добавлен</string>
+    <string name="contact_detail_miprofile_binded_label">Проверен</string>
     <string name="contact_detail_miprofile_subtitle">Обмен визитками уже совершен</string>
     <string name="combined_title_and_miprofile_swaped">%1$s, %2$s</string>
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
@@ -775,6 +775,7 @@
     <string name="edit_contact_card_title">Изменить контакт</string>
     <string name="preview_contact_card_title">Импорт</string>
     <string name="import_contact_card_button">Импорт</string>
+    <string name="success_message_import_from_account">Импорт завершен</string>
     <string name="unknown_contact_name">Неизвестный номер</string>
     <string name="contactDetailCalllog">Журнал вызовов</string>
     <string name="add_blacklist">Блокировать</string>
@@ -799,7 +800,7 @@
     <string name="group_add_fail_toast">Ошибка добавления контаков</string>
     <string name="group_sms_error_message">Превышен предел получателей: %s</string>
     <string name="picker_postal_title">Выберите почтовый индекс</string>
-    <string name="picker_email_title">Выберите адрес Email</string>
+    <string name="picker_email_title">Выберите адрес email</string>
     <string name="preference_import">Импорт</string>
     <string name="preference_export">Экспорт</string>
     <string name="preference_others">Другое</string>
@@ -1071,8 +1072,8 @@
     <string name="sim_error_storage_full">SIM карта заполнена</string>
     <string name="sim_error_text_too_long">Имя слишком длинное</string>
     <string name="sim_error_number_too_long">Номер слишком длинный</string>
-    <string name="sim_error_email_too_long">Адрес Email слишком длинный</string>
-    <string name="sim_error_email_full">Память для Email заполнена</string>
+    <string name="sim_error_email_too_long">Адрес email слишком длинный</string>
+    <string name="sim_error_email_full">Память для email заполнена</string>
     <string name="sim_error_anr_full">Память для номеров заполнена</string>
     <string name="sim_error_password_error">Неверный пароль</string>
     <string name="yellowPageNavigationLabel">Сервисы</string>
@@ -1121,6 +1122,5 @@
     <string name="cloud_state_syncing">Синхронизировано с Mi Cloud</string>
     <string name="cloud_state_loading">Загрузка…</string>
     <string name="cloud_state_disabled">Синхронизация с Mi Cloud отключена</string>
-    <string name="success_message_import_from_account">Импорт завершен</string>
     <string name="play_in_call_show">播放來電秀</string>
 </resources>

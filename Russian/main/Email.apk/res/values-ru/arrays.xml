@@ -89,7 +89,7 @@
     </string-array>
     <string-array name="signature_special_string_array">
         <item>Отказ от ответственности:</item>
-        <item>Отказ от ответственности Email</item>
+        <item>Отказ от ответственности email</item>
         <item>Отправлено через WPSMail</item>
         <item>Отправлено с</item>
         <item>Отправлено с</item>
@@ -100,12 +100,12 @@
         <item>Спасибо,</item>
         <item>С уважением</item>
         <item>Отправлено с моего</item>
-        <item>Оригинальный Email</item>
+        <item>Оригинальный email</item>
         <item>Отправлено с моего</item>
         <item>Отправлено с</item>
         <item>С</item>
-        <item>Этот Email</item>
+        <item>Этот email</item>
         <item>Отказ от ответственности</item>
-        <item>Отказ от ответственности Email</item>
+        <item>Отказ от ответственности email</item>
     </string-array>
 </resources>
