@@ -6,6 +6,8 @@
     <bool name="is_xiaomi">true</bool>
     <!--whether the device is hongmi-->
     <bool name="is_hongmi">false</bool>
+    <!--whether the device support alpha optimized-->
+    <bool name="support_alpha_optimized">true</bool>
     <!--whether the device supports torch-->
     <bool name="support_torch">true</bool>
     <!--whether install the fm app-->
@@ -96,6 +98,10 @@
     <bool name="is_read_cpu4_freq">true</bool>
     <!--whether the device supports cit-->
     <bool name="support_cit">true</bool>
+    <!--whether the device is xiaomi-->
+    <bool name="is_xiaomi_device">true</bool>
+    <!-- whether the device support resolution switch -->
+    <bool name="support_resolution_switch">true</bool>
     <!--the vendor feature, it's value may be qcom,mediatek,leadcore or nvidia-->
     <string name="vendor">qcom</string>
     <!--max cpu freq of the device-->
@@ -104,14 +110,52 @@
     <integer name="exquisite_mode_target_density">587</integer>
     <!--origin density for calculating exquisiteMode scale ratio-->
     <integer name="exquisite_mode_origin_density">640</integer>
-    <!-- whether the device support resolution switch -->
-    <bool name="support_resolution_switch">true</bool>
+    <!--hidden app packagename list -->
+    <string-array name="hidden_app_packagename_list">
+        <item>com.xiaomi.market</item>
+        <item>com.xiaomi.gamecenter</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.sdu.didi.psnger</item>
+        <item>com.duokan.reader</item>
+        <item>com.xiaomi.shop</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.Qunar</item>
+        <item>com.sina.weibo</item>
+        <item>com.yidian.xiaomi</item>
+        <item>com.dianping.v1</item>
+        <item>com.cleanmaster.mguard_cn</item>
+        <item>com.xiaomi.o2o</item>
+        <item>com.xiaomi.smarthome</item>
+        <item>com.tuniu.app.ui</item>
+    </string-array>
+    <!--hidden app path list -->
+    <string-array name="hidden_app_path_list">
+        <item>/system/app/MiuiSuperMarket.apk,/system/app/MiuiSuperMarket</item>
+        <item>/system/app/GameCenter.apk,/system/app/GameCenter</item>
+        <item>/data/app/partner-QQ.apk,/data/app/3rd-com.tencent.mobileqq.apk,/data/app/partner-QQ,/data/app/3rd-com.tencent.mobileqq</item>
+        <item>/data/app/partner-BaiduMap.apk,/data/app/partner-BaiduMap</item>
+        <item>/data/app/partner-Didi.apk,/data/app/3rd-com.sdu.didi.psnger.apk,/data/app/partner-Didi,/data/app/3rd-com.sdu.didi.psnger</item>
+        <item>/data/app/partner-com.duokan.reader.apk,/data/app/partner-com.duokan.reader</item>
+        <item>/data/app/partner-MiShop.apk,/data/app/partner-MiShop.apk</item>
+        <item>/data/app/partner-MiTalk.apk,/data/app/partner-MiTalk</item>
+        <item>/data/app/partner-Qunar.apk,/data/app/3rd-com.Qunar.apk,/data/app/partner-Qunar,/data/app/3rd-com.Qunar</item>
+        <item>/data/app/partner-Weibo.apk,/data/app/3rd-com.sina.weibo.apk,/data/app/partner-Weibo,/data/app/3rd-com.sina.weibo</item>
+        <item>/data/app/partner-Zixun.apk,/data/app/partner-Zixun</item>
+        <item>/data/app/partner-Dianping.apk,/data/app/3rd-com.dianping.v1.apk,/data/app/partner-Dianping,/data/app/3rd-com.dianping.v1</item>
+        <item>/data/app/partner-CleanMaster.apk,/data/app/3rd-com.cleanmaster.mguard_cn.apk,/data/app/partner-CleanMaster,/data/app/3rd-com.cleanmaster.mguard_cn</item>
+        <item>/data/app/O2O.apk,/data/app/O2O</item>
+        <item>/data/app/ota-miui-XiaomiSmartHome.apk,/data/app/ota-miui-XiaomiSmartHome</item>
+        <item>/data/app/com.tuniu.app.ui.apk,/data/app/com.tuniu.app.ui</item>
+    </string-array>
     <!-- font scale for largeui mode -->
     <float name="smallui_font_scale">0.86</float>
+    <!-- font scale for largeui mode -->
     <float name="mediumui_font_scale">1.05</float>
+    <!-- font scale for largeui mode -->
     <float name="largeui_font_scale">1.25</float>
+    <!-- font scale for largeui mode -->
     <float name="hugeui_font_scale">1.40</float>
+    <!-- font scale for largeui mode -->
     <float name="godzillaui_font_scale">1.40</float>
-    <!--whether the device is xiaomi-->
-    <bool name="is_xiaomi_device">true</bool>
 </features>

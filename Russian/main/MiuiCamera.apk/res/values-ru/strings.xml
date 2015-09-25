@@ -178,8 +178,7 @@
     <string name="pref_camera_autoexposure_entry_centerweighted">Центровзвешенный</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Точечный</string>
     <string name="pref_camera_audio_capture_title">Голос</string>
-    <string name="pref_audio_indicator_entry_off">Звук отключен</string>
-    <string name="pref_audio_indicator_entry_on">Звук включен</string>
+    <string name="simple_mode_button_text_audio_capture">Отключить голосовую съемку</string>
     <string name="pref_camera_video_duration_entry_mms">30 секунд (MMS)</string>
     <string name="pref_camera_video_duration_entry_10">10 минут</string>
     <string name="pref_camera_video_duration_entry_30">30 минут</string>
@@ -328,6 +327,10 @@
     <string name="camera_snap_mode_title_detail">Нажмите для просмотра</string>
     <string name="pref_camera_snap_enable_title">Тихая съемка</string>
     <string name="pref_camera_snap_enable_summary">При выключенном экране удерживайте клавишу уменьшения громкости для включения тихой съемки. Нажмите еще раз для снятия фото.</string>
+    <string name="pref_camera_tilt_shift_title">Tilt Shift</string>
+    <string name="simple_mode_button_text_tilt_shift">Отключить Tilt Shift</string>
+    <string name="pref_camera_fisheye_title">Рыбий глаз</string>
+    <string name="simple_mode_button_text_fisheye">Отключить рыбий глаз</string>
     <string name="edit">Изменить</string>
     <string name="details">Информация</string>
     <string name="path">Путь</string>

@@ -701,6 +701,7 @@
     <string name="in_call_show_delete_message">Удалить видео?</string>
     <string name="in_call_show_save_failed">Не удается сохранить видео</string>
     <string name="in_call_show_save_completed">Видео профиля сохранено</string>
+    <string name="in_call_show_preview_reshoot">Повтор</string>
     <string name="in_call_show_tap_to_show_demo">Нажмите для просмотра</string>
     <string name="in_call_show_demo_present">Просмотр</string>
     <string name="in_call_show_guide_start_recording">Запись</string>
@@ -740,6 +741,7 @@
     <string name="callrecordview_menu_add_call_note">Добавить заметку</string>
     <string name="callrecordview_menu_edit_call_note">Редактировать заметку</string>
     <string name="menu_dialpad_text">Клавиатура</string>
+    <string name="emergency_number_label">Экстренный вызов</string>
     <string name="dialer_empty_text_no_search_result">Контакты не найдены</string>
     <string name="dialer_empty_text_loading">Загрузка…</string>
     <string name="dialer_empty_text_no_call_log">Нет вызовов</string>
@@ -1122,5 +1124,4 @@
     <string name="cloud_state_syncing">Синхронизировано с Mi Cloud</string>
     <string name="cloud_state_loading">Загрузка…</string>
     <string name="cloud_state_disabled">Синхронизация с Mi Cloud отключена</string>
-    <string name="play_in_call_show">播放來電秀</string>
 </resources>

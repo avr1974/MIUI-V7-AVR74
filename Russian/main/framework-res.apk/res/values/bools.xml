@@ -20,7 +20,7 @@
     <bool name="config_ui_enableFadingMarquee">true</bool>
     <bool name="config_closeDialogWhenTouchOutside">true</bool>
     <bool name="config_avoidGfxAccel">false</bool>
-    <bool name="config_wifi_dual_band_support">false</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_batched_scan_supported">false</bool>
     <bool name="config_automatic_brightness_available">true</bool>
@@ -53,7 +53,7 @@
     <bool name="config_bluetooth_sco_off_call">true</bool>
     <bool name="config_bluetooth_wide_band_speech">true</bool>
     <bool name="config_bluetooth_address_validation">false</bool>
-    <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
     <bool name="config_voice_capable">true</bool>
     <bool name="config_sms_capable">true</bool>
     <bool name="config_bluetooth_default_profiles">true</bool>

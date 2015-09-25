@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="text_size_navigator_view_title_large">16.0sp</dimen>
+    <dimen name="text_size_nowplaying_title_primary">16.0sp</dimen>
     <dimen name="modifypage_info_textsize">8.0dip</dimen>
 </resources>

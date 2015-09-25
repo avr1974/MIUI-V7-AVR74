@@ -1569,6 +1569,8 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="stk_cc_ss_to_ss">SS request is modified to new SS request.</string>
     <string name="permission_remember_choice">Remember</string>
     <string name="permission">Permission</string>
+    <string name="permlab_bindJobService">"run the application's scheduled background work"</string>
+    <string name="permdesc_bindJobService">This permission allows the Android system to run the application in the background when requested.</string>
     <string name="config_geofenceServicesProvider">com.qualcomm.location</string>
     <string name="config_comboNetworkLocationProvider">com.qualcomm.location</string>
     <string name="config_partial_segment_expire_age">2592000000</string>

@@ -18,6 +18,12 @@
         <item quantity="few">Загружено %d трека</item>
         <item quantity="many">Загружено %d треков</item>
     </plurals>
+    <plurals name="NPlaylist_delete_confirm">
+        <item quantity="other">Удалить %d плейлистов?</item>
+        <item quantity="one">Удалить %d плейлист?</item>
+        <item quantity="few">Удалить %d плейлиста?</item>
+        <item quantity="many">Удалить %d плейлистов?</item>
+    </plurals>
     <plurals name="Nnew_tracks_count">
         <item quantity="other">%d новых</item>
         <item quantity="one">%d новый</item>
@@ -34,6 +40,30 @@
         <item quantity="one">%d похожий трек</item>
         <item quantity="few">%d похожих трека</item>
         <item quantity="many">%d похожих треков</item>
+    </plurals>
+    <plurals name="Nartists_count">
+        <item quantity="other">%d исполнителей</item>
+        <item quantity="one">%d исполнитель</item>
+        <item quantity="few">%d исполнителя</item>
+        <item quantity="many">%d исполнителей</item>
+    </plurals>
+    <plurals name="Ngroups_count">
+        <item quantity="other">%d групп</item>
+        <item quantity="one">%d группа</item>
+        <item quantity="few">%d группы</item>
+        <item quantity="many">%d групп</item>
+    </plurals>
+    <plurals name="dialog_delete_descript">
+        <item quantity="other">Удалить %d треков?</item>
+        <item quantity="one">Удалить %d трек?</item>
+        <item quantity="few">Удалить %d трека?</item>
+        <item quantity="many">Удалить %d треков?</item>
+    </plurals>
+    <plurals name="dialog_remove_descript">
+        <item quantity="other">Удалить %d треков?</item>
+        <item quantity="one">Удалить %d трек?</item>
+        <item quantity="few">Удалить %d трека?</item>
+        <item quantity="many">Удалить %d треков?</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">Добавлено %d треков в плейлист</item>
@@ -54,6 +84,12 @@
         <item quantity="few">%d трека</item>
         <item quantity="many">%d треков</item>
     </plurals>
+    <plurals name="Nquit_warning">
+        <item quantity="other">Воспроизведение завершится через %d минут</item>
+        <item quantity="one">Воспроизведение завершится через %d минуту</item>
+        <item quantity="few">Воспроизведение завершится через %d минуты</item>
+        <item quantity="many">Воспроизведение завершится через %d минут</item>
+    </plurals>
     <plurals name="send_songs_toast">
         <item quantity="other">Отправка %d треков</item>
         <item quantity="one">Отправка трека</item>
@@ -70,5 +106,13 @@
         <item quantity="one">Добавлен %d трек</item>
         <item quantity="few">Добавлено %d трека</item>
         <item quantity="many">Добавлено %d треков</item>
+    </plurals>
+    <plurals name="multichoice_title">
+        <item quantity="other">Выбрано: %d</item>
+        <item quantity="one">Выбрано: %d</item>
+    </plurals>
+    <plurals name="song_already_favorite">
+        <item quantity="other">Уже добавлено в избранное</item>
+        <item quantity="one">Уже добавлено в избранное</item>
     </plurals>
 </resources>

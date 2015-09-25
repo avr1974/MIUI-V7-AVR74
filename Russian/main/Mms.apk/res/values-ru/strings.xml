@@ -600,6 +600,7 @@ SMS (%1$d), MMS (%2$d)."</string>
     <string name="mx_and_voip_enable">Облачные сообщения и VoIP</string>
     <string name="mx_and_voip_enable_popup_msg">Бесплатная отправка сообщений и совершение вызовов между пользователями MIUI. Оплата оператором может взиматься только за использование мобильного трафика. VoIP предоставляется при поддержке Weihui. Политика конфиденциальности</string>
     <string name="mx_and_voip_enable_popup_msg2">Политика конфиденциальности</string>
+    <string name="mx_b2c_message_desc">Уведомления сети</string>
     <string name="mx_activate_notice">系统将发送一条短信来激活同步服务，是否继续？</string>
     <string name="mx_activate_status_desc_query_activte_info">正在联网检测手机卡激活状态</string>
     <string name="mx_activate_status_desc_fail">激活失败，请稍后重试</string>

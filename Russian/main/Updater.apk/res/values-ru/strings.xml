@@ -82,6 +82,8 @@
     <string name="repeat">Повтор</string>
     <string name="user_begin">ОК</string>
     <string name="recovery_failed_title">Не удается войти в Recovery</string>
+    <string name="recovery_power_not_enough_title">Низкий заряд батареи</string>
+    <string name="recovery_power_not_enough_msg">Для обновления прошивки требуется не менее 30% заряда батареи</string>
     <string name="recovery_failed_msg">"На вашем устройстве недостаточно памяти для обновления через Recovery. Попробуйте использовать программу Mi PC Suite:
 http://miui.su/mi-pc-suite"</string>
     <string name="recovery_failed_button">ОК</string>

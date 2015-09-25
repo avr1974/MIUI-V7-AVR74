@@ -98,6 +98,7 @@
     <dimen name="notification_panel_title_margin_bottom">10.0dip</dimen>
     <dimen name="notification_panel_clear_margin_top">15.0dip</dimen>
     <dimen name="notification_panel_clear_margin_bottom">20.0dip</dimen>
+    <dimen name="notification_panel_app_info_text_size">23.0sp</dimen>
     <dimen name="notification_filter_view_width">37.0dip</dimen>
     <dimen name="notification_edit_view_margin_bottom">14.0dip</dimen>
     <dimen name="disable_notification_description_margin_bottom">11.0dip</dimen>

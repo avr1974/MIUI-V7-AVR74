@@ -95,7 +95,7 @@
     <string name="custom_mark_category">Своя метка</string>
     <string name="mark_number_dialog_maintitle">Выберите метку</string>
     <string name="mark_number_dialog_subtitle">Отмечено пользователями (%2$d) как \"%1$s\"</string>
-    <string name="mark_number_marked_subtitle">Я отметил как %s</string>
+    <string name="mark_number_marked_subtitle">Моя метка: %s</string>
     <string name="mark_number_marked_maintitle">Изменить</string>
     <string name="mark_title_null_hint">Поле не может быть пустым</string>
     <string name="mark_number_custom_mark_deleted">Метка удалена</string>
@@ -352,6 +352,7 @@
     <string name="general_follow_hint_title">Предупреждение</string>
     <string name="tag_follow_yp_id">tag_follow_yp_id</string>
     <string name="tag_follow_status">tag_follow_status</string>
+    <string name="follow_processing">Обработка</string>
     <string name="follow_label">Подписаться на %1$s</string>
     <string name="follow_success">Вы подписаны на %1$s</string>
     <string name="nearby_yellow_page_title">Поблизости</string>

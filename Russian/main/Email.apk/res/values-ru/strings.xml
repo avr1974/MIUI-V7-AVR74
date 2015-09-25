@@ -226,7 +226,7 @@
     <string name="click_download_all_content">[нажмите для загрузки]</string>
     <string name="collapse_recipient_details">Скрыть информацию</string>
     <string name="colon">:</string>
-    <string name="compose">Создать</string>
+    <string name="compose">Написать</string>
     <string name="compose_send">Отправить</string>
     <string name="compose_sent">Сообщение отправлено</string>
     <string name="confirm">ОК</string>
@@ -277,7 +277,7 @@
     <string name="copied">Скопировано</string>
     <string name="copy_email">Копировать адрес email</string>
     <string name="copy_number">Копировать номер телефона</string>
-    <string name="create_action">Создать</string>
+    <string name="create_action">Новое</string>
     <string name="custom_from_account_label">Отправить сообщение как:</string>
     <string name="date_heading">"Дата: "</string>
     <string name="date_message_received">%1$s %2$s</string>
@@ -505,7 +505,7 @@
     <string name="menu_att_mgr_order_rev_date">Сортировка по времени</string>
     <string name="menu_att_mgr_order_size">Сортировка по размеру</string>
     <string name="menu_change_folders">Изменить папки</string>
-    <string name="menu_compose">Создать</string>
+    <string name="menu_compose">Новое</string>
     <string name="menu_folder_options">Настройки синхронизации</string>
     <string name="menu_move_to">Переместить</string>
     <string name="menu_move_to_inbox">Переместить в папку \"Входящие\"</string>
@@ -770,7 +770,7 @@
     <string name="ser_resp_err_map_ssl">Попробуйте выбрать пункт \"SSL/TLS (принимать все сертификаты)\" в параметрах безопасности</string>
     <string name="set_network">Установить сеть</string>
     <string name="setting_default_lable" />
-    <string name="settings_activity_title">Почта</string>
+    <string name="settings_activity_title">Настройки</string>
     <string name="share_choose">Выберите приложение</string>
     <string name="sharing">Отправить</string>
     <string name="shortcut_name_title">Название ярлыка</string>

@@ -976,7 +976,7 @@
     <string name="paint_highlight_cancel_title">Отменить изменения?</string>
     <string name="paint_highlight_cancel_context">Изображение будет сохранено без изменений</string>
     <string name="do_not_save">Не сохранять</string>
-    <string name="paint_highlight">Яркость</string>
+    <string name="paint_highlight">Кисть</string>
     <string name="free">Вручную</string>
     <string name="square">Квадрат</string>
     <string name="original_scale">Пропорционально</string>
@@ -1142,12 +1142,21 @@
     <string name="baby_lock_wallpaper_title">Детский альбом как обои экрана блокировки</string>
     <string name="apply">ОК</string>
     <string name="baby_lock_wallpaper_save_settings_msg">Применить текущие настройки?</string>
-    <string name="baby_lock_wallpaper_at_least_one_selected">Выберите альбом</string>
+    <string name="cancel_baby_lock_wallpaper_confirm_msg">Восстановить обои экрана блокировки по умолчанию?</string>
+    <string name="baby_lock_wallpaper_cancelled">Восстановлены обои экрана блокировки по умолчанию</string>
     <string name="set_as_baby_lock_wallpaper">Установить как обои экрана блокировки</string>
     <string name="baby_album_sharers_page_title">Поделиться с семьями</string>
+    <string name="set_bg_file_exist_message">Такое имя уже существует</string>
+    <string name="set_bg_unknow_reasons">Неизвестная ошибка</string>
+    <string name="set_bg_picker_default_title">Закрепить эскиз</string>
+    <string name="set_baby_icon_picker_default_title">Установить иконку альбома</string>
     <string name="more">Еще</string>
-    <string name="sync_ok">Синхронизировано</string>
+    <string name="number_of_uploading_finish">Все фото и видео загружены в Mi Cloud</string>
     <string name="need_to_turn_on_sync">Нажмите для включения Mi Cloud</string>
+    <string name="need_to_turn_on_network">Требуется подключение к интернету</string>
+    <string name="need_to_turn_on_wlan">Требуется подключение к сети Wi-Fi</string>
+    <string name="sync_cloud_space_full">Память в Mi Cloud заполнена</string>
+    <string name="hidden_album_display_name">Скрытый альбом</string>
     <string name="paint_crop_tips">Для получения лучшего эффекта попробуйте поместить интересующую часть фото в сетку</string>
     <string name="saturation_abbr">Н</string>
     <string name="highlight_abbr">Я</string>
@@ -1165,10 +1174,5 @@
     <string name="photo_paint_adjust">Регулировка</string>
     <string name="photo_paint_effect">Эффект</string>
     <string name="highlight2">Яркость</string>
-    <string name="number_of_uploading_finish">Все фото и видео загружены в Mi Cloud</string>
-    <string name="file_finish">Синхронизация завершена</string>
-    <string name="need_to_turn_on_network">Требуется подключение к интернету</string>
-    <string name="need_to_turn_on_wlan">Требуется подключение к сети Wi-Fi</string>
-    <string name="file_uploading">Синхронизация…</string>
-    <string name="sync_cloud_space_full">Память в Mi Cloud заполнена</string>
+    <string name="sync_battery_low">电量过低，停止同步</string>
 </resources>

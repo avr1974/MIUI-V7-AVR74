@@ -26,4 +26,16 @@
         <item quantity="few">Отложить на %d минуты</item>
         <item quantity="many">Отложить на %d минут</item>
     </plurals>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="other">Будильник будет отложен на %d минут</item>
+        <item quantity="one">Будильник будет отложен на %d минуту</item>
+        <item quantity="few">Будильник будет отложен на %d минуты</item>
+        <item quantity="many">Будильник будет отложен на %d минут</item>
+    </plurals>
+    <plurals name="auto_silence_summary">
+        <item quantity="other">Будильник будет отключен через %d минут</item>
+        <item quantity="one">Будильник будет отключен через %d минуту</item>
+        <item quantity="few">Будильник будет отключен через %d минуты</item>
+        <item quantity="many">Будильник будет отключен через %d минут</item>
+    </plurals>
 </resources>

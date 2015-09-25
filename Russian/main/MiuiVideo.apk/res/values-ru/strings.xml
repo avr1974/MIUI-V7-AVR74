@@ -124,12 +124,16 @@
     <string name="toast_message_continue_play_minute">" мин. "</string>
     <string name="toast_message_continue_play_second_and_play">" сек. "</string>
     <string name="vp_VideoView_error_network_not_available">Интернет недоступен</string>
-    <string name="vp_media_type_banned">Тип файла не поддерживается</string>
+    <string name="vp_media_type_unsported">Этот файл не поддерживается</string>
     <string name="vp_play_youku_time_out">Время ожидания подключения вышло</string>
     <string name="vp_play_youku_failed_get_video_info">Не удается получить информацию о видео</string>
+    <string name="vp_mplayer_error_io">Ошибка выполнения IO</string>
+    <string name="vp_mplayer_error_malformed">Поврежденный медиа контент</string>
+    <string name="vp_mplayer_error_server_died">Процесс медиа завершен</string>
+    <string name="vp_mplayer_error_timed_out">Время ожидания вышло</string>
     <string name="top_status_local_media">Локальное</string>
     <string name="top_status_online_media">Онлайн</string>
-    <string name="top_status_offline_media">Автономный режим</string>
+    <string name="top_status_offline_media">Локальные</string>
     <string name="info_video_loading">Загрузка…</string>
     <string name="loading_video_netplay_label_v5">Загрузка видео…</string>
     <string name="buffering_video_netplay_label_v5">Буферизация видео…</string>
@@ -155,8 +159,8 @@
     <string name="vp_loading_video">Загрузка…</string>
     <string name="vp_select_source">Выбор источника</string>
     <string name="vp_select_ci">Список</string>
-    <string name="vp_offline">Автономный режим</string>
-    <string name="vp_offline_title">Автономный режим</string>
+    <string name="vp_offline">Локальные</string>
+    <string name="vp_offline_title">Локальные</string>
     <string name="vp_milink">Mi Link</string>
     <string name="vp_milink_function">WiDi</string>
     <string name="vp_function">Меню</string>
@@ -211,6 +215,8 @@
     <string name="alert_dialog_download_btn_hide">Скрыть</string>
     <string name="alert_dialog_download_dup_task">Загрузка…</string>
     <string name="vp_mobile_network_using_warning">Разрешить использовать мобильный интернет для воспроизведения онлайн видео? Может взиматься дополнительная плата оператором.</string>
+    <string name="vp_mobile_network_using_warning_line_1">При просмотре видео онлайн с помощью мобильного интернета может взиматься дополнительная плата оператором.</string>
+    <string name="vp_mobile_network_using_warning_line_2">При превышении мобильного трафика может взиматься дополнительная плата оператором.</string>
     <string name="vp_mobile_network_using_positive">ОК</string>
     <string name="vp_mobile_network_using_negative">Отмена</string>
     <string name="vp_player_plugin_dlg_neg_btn">Закрыть</string>
@@ -294,7 +300,7 @@
     <string name="online_video_oneweek_ago">Неделю назад</string>
     <string name="system_setting">Системные настройки</string>
     <string name="setting">Настройки</string>
-    <string name="offline_setting">Автономный режим</string>
+    <string name="offline_setting">Локальные</string>
     <string name="use_cellular_play_title">Мобильный интернет</string>
     <string name="use_cellular_play_summary">Разрешить использовать мобильный интернет для просмотра видео онлайн. Может взиматься дополнительная плата за использование трафика.</string>
     <string name="use_cellular_network">Мобильный интернет</string>
@@ -438,6 +444,7 @@
     <string name="key_back_down_toast">Нажмите еще раз, чтобы выйти</string>
     <string name="check_network">Ошибка подключения. Проверьте параметры сети.</string>
     <string name="empty_tv_exiting">Выход…</string>
+    <string name="tv_cp_info_format">Поддержка: %1$s</string>
     <string name="tv_channel_empty_hint">Нет каналов</string>
     <string name="defaults">По умолчанию</string>
     <string name="fullscreen">Полный экран</string>

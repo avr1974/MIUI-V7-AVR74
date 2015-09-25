@@ -217,7 +217,7 @@
     <string name="traffic_protection_unknown"><u>Пропустить</u></string>
     <string name="traffic_protection_text_hint">Установить предел трафика %s</string>
     <string name="traffic_protection_next">Далее</string>
-    <string name="traffic_protection_data_usage_summary">После превышения трафика мобильного интернета могут взиматься дополнительные расходы согласно вашему тарифному плану.</string>
+    <string name="traffic_protection_data_usage_summary">После превышения трафика мобильного интернета может взиматься дополнительная плата согласно вашему тарифному плану.</string>
     <string name="traffic_protection_use_data">Включить интернет</string>
     <string name="setting_traffic_pkg">Ввести трафик</string>
     <string name="traffic_correction_start_correction">Подключение к сервису оператора…</string>

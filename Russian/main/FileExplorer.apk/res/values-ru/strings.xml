@@ -77,6 +77,7 @@
     <string name="operation_pasting">Копирование…</string>
     <string name="operation_moving">Перемещение…</string>
     <string name="confirm_know">ОК</string>
+    <string name="confirm_clean">Очистка</string>
     <string name="error_info_cant_send_folder">Не удается отправить этот тип файла</string>
     <string name="fail_to_create_folder">Недостаточно места или папка с таким именем уже существует</string>
     <string name="fail_to_create_folder_unknown">Не удается создать папку</string>
@@ -176,6 +177,10 @@
     <string name="decompress_to">Извлечь в…</string>
     <string name="decompress_confirm">Извлечь</string>
     <string name="decompress_cancel">Отмена</string>
+    <string name="decompress_title">Распаковать</string>
+    <string name="decompress_input_password">Введите пароль</string>
+    <string name="decompress_password_error">Неверный пароль</string>
+    <string name="decompress_encrypted_rar_not_supported">Зашифрованный архив RAR не поддерживается</string>
     <string name="kuaipan_prompt">Kuaipan</string>
     <string name="kuaipan_prompt_message">"
 Идет обслуживание сервиса, повторите попытку позже…
@@ -369,6 +374,8 @@
     <string name="group_title_extra_new">Новое</string>
     <string name="group_title_extra_expire">Истечение срока</string>
     <string name="group_title_extra_backup">Бэкап</string>
+    <string name="title_select_volume">Выберите громкость</string>
+    <string name="storage_info_detail">Свободно: %1$s | Всего: %1$s</string>
     <string name="just_now">только что</string>
     <string name="yesterday">вчера</string>
     <string name="month_day_format">d MMMM</string>
@@ -417,11 +424,11 @@
     <string name="rlv_refreshing">Сканирование…</string>
     <string name="rlv_last_refreshing_time">Сканировано %1$s</string>
     <string name="rlv_loading_more">Загрузка…</string>
-    <string name="notification_setting">Уведомление</string>
-    <string name="notification_title">Уведомление о файлах %1$s</string>
+    <string name="notification_setting">Уведомления</string>
+    <string name="notification_title">Уведомлять о файлах %1$s</string>
     <string name="notification_summary">%1$s еще не поддерживает эту функцию</string>
-    <string name="notification_dialog_title">Уведомление</string>
-    <string name="notification_dialog_content">Уведомление о файлах %1$s</string>
+    <string name="notification_dialog_title">Уведомления</string>
+    <string name="notification_dialog_content">Уведомлять о файлах %1$s</string>
     <string name="notification_dialog_confirm">ОК</string>
     <string name="smb_loading">Загрузка…</string>
     <string name="online_not_support">Не удается просмотреть файл онлайн</string>

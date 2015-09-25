@@ -185,6 +185,12 @@
     <string name="paused">Пауза</string>
     <string name="installing">Установка…</string>
     <string name="open">Открыть</string>
+    <string name="title_tips">Предупреждение</string>
+    <string name="xiaomi_account_not_exist_message">Этот Mi аккаунт не существует</string>
+    <string name="xunlei_account_has_unbind_message">Аккаунт Xunlei удален</string>
+    <string name="quit_btn">Выход</string>
+    <string name="rebind_btn">Добавить снова</string>
+    <string name="title_unbind_xunlei">Удаление аккаунта Xunlei</string>
     <string name="app_label">Загрузки</string>
     <string name="download_title">Загрузки</string>
     <string name="download_title_sorted_by_date">Загрузки – по дате</string>
