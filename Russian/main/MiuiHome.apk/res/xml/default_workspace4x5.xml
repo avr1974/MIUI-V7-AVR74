@@ -34,13 +34,13 @@
     <favorite launcher:className="com.android.stk.StkLauncherActivity" launcher:packageName="com.android.stk" launcher:container="1" launcher:x="17" launcher:y="0" launcher:retained="true" />
     <favorite launcher:className="com.android.stk.StkLauncherActivity2" launcher:packageName="com.android.stk" launcher:container="1" launcher:x="18" launcher:y="0" launcher:retained="true" />
     <favorite launcher:className="com.miui.securitycenter.MainActivity" launcher:packageName="com.miui.securitycenter" launcher:screen="0" launcher:x="3" launcher:y="4" />
-    <favorite launcher:className="com.android.calendar.AllInOneActivity" launcher:packageName="com.android.calendar" launcher:screen="1" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.android.calendar.AllInOneActivity" launcher:packageName="com.android.calendar" launcher:screen="0" launcher:x="0" launcher:y="2" />
     <favorite launcher:className="com.miui.notes.ui.NotesListActivity" launcher:packageName="com.miui.notes" launcher:screen="1" launcher:x="1" launcher:y="0" />
     <favorite launcher:className="com.miui.weather2.ActivityWeatherMain" launcher:packageName="com.miui.weather2" launcher:screen="1" launcher:x="2" launcher:y="0" />
     <favorite launcher:className="com.xiaomi.smarthome.StartupActivity" launcher:packageName="com.xiaomi.smarthome" launcher:screen="1" launcher:x="3" launcher:y="0" />
     <favorite launcher:className="com.xiaomi.gamecenter.ui.MainTabActivity" launcher:packageName="com.xiaomi.gamecenter" launcher:screen="1" launcher:x="0" launcher:y="1" />
     <favorite launcher:className="com.xiaomi.shop.activity.MainTabActivity" launcher:packageName="com.xiaomi.shop" launcher:screen="1" launcher:x="1" launcher:y="1" />
-    <favorite launcher:className="com.miui.video.HomeActivity" launcher:packageName="com.miui.video" launcher:screen="1" launcher:x="2" launcher:y="1" />
+    <favorite launcher:className="com.miui.video.HomeActivity" launcher:packageName="com.miui.video" launcher:screen="0" launcher:x="1" launcher:y="4" />
     <favorite launcher:className="com.yidian.xiaomi.ui.guide.UserGuideActivity" launcher:packageName="com.yidian.xiaomi" launcher:screen="1" launcher:x="3" launcher:y="1" />
     <favorite launcher:className="com.duokan.reader.DkReaderActivity" launcher:packageName="com.duokan.reader" launcher:container="2" launcher:x="0" launcher:y="0" />
     <favorite launcher:className="cn.wps.moffice.documentmanager.PreStartActivity" launcher:packageName="cn.wps.moffice_eng" launcher:container="2" launcher:x="1" launcher:y="0" />
