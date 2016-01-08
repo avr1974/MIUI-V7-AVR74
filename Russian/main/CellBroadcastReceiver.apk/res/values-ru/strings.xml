@@ -31,13 +31,11 @@
     <string name="emergency_alert_settings_title">Настройки аварийного оповещения</string>
     <string name="enable_emergency_alerts_title">Включить оповещения</string>
     <string name="enable_emergency_alerts_summary">Показывать трансляции аварийного оповещения</string>
-    <string name="alert_sound_duration_title">Длительность звукового сигнала</string>
-    <string name="alert_sound_duration_summary" />
+    <string name="alert_sound_duration_title">Продолжительность оповещения</string>
     <string name="alert_reminder_interval_title">Уведомления</string>
-    <string name="alert_reminder_interval_summary" />
     <string name="enable_alert_speech_title">Произносить аварийные сообщения</string>
     <string name="enable_alert_speech_summary">Использовать функцию преобразования текста в речь для создания аварийных сообщений</string>
-    <string name="category_etws_settings_title">Настройки системы предупреждения о землетрясении</string>
+    <string name="category_etws_settings_title">Настройки ETWS</string>
     <string name="enable_etws_test_alerts_title">Показывать тестовые трансляции</string>
     <string name="enable_etws_test_alerts_summary">Показывать тестовые трансляции для системы предупреждения о землетрясении и цунами</string>
     <string name="enable_cmas_extreme_threat_alerts_title">Показать экстримальные угрозы</string>
@@ -49,14 +47,14 @@
     <string name="enable_cmas_test_alerts_title">Показывать тестовые трансляции</string>
     <string name="enable_cmas_test_alerts_summary">Показывать ежемесячные тестовые трансляции системы CMAS</string>
     <string name="enable_alert_vibrate_title">Вибрация</string>
-    <string name="enable_alert_vibrate_summary">Вибрировать при получении оповещений</string>
+    <string name="enable_alert_vibrate_summary">Включает вибрацию при оповещении</string>
     <string name="category_brazil_settings_title">Настройки для Бразилии</string>
     <string name="category_india_settings_title">Настройки для Индии</string>
     <string name="enable_channel_50_alerts_title">Показать трансляции канала 50</string>
     <string name="enable_channel_50_alerts_summary">Канал 50 используется в Бразилии для аварийного оповещения</string>
     <string name="enable_channel_60_alerts_title">Показывать канал 60</string>
     <string name="enable_channel_60_alerts_summary">Канал 60 используется в Индии для получения конкретной информации оператора</string>
-    <string name="category_dev_settings_title">Опции разработчика</string>
+    <string name="category_dev_settings_title">Настройки для разработчиков</string>
     <string name="cmas_category_heading">Категории:</string>
     <string name="cmas_category_geo">Геофизические</string>
     <string name="cmas_category_met">Метеорологические</string>
@@ -96,4 +94,5 @@
     <string name="cmas_opt_out_dialog_text">Вы получили экстренное оповещение. Продолжить получать экстренные оповещения в дальнейшем?</string>
     <string name="cmas_opt_out_button_yes">ОК</string>
     <string name="cmas_opt_out_button_no">Отмена</string>
+    <string name="cell_broadcast_settings_not_available">Настройки оповещения населения недоступны этому пользователю</string>
 </resources>

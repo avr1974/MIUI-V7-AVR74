@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Оптимизация системы</string>
+    <string name="permstep_label">Чтение действий</string>
+    <string name="permstep_description">Разрешить приложению читать действия устройства</string>
 </resources>

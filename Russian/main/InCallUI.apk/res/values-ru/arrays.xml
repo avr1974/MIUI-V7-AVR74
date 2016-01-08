@@ -51,12 +51,12 @@
         <item>Телетайп с возможностью слышать собеседника</item>
         <item>Телетайп с возможностью передачи голоса</item>
     </string-array>
-    <string-array name="cdma_subscription_choices">
-        <item>RUIM/SIM</item>
-        <item>NV</item>
-    </string-array>
     <string-array name="transport_types">
         <item>UDP</item>
         <item>TCP</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
     </string-array>
 </resources>

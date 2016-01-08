@@ -20,6 +20,10 @@
     <string-array name="cs_call_type">
         <item>Голос с коммутацией</item>
     </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Обычные</item>
+        <item>Длинные</item>
+    </string-array>
     <string-array name="uplmn_prefer_network_mode_w_choices">
         <item>GSM</item>
         <item>WCDMA</item>
@@ -65,15 +69,30 @@
         <item>Иврит</item>
     </string-array>
     <string-array name="livetalk_about_info_array">
-        <item>- Поддержка местных и международных номеров.</item>
-        <item>- Каждый вызов использует 1 Кб трафика.</item>
-        <item>- Ваш оператор может взимать оплату за роуминг при использовании этого сервиса.</item>
-        <item>- Необходимо включить \"Бесплатное прослушивание\" для использования этого сервиса, иначе может взиматься дополнительная плата оператором за роуминг.</item>
-        <item>- Поддержка сервиса: YunZhiXun, RonLianYunTongXun, LTSC</item>
+        <item>• Использование: звоните на любые номера по всему миру;</item>
+        <item>• Требование: каждый вызов использует 1 КБ мобильного интернета;</item>
+        <item>• Другое: просто пополните баланс и начните звонить, без каких либо сложных настроек;</item>
+        <item>• Если Вам нужна помощь, позвоните нам 400-100-5678.</item>
     </string-array>
     <string-array name="clir_display_values">
         <item>По умолчанию</item>
-        <item>Скрыть номер</item>
-        <item>Показать номер</item>
+        <item>Скрывать номер</item>
+        <item>Показывать номер</item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>Выключено</item>
+        <item>Роуминг</item>
+        <item>Все</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>Выключено</item>
+        <item>Международные вызовы в роуминге</item>
+        <item>Международные вызовы</item>
+        <item>исходящие вызовы</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Глобальный</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
     </string-array>
 </resources>

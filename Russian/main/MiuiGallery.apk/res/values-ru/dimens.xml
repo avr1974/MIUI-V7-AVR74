@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="cloud_albumset_subtitle_font_size">8.0sp</dimen>
     <dimen name="face_albumset_title_front_size">9.0sp</dimen>
     <dimen name="face_albumset_title_font_size">9.0sp</dimen>
     <dimen name="album_slot_detail_font_size">9.0sp</dimen>
@@ -9,7 +8,7 @@
     <dimen name="name_label_max_length">100.0sp</dimen>
     <dimen name="face_album_list_item_height">90.0dip</dimen>
     <dimen name="face_album_list_item_text_size">9.0sp</dimen>
-    <dimen name="paint_effects_menu_item_margin_left">6.0dip</dimen>
-    <dimen name="paint_adjust_textview_maxwidth">65.0dip</dimen>
-    <dimen name="picker_title_tabcontainer_width">330.0dip</dimen>
+    <dimen name="paint_effects_menu_item_margin_left">5.0dip</dimen>
+    <dimen name="paint_adjust_textview_maxwidth">60.0dip</dimen>
+    <dimen name="picker_title_tabcontainer_width">310.0dip</dimen>
 </resources>

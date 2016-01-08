@@ -7,16 +7,16 @@
         <item>Режим медиа</item>
     </string-array>
     <string-array name="event_name_translate">
-        <item>Приложение в фоне</item>
+        <item>Приложение в фоновом режиме</item>
         <item>Экран включен</item>
         <item>Экран выключен</item>
         <item>Выключение экрана через 10 минут</item>
         <item>Полноэкранный режим</item>
-        <item>Выйти из полноэкранного режима</item>
-        <item>Приложение в фоне</item>
-        <item>Устройство заряжается</item>
-        <item>Устройство не заряжается</item>
-        <item>Устройство в обычном режиме</item>
+        <item>Выход из полноэкранного режима</item>
+        <item>Приложение в фоновом режиме</item>
+        <item>Заряжается</item>
+        <item>Не заряжается</item>
+        <item>Обычной режим</item>
     </string-array>
     <string-array name="action_name_translate">
         <item>Максимальная яркость</item>
@@ -45,8 +45,12 @@
         <item>При выключении экрана</item>
     </string-array>
     <string-array name="app_groups">
-        <item>Активные</item>
-        <item>Неактивные</item>
+        <item>Выбраные</item>
+        <item>Невыбранные</item>
         <item>Другие</item>
+    </string-array>
+    <string-array name="hmode_app_groups">
+        <item>Пользовательские настройки</item>
+        <item>Системные настройки</item>
     </string-array>
 </resources>

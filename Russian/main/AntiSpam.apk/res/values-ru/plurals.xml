@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="fw_blocked_count_call">
-        <item quantity="other">%d вызовов</item>
-        <item quantity="one">%d вызов</item>
-        <item quantity="few">%d вызова</item>
-        <item quantity="many">%d вызовов</item>
+        <item quantity="other">Вызовов: %d</item>
+        <item quantity="one">Вызовов: 1</item>
     </plurals>
     <plurals name="fw_blocked_count_sms">
-        <item quantity="other">%d SMS</item>
-        <item quantity="one">%d SMS</item>
+        <item quantity="other">Сообщений: %d</item>
+        <item quantity="one">Сообщений: 1</item>
     </plurals>
 </resources>

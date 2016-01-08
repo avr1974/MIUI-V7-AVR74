@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="updated_contacts">
-        <item quantity="other">Обновлено %s контактов</item>
-        <item quantity="one">Обновлен %s контакт</item>
-        <item quantity="few">Обновлено %s контакта</item>
-        <item quantity="many">Обновлено %s контактов</item>
-    </plurals>
     <plurals name="dirty_contacts_count">
-        <item quantity="other">%d контактов</item>
-        <item quantity="one">%d контакт</item>
-        <item quantity="few">%d контакта</item>
-        <item quantity="many">%d контактов</item>
+        <item quantity="other">Контактов: %d</item>
+        <item quantity="one">Контактов: %d</item>
     </plurals>
     <plurals name="dirty_mms_count">
-        <item quantity="other">%d сообщений</item>
-        <item quantity="one">%d сообщение</item>
-        <item quantity="few">%d сообщения</item>
-        <item quantity="many">%d сообщений</item>
+        <item quantity="other">Сообщений: %d</item>
+        <item quantity="one">Сообщений: %d</item>
     </plurals>
     <plurals name="dirty_note_count">
-        <item quantity="other">%d заметок</item>
-        <item quantity="one">%d заметка</item>
-        <item quantity="few">%d заметки</item>
-        <item quantity="many">%d заметок</item>
+        <item quantity="other">Заметок: %d</item>
+        <item quantity="one">Заметок: %d</item>
+    </plurals>
+    <plurals name="updated_contacts">
+        <item quantity="other">Обновлено контактов: %s</item>
+        <item quantity="one">Обновлено контактов: %s</item>
     </plurals>
 </resources>

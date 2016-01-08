@@ -3,8 +3,8 @@
     <string-array name="emailAddressTypes">
         <item>Домашний</item>
         <item>Рабочий</item>
-        <item>Прочий</item>
-        <item>Выбрать</item>
+        <item>Другой</item>
+        <item>Создать</item>
     </string-array>
     <string-array name="imProtocols">
         <item>AIM</item>
@@ -18,8 +18,8 @@
     </string-array>
     <string-array name="organizationTypes">
         <item>Рабочий</item>
-        <item>Другое</item>
-        <item>Выбрать</item>
+        <item>Другой</item>
+        <item>Создать</item>
     </string-array>
     <string-array name="phoneTypes">
         <item>Домашний</item>
@@ -28,14 +28,14 @@
         <item>Рабочий факс</item>
         <item>Домашний факс</item>
         <item>Пейджер</item>
-        <item>Прочий</item>
-        <item>Выбрать</item>
+        <item>Другой</item>
+        <item>Создать</item>
     </string-array>
     <string-array name="postalAddressTypes">
         <item>Домашний</item>
         <item>Рабочий</item>
-        <item>Прочий</item>
-        <item>Выбрать</item>
+        <item>Другой</item>
+        <item>Создать</item>
     </string-array>
     <integer-array name="maps_starting_lat_lng">
         <item>55750449</item>
@@ -47,8 +47,8 @@
     <string-array name="imAddressTypes">
         <item>Домашний</item>
         <item>Рабочий</item>
-        <item>Прочий</item>
-        <item>Выбрать</item>
+        <item>Другой</item>
+        <item>Создать</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Попытка получения доступа к местоположению</item>

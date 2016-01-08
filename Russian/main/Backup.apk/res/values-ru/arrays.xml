@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="app_type_desc">
-        <item>Данные</item>
-        <item>Приложение</item>
-        <item>Приложение и данные</item>
+        <item>(данные)</item>
+        <item>(приложение)</item>
+        <item>(приложение + данные)</item>
     </string-array>
     <string-array name="backup_dialog_content_type">
         <item>Параметры Wi-Fi</item>
@@ -11,14 +11,14 @@
     </string-array>
     <string-array name="cloud_account_data">
         <item>Контакты</item>
-        <item>Параметры Wi-Fi</item>
+        <item>Настройки Wi-Fi</item>
         <item>Заметки</item>
     </string-array>
     <string-array name="cloud_data_label">
         <item>Контакты</item>
         <item>Журнал вызовов</item>
         <item>Сообщения</item>
-        <item>Параметры Wi-Fi</item>
+        <item>Настройки Wi-Fi</item>
         <item>Заметки</item>
     </string-array>
     <string-array name="cloud_sim_data">
@@ -29,11 +29,11 @@
         <item>Контакты</item>
         <item>Журнал вызовов</item>
         <item>Сообщения</item>
-        <item>Мультимедиа cообщения</item>
+        <item>Сообщения MMS</item>
         <item>Настройки системы</item>
-        <item>Параметры Wi-Fi</item>
-        <item>Рабочий стол</item>
-        <item>Будильник</item>
+        <item>Настройки Wi-Fi</item>
+        <item>Расположение стола</item>
+        <item>Настройки будильника</item>
         <item>Заметки</item>
         <item>Черный список</item>
         <item>Аккаунт</item>
@@ -43,7 +43,7 @@
         <item>Разрешения</item>
         <item>Камера</item>
         <item>Трафик</item>
-        <item>Сервер погоды</item>
+        <item>Данные погоды</item>
         <item>Погода</item>
     </string-array>
 </resources>

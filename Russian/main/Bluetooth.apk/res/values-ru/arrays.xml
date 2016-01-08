@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="ble_profile_mi_band">
-        <item>Вибрировать при вызове</item>
-        <item>Вибрировать при получении SMS</item>
-        <item>Вибрировать при будильнике</item>
+        <item>Вибрация при вызове</item>
+        <item>Вибрация при получении сообщения</item>
+        <item>Вибрация при будильнике</item>
     </string-array>
     <string-array name="ble_profile_mi_key">
-        <item>Снять фото</item>
+        <item>Сделать фото</item>
         <item>Поиск устройства</item>
-        <item>Поиск MiKey</item>
+        <item>Поиск кнопки</item>
     </string-array>
 </resources>

@@ -289,6 +289,12 @@
         <item>По времени</item>
         <item>По количеству</item>
     </string-array>
+    <string-array name="repeat_frequency_spinner_plural">
+        <item>дн.</item>
+        <item>нед.</item>
+        <item>мес.</item>
+        <item>г.</item>
+    </string-array>
     <string-array name="preferences_skip_reminders_labels">
         <item>Только при отказе</item>
         <item>При отказе или при неответе</item>

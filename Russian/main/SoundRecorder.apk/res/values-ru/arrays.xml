@@ -9,4 +9,19 @@
         <item>Голос</item>
         <item>Интервью</item>
     </string-array>
+    <string-array name="record_quality_entries">
+        <item>"Высокое "</item>
+        <item>"Стандартное "</item>
+        <item>"Низкое "</item>
+    </string-array>
+    <string-array name="record_quality_summaries">
+        <item>MP3, 192 Кбит/с, 90 Мб/ч</item>
+        <item>MP3, 100 Кбит/с, 45 Мб/ч</item>
+        <item>MP3, 75 Кбит/с, 32 Мб/ч</item>
+    </string-array>
+    <string-array name="x5_record_scenes_entries">
+        <item>Музыка</item>
+        <item>Голос</item>
+        <item>Интервью</item>
+    </string-array>
 </resources>

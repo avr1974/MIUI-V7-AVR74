@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Builded with CloudBuildr -->
 <resources>
-     <string name="app_label">Средство просмотра HTML</string>
+    <string name="app_label">Просмотр HTML</string>
+    <string name="loading">Загрузка…</string>
+    <string name="app_name_which_call">Приложение: %s</string>
+    <string name="app_version_which_call">Версия: %s</string>
+    <string name="policy_name">Политика конфиденциальности: %s</string>
+    <string name="mibi_license">Условия пользования Mi Credit</string>
+    <string name="license_host_unreachable">Ошибка подключения к интернету. Подробнее: %s</string>
+    <string name="permdesc_accessDrm">Позволяет приложению получить доступ к DRM-защите</string>
+    <string name="open_wifi_connect_title">Подключиться к %1$s</string>
+    <string name="open_wifi_connect_summary">Нажмите для просмотра</string>
+    <string name="settings_license_activity_title">Лицензии с исходным кодом</string>
+    <string name="settings_license_activity_loading">Загрузка…</string>
+    <string name="settings_license_activity_unavailable">Ошибка загрузки лицензии</string>
+    <string name="settings_safetylegal_title">Информация о безопасности</string>
+    <string name="settings_safetylegal_activity_title">Информация о безопасности</string>
+    <string name="settings_safetylegal_activity_unreachable">Ошибка подключения к интернету. Для просмотра информации посетите: %s.</string>
+    <string name="settings_safetylegal_activity_loading">Загрузка…</string>
 </resources>

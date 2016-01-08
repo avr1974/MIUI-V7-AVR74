@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="more_coupons_count">
-        <item quantity="other">%d купонов</item>
-        <item quantity="one">%d купон</item>
-        <item quantity="few">%d купона</item>
-        <item quantity="many">%d купонов</item>
+        <item quantity="other">Купонов: %d</item>
+        <item quantity="one">Купонов: 1</item>
     </plurals>
     <plurals name="review_count">
-        <item quantity="other">Показать %d отзывов</item>
+        <item quantity="other">Показать все отзывы (%d)</item>
         <item quantity="one">Показать отзыв</item>
-        <item quantity="few">Показать %d отзыва</item>
-        <item quantity="many">Показать %d отзывов</item>
     </plurals>
 </resources>

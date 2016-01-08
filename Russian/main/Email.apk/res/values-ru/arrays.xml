@@ -30,6 +30,16 @@
         <item>Э</item>
         <item>Ю</item>
         <item>Я</item>
+        <item>\#</item>
+        <item>∅</item>
+    </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Вечером</item>
+        <item>Завтра</item>
+        <item>Выходные</item>
+        <item>Следующая неделя</item>
+        <item>Следующий месяц</item>
+        <item>Выбрать дату</item>
     </string-array>
     <string-array name="compose_modes">
         <item>Ответить</item>
@@ -38,40 +48,40 @@
     </string-array>
     <string-array name="general_preference_text_zoom_summary_array">
         <item>Мелкий</item>
-        <item>Нормальный</item>
-        <item>Средний</item>
+        <item>Небольшой</item>
+        <item>Обычный</item>
         <item>Большой</item>
         <item>Огромный</item>
     </string-array>
     <string-array name="menu_att_mgr_sort_string_array">
-        <item>По умолчанию</item>
+        <item>Последние</item>
         <item>Формат</item>
         <item>Имя</item>
         <item>Отправитель</item>
         <item>Дата</item>
     </string-array>
     <string-array name="moveto_folder_sections">
-        <item>Система</item>
-        <item>Недавние</item>
+        <item>Системные</item>
+        <item>Часто используемые</item>
         <item>Все папки</item>
     </string-array>
     <string-array name="prefEntries_autoAdvance">
-        <item>Перейти к новому сообщению</item>
-        <item>Перейти к старому сообщению</item>
-        <item>Перейти к списку диалогов</item>
+        <item>Следующее письмо</item>
+        <item>Предыдущее письмо</item>
+        <item>Список писем</item>
     </string-array>
     <string-array name="signature_normal_string_array">
         <item>Блог:</item>
         <item>Сайт:</item>
-        <item>Email:</item>
-        <item>Мобильный телефон:</item>
-        <item>Домашний телефон:</item>
+        <item>Эл. почта:</item>
+        <item>Мобильный:</item>
+        <item>Телефон:</item>
         <item>T:</item>
         <item>www.</item>
         <item>F:</item>
         <item>E:</item>
-        <item>Email:</item>
-        <item>Тел:</item>
+        <item>Эл. почта:</item>
+        <item>Телефон:</item>
         <item>Факс:</item>
         <item>Почта:</item>
         <item>QQ:</item>
@@ -81,31 +91,54 @@
         <item>Адрес:</item>
         <item>Телефон:</item>
         <item>Имя:</item>
-        <item>Email:</item>
+        <item>Эл. почта:</item>
         <item>Мобильный:</item>
         <item>WeChat:</item>
         <item>Факс:</item>
-        <item>Почтовый индекс:</item>
+        <item>Индекс:</item>
     </string-array>
     <string-array name="signature_special_string_array">
-        <item>Отказ от ответственности:</item>
-        <item>Отказ от ответственности email</item>
+        <item>Disclaimer:</item>
+        <item>Email Disclaimer</item>
         <item>Отправлено через WPSMail</item>
         <item>Отправлено с</item>
         <item>Отправлено с</item>
         <item>Спасибо,</item>
-        <item>С уважением</item>
+        <item>всего хорошего</item>
     </string-array>
     <string-array name="signature_special_string_array_next">
         <item>Спасибо,</item>
-        <item>С уважением</item>
-        <item>Отправлено с моего</item>
-        <item>Оригинальный email</item>
-        <item>Отправлено с моего</item>
+        <item>всего хорошего</item>
         <item>Отправлено с</item>
-        <item>С</item>
-        <item>Этот email</item>
-        <item>Отказ от ответственности</item>
-        <item>Отказ от ответственности email</item>
+        <item>Исходное сообщение</item>
+        <item>Отправлено с</item>
+        <item>Отправлено с</item>
+        <item>From</item>
+        <item>Это сообщение</item>
+        <item>Disclaimer</item>
+        <item>Email Disclaimer</item>
+    </string-array>
+    <string-array name="prefEntries_removal_action">
+        <item>Только архивировать</item>
+        <item>Только удалять</item>
+        <item>Архивировать и удалять</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Показывать более позднюю цепочку после удаления текущей</item>
+        <item>Показывать более раннюю цепочку после удаления текущей</item>
+        <item>Показывать список цепочек после удаления текущей цепочки</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>Только архивировать</item>
+        <item>Только удалять</item>
+        <item>Архивировать и удалять</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>Сихронизовано</item>
+        <item>Нет соединения</item>
+        <item>Не удалось войти</item>
+        <item>Ошибка безопасности</item>
+        <item>Ошибка синхронизации</item>
+        <item>Внутренняя ошибка</item>
     </string-array>
 </resources>

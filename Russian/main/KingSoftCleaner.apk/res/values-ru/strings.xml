@@ -2,10 +2,12 @@
 <resources>
     <string name="app_name">CleanMaster SDK</string>
     <string name="browser_scan_history_desc">История браузера</string>
-    <string name="browser_search_history_desc">Поисковые запросы</string>
+    <string name="browser_search_history_desc">Запросы поиска</string>
     <string name="call_log">Журнал вызовов</string>
-    <string name="clip_board_history_desc">Скопированное содержимое</string>
+    <string name="clip_board_history_desc">История копирования</string>
     <string name="clipboard">Буфер обмена</string>
+    <string name="junk_tag_RF_EmptyFolders">Пустые папки</string>
+    <string name="junk_tag_RF_ImageThumbnails">Эскизы галереи</string>
     <string name="phone_search">Поиск Google</string>
     <string name="privacy_appdata_chrome_history_des">Посещенные сайты</string>
     <string name="search_history">История поиска</string>

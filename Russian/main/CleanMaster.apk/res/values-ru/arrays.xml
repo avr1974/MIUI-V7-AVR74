@@ -13,9 +13,9 @@
         <item>По размеру</item>
     </string-array>
     <string-array name="auto_clean_time">
-        <item>Ежедневно</item>
+        <item>Каждый день</item>
         <item>Каждые 3 дня</item>
-        <item>Каждые 7 дней</item>
+        <item>Каждую неделю</item>
     </string-array>
     <string-array name="auto_clean_size">
         <item>100 Мб</item>
@@ -29,23 +29,33 @@
         <item>Уведомлять после очистки</item>
     </string-array>
     <string-array name="cache_clean_menu">
+        <item>Очистка</item>
+        <item>Файл</item>
+        <item>Добавить в исключения</item>
+    </string-array>
+    <string-array name="trash_clean_menu">
         <item>Очистить</item>
-        <item>Показать файл</item>
+        <item>Файл</item>
         <item>Добавить в исключения</item>
     </string-array>
     <string-array name="empty_floder_clean_menu">
-        <item>Очистить</item>
+        <item>Очистка</item>
     </string-array>
     <string-array name="apk_clean_menu">
-        <item>Очистить</item>
-        <item>Показать файл</item>
+        <item>Очистка</item>
+        <item>Файл</item>
         <item>Добавить в исключения</item>
         <item>Установить</item>
     </string-array>
     <string-array name="app_clean_menu">
         <item>Информация</item>
-        <item>Показать файл</item>
-        <item>Создать бэкап и удалить</item>
+        <item>Файл</item>
+        <item>Бэкап и удаление</item>
         <item>Удалить</item>
+    </string-array>
+    <string-array name="auto_alert_apps_time">
+        <item>Каждые 7 дней</item>
+        <item>Каждые 15 дней</item>
+        <item>Каждые 30 дней</item>
     </string-array>
 </resources>

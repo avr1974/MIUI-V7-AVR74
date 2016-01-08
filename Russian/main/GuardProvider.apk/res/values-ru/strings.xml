@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_sdcard_volume_path" />
     <string name="app_name">Антивирус Tencent</string>
-    <string name="hello_world">Привет мир!</string>
+    <string name="hello_world">Добро пожаловать!</string>
     <string name="menu_settings">Настройки</string>
-    <string name="title_activity_main">MainActivity</string>
     <string name="Tencent">Tencent</string>
     <string name="AVL">AVL</string>
     <string name="Mi">Mi</string>
@@ -12,15 +10,13 @@
     <string name="DesAVL">AVL</string>
     <string name="DesMi">Mi</string>
     <string name="tencent_dialog_title">Политика конфиденциальности Tencent</string>
-    <string name="tencent_dialog_header">При использовании этой функции ID вашего устройства будет зашифрован и отправлен на сервера Tencent (%s)</string>
+    <string name="tencent_dialog_header">ID вашего устройства будет зашифрован и отправлен на сервер Tencent (%s)</string>
     <string name="tencent_dialog_policy">Политика конфиденциальности</string>
     <string name="tencent_dialog_cloudscan">Загрузка информации о приложении на сервер для сканирования вирусов</string>
     <string name="tencent_dialog_dbupdate">Автообновление базы</string>
-    <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
     <string name="avl_dialog_title">Политика конфиденциальности AVL</string>
-    <string name="avl_dialog_header">При использовании этой функции ID вашего устройства будет зашифрован и отправлен на сервера AVL (%s)</string>
+    <string name="avl_dialog_header">ID вашего устройства будет зашифрован и отправлен на сервера AVL (%s)</string>
     <string name="avl_dialog_policy">Политика конфиденциальности</string>
     <string name="avl_dialog_cloudscan" />
     <string name="avl_dialog_dbupdate" />
-    <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
 </resources>
