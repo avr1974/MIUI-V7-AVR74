@@ -4,33 +4,33 @@
         <item>Имя</item>
         <item>Ник</item>
         <item>Телефон</item>
-        <item>Почта</item>
+        <item>Email</item>
         <item>Организация</item>
         <item>IM</item>
-        <item>Интернет-телефон</item>
+        <item>SIP телефон</item>
         <item>День рождения</item>
         <item>Сайт</item>
         <item>Адрес</item>
         <item>Заметка</item>
     </string-array>
     <string-array name="font_size_names">
-        <item>Маленький</item>
+        <item>Мелкий</item>
         <item>Средний</item>
         <item>Большой</item>
         <item>Огромный</item>
     </string-array>
     <string-array name="welcome_notes_content">
-        <item>"Вы можете легко записывать идеи, заметки, используя
+        <item>"Нажмите для создания заметки
 "</item>
-        <item>"Прикрепление картинкок или контактов
+        <item>"Нажмите на кнопки внизу, чтобы добавить изображение или чекбокс
 "</item>
-        <item>"Отмена задач пальцем
+        <item>"Нажмите и удерживайте заметку для закрепления, перемещения или удаления
 "</item>
-        <item>"И еще больше полезных возможностей! 
+        <item>"Еще больше функций!
   - Синхронизация с Mi Cloud
-  - Установка напоминаний
+  - Напоминания
 
-Чтобы узнать больше, посетите
+Узнайте подробности на 
 http://www.miui.com/forum.php?lang=1
 "</item>
     </string-array>

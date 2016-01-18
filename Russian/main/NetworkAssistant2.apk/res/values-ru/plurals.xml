@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="hints_traffic_enable_title">
-        <item quantity="other">Приложения без отслеживания трафика: %d</item>
-        <item quantity="one">Приложения без отслеживания трафика: %d</item>
+        <item quantity="other">Не учитывается трафик для %d приложений</item>
+        <item quantity="one">Не учитывается трафик для %d приложения</item>
+        <item quantity="few">Не учитывается трафик для %d приложений</item>
     </plurals>
     <plurals name="hints_traffic_disable_title">
-        <item quantity="other">Приложения с отслеживанием трафика: %d</item>
-        <item quantity="one">Приложения с отслеживанием трафика: %d</item>
+        <item quantity="other">Учитывается трафик %d приложений</item>
+        <item quantity="one">Учитывается трафик %d приложения</item>
+        <item quantity="few">Учитывается трафик %d приложений</item>
     </plurals>
     <plurals name="hints_traffic_saving_optimized">
-        <item quantity="other">Сжатие включено: %d</item>
-        <item quantity="one">Сжатие включено: %d</item>
+        <item quantity="other">%d приложений оптимизировано</item>
+        <item quantity="one">%d приложение оптимизировано</item>
+        <item quantity="few">%d приложения оптимизированы</item>
     </plurals>
     <plurals name="hints_traffic_saving_need_optimize">
-        <item quantity="other">Без сжатия: %d</item>
-        <item quantity="one">Без сжатия: %d</item>
+        <item quantity="other">%d приложений могут быть оптимизированы</item>
+        <item quantity="one">%d приложение может быть оптимизировано</item>
+        <item quantity="few">%d приложения могут быть оптимизированы</item>
     </plurals>
     <plurals name="hints_traffic_saving_enable_title">
-        <item quantity="other">Приложения без экономии трафика: %d</item>
-        <item quantity="one">Приложения без экономии трафика: %d</item>
+        <item quantity="other">%d приложений используют экономию трафика</item>
+        <item quantity="one">%d приложение использует экономию трафика</item>
+        <item quantity="few">%d приложения используют экономию трафика</item>
     </plurals>
     <plurals name="hints_traffic_saving_disable_title">
-        <item quantity="other">Приложения с экономией трафика: %d</item>
-        <item quantity="one">Приложения с экономией трафика: %d</item>
+        <item quantity="other">%d приложений не используют экономию трафика</item>
+        <item quantity="one">%d приложение не использует экономию трафика</item>
+        <item quantity="few">%d приложения не используют экономию трафика</item>
     </plurals>
     <plurals name="hints_install_apps_interval">
-        <item quantity="other">Запускалось %d дн. назад</item>
-        <item quantity="one">Запускалось вчера</item>
+        <item quantity="other">Использовались %d дней назад</item>
+        <item quantity="one">Использовались вчера</item>
+        <item quantity="few">Использовались %d дня назад</item>
     </plurals>
     <plurals name="search_app_count_txt">
-        <item quantity="other">Поиск в приложениях: %d</item>
-        <item quantity="one">Поиск в приложениях: %d</item>
+        <item quantity="other">Поиск %d приложений</item>
+        <item quantity="one">Поиск %d приложения</item>
+        <item quantity="few">Поиск %d приложений</item>
     </plurals>
     <plurals name="hints_roaming_enable_title">
-        <item quantity="other">Приложения с доступом к интернету в роуминге: %d</item>
-        <item quantity="one">Приложения с доступом к интернету в роуминге: %d</item>
+        <item quantity="other">%d приложений могут использовать мобильный интернет</item>
+        <item quantity="one">%d приложение может использовать мобильный интернет</item>
+        <item quantity="few">%d приложения могут использовать мобильный интернет</item>
     </plurals>
     <plurals name="hints_roaming_disable_title">
-        <item quantity="other">Приложения без доступа к интернету в роуминге: %d</item>
-        <item quantity="one">Приложения без доступа к интернету в роуминге: %d</item>
+        <item quantity="other">%d приложений не могут использовать мобильный интернет</item>
+        <item quantity="one">%d приложение не может использовать мобильный интернет</item>
+        <item quantity="few">%d приложения не могут использовать мобильный интернет</item>
     </plurals>
     <plurals name="hints_roaming_found_app_count_title">
         <item quantity="other">Найдено приложений: %d</item>
         <item quantity="one">Найдено приложений: %d</item>
+        <item quantity="few">Найдено приложений: %d</item>
     </plurals>
 </resources>

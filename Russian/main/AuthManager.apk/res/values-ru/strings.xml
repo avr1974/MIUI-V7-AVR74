@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Разрешения</string>
-    <string name="Generic_Copyright">При поддержке LBE</string>
+    <string name="Generic_Copyright">Поддержка: LBE Privacy Guard</string>
     <string name="Generic_Version">Версия: %1$s</string>
-    <string name="Generic_Configuration">Параметры</string>
-    <string name="Generic_UserApp">Загруженные приложения (%d)</string>
-    <string name="Generic_SystemApp">Системные приложения (%d)</string>
-    <string name="Generic_SystemApp_Label">[Системные приложения]</string>
-    <string name="Generic_MonitoredApp">Управляемые приложения (%1$d)</string>
-    <string name="Generic_TrustedApp">Доверенные приложения (%1$d)</string>
+    <string name="Generic_Configuration">Настройки</string>
+    <string name="Generic_UserApp">Загруженные (%d)</string>
+    <string name="Generic_SystemApp">Системные (%d)</string>
+    <string name="Generic_SystemApp_Label">Системное приложение</string>
+    <string name="Generic_MonitoredApp">Управляемые (%1$d)</string>
+    <string name="Generic_TrustedApp">Доверенные (%1$d)</string>
     <string name="Generic_ShowSystemApp">Показать системные приложения</string>
     <string name="Generic_HideSystemApp">Скрыть системные приложения</string>
     <string name="Generic_Loading">Загрузка…</string>
     <string name="Generic_Operating">В процессе…</string>
     <string name="Generic_Canceling">Отмена…</string>
-    <string name="Generic_InvalidInput">Неверный ввод</string>
+    <string name="Generic_InvalidInput">Некорректный ввод</string>
     <string name="Generic_Service_Enabled">Сервис включен</string>
-    <string name="Generic_Service_Disabled">Сервис выключен</string>
-    <string name="Generic_Summary_Enabled">Вкл.</string>
-    <string name="Generic_Summary_Disabled">Выкл.</string>
+    <string name="Generic_Service_Disabled">Сервис отключен</string>
+    <string name="Generic_Summary_Enabled">Вкл</string>
+    <string name="Generic_Summary_Disabled">Откл</string>
     <string name="Generic_Enable">Включено</string>
     <string name="Generic_Disable">Отключено</string>
     <string name="Generic_Optimize">Оптимизировать</string>
@@ -30,9 +30,9 @@
     <string name="HIPS_Action_Accept">ОК</string>
     <string name="HIPS_Action_Prompt">С запросом</string>
     <string name="HIPS_Action_Reject">Запретить</string>
-    <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800>разрешено&lt;/font></string>
-    <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00>запрос&lt;/font></string>
-    <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000>запрещено&lt;/font></string>
+    <string name="HIPS_Action_Accept_Colored">&amp;lt;font color=#478800&amp;gt;разрешено&amp;lt;/font&amp;gt;</string>
+    <string name="HIPS_Action_Prompt_Colored">&amp;lt;font color=#FF8A00&amp;gt;запрос&amp;lt;/font&amp;gt;</string>
+    <string name="HIPS_Action_Reject_Colored">&amp;lt;font color=#DF0000&amp;gt;запрещено&amp;lt;/font&amp;gt;</string>
     <string name="HIPS_Group_Expense">Безопасность</string>
     <string name="HIPS_Group_PIM">Персональная информация</string>
     <string name="HIPS_Group_Location">Местоположение</string>
@@ -52,24 +52,24 @@
     <string name="HIPS_Perm_CallState">Состояние вызовов</string>
     <string name="HIPS_Perm_CallState_Desc">Доступ к состоянию вызовов</string>
     <string name="HIPS_Perm_CallState_Hint">Доступ к состоянию вызовов (%1$s)</string>
-    <string name="HIPS_Perm_CallMonitor">Отслеживание вызовов</string>
-    <string name="HIPS_Perm_CallMonitor_Desc">Отслеживание вызовов и управление громкостью</string>
-    <string name="HIPS_Perm_CallMonitor_Hint">Отслеживание вызовов и управление громкостью (%1$s)</string>
+    <string name="HIPS_Perm_CallMonitor">Мониторинг вызовов</string>
+    <string name="HIPS_Perm_CallMonitor_Desc">Мониторинг вызовов и управление громкостью</string>
+    <string name="HIPS_Perm_CallMonitor_Hint">Мониторинг вызовов и управление громкостью (%1$s)</string>
     <string name="HIPS_Perm_Location">Местоположение</string>
     <string name="HIPS_Perm_Location_Desc">Поиск вашего местоположения с помощью сети или GPS</string>
     <string name="HIPS_Perm_Location_Hint">Поиск вашего местоположения с помощью сети или GPS (%1$s)</string>
-    <string name="HIPS_Perm_PhoneID">Идентификаторы телефона</string>
-    <string name="HIPS_Perm_PhoneID_Desc">Доступ к IMEI и IMSI</string>
+    <string name="HIPS_Perm_PhoneID">Получить информацию об устройстве</string>
+    <string name="HIPS_Perm_PhoneID_Desc">Доступ к номеру телефона, IMEI и IMSI</string>
     <string name="HIPS_Perm_PhoneID_Hint">Доступ к IMEI и IMSI (%1$s)</string>
     <string name="HIPS_Perm_MobileNetwork">Мобильный интернет</string>
-    <string name="HIPS_Perm_MobileNetwork_Desc">Доступ к мобильному интернету</string>
-    <string name="HIPS_Perm_MobileNetwork_Hint">Доступ к мобильному интернету (%1$s)</string>
+    <string name="HIPS_Perm_MobileNetwork_Desc">Доступ в интернет через мобильную сеть</string>
+    <string name="HIPS_Perm_MobileNetwork_Hint">Доступ в интернет через мобильную сеть (%1$s)</string>
     <string name="HIPS_Perm_WIFINetwork">Wi-Fi</string>
     <string name="HIPS_Perm_WIFINetwork_Desc">Доступ в интернет по Wi-Fi</string>
     <string name="HIPS_Perm_WIFINetwork_Hint">Доступ в интернет по Wi-Fi (%1$s)</string>
     <string name="HIPS_Perm_Network_UnknownAddr">Неизвестный адрес</string>
     <string name="HIPS_Perm_Network_MobileEvent">использование мобильной сети</string>
-    <string name="HIPS_Perm_Network_WIFIEvent">использование сети Wi-Fi</string>
+    <string name="HIPS_Perm_Network_WIFIEvent">использовать сеть Wi-Fi</string>
     <string name="HIPS_Perm_Network_Accept">принять соединение от %1$s</string>
     <string name="HIPS_Perm_Network_Connect">подключиться к %1$s</string>
     <string name="HIPS_Perm_Network_Listen">прослушивать порт %1$s</string>
@@ -100,8 +100,8 @@
     <string name="HIPS_Perm_VideoRecorder_Desc">Доступ к камере</string>
     <string name="HIPS_Perm_VideoRecorder_Hint">Доступ к камере (%1$s)</string>
     <string name="HIPS_Perm_AudioRecorder">Запись звука</string>
-    <string name="HIPS_Perm_AudioRecorder_Desc">Доступ к записи звука, включая вызовы.</string>
-    <string name="HIPS_Perm_AudioRecorder_Hint">Доступ к записи звука, включая вызовы (%1$s)</string>
+    <string name="HIPS_Perm_AudioRecorder_Desc">Доступ к записи звука и вызовам</string>
+    <string name="HIPS_Perm_AudioRecorder_Hint">Доступ к записи звука и вызовам (%1$s)</string>
     <string name="HIPS_Perm_Mobile_Connectivity">Мобильное подключение</string>
     <string name="HIPS_Perm_Mobile_Connectivity_Desc">Доступ к подключению по мобильной сети</string>
     <string name="HIPS_Perm_Mobile_Connectivity_Hint">Доступ к подключению по мобильной сети (%1$s)</string>
@@ -109,8 +109,8 @@
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">Включение/выключение Wi-Fi</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Hint">Включение/выключение Wi-Fi (%1$s)</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity">Изменение состояния Bluetooth</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Включение и выключение Bluetooth</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">Включение и выключение Bluetooth (%1$s)</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Включение/выключение Bluetooth</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">Включение/выключение Bluetooth (%1$s)</string>
     <string name="HIPS_Perm_AutoStart">Автозапуск</string>
     <string name="HIPS_Perm_AutoStart_Desc">Автозапуск приложения</string>
     <string name="HIPS_Perm_AutoStart_Hint">Автозапуск приложения (%1$s)</string>
@@ -128,11 +128,11 @@
     <string name="HIPS_Perm_Wakelock_Hint">Доступ к пробуждению устройства (%1$s)</string>
     <string name="HIPS_Perm_SendSMS_Recipient">Получатель:</string>
     <string name="HIPS_Perm_SendSMS_Content">Содержание:</string>
-    <string name="HIPS_Perm_SendSMS_SMSC">SMS центр:</string>
-    <string name="HIPS_Perm_SendSMS_SMSC_Default">SMS центр по умолчанию</string>
+    <string name="HIPS_Perm_SendSMS_SMSC">SMS-центр:</string>
+    <string name="HIPS_Perm_SendSMS_SMSC_Default">SMS-центр по умолчанию</string>
     <string name="HIPS_Perm_SendSMS_Port">Порт:</string>
     <string name="HIPS_Perm_SendSMS_Data">Данные SMS %1$s:%2$d</string>
-    <string name="HIPS_Perm_SendSMS_Text">Отправить SMS %1$s</string>
+    <string name="HIPS_Perm_SendSMS_Text">Текст SMS %1$s</string>
     <string name="HIPS_Perm_Call_Number">Вызов %1$s</string>
     <string name="HIPS_Perm_Contact_Access">доступ к контактам</string>
     <string name="HIPS_Perm_SMS_Access">доступ к SMS и MMS сообщениям</string>
@@ -180,64 +180,65 @@
     <string name="HIPS_SecurityPrompt_Next">Далее</string>
     <string name="HIPS_SecurityPrompt_ROOT_Caption">Внимание!</string>
     <string name="HIPS_SecurityPrompt_ROOT_Step1">Разрешить ROOT доступ приложению \"%1$s\"?</string>
-    <string name="HIPS_SecurityPrompt_ROOT_Step2">ROOT доступ может привести к нестабильной работе системы</string>
+    <string name="HIPS_SecurityPrompt_ROOT_Step2">ROOT доступ может привести к нестабильной работе системы.</string>
     <string name="HIPS_SecurityPrompt_ROOT_Step3">Безопасность личных данных (аккаунты, пароли и сообщения) может быть нарушена.</string>
     <string name="HIPS_SecurityPrompt_ROOT_Step4">Возможно нарушение работы оборудования.</string>
     <string name="HIPS_SecurityPrompt_ROOT_Step5">Используйте с осторожностью!</string>
     <string name="HIPS_SecurityPrompt_ROOT_Step6">Разрешить приложению \"%1$s\" получать ROOT доступ?</string>
     <string name="Dashboard_Perm">Разрешения</string>
     <string name="Dashboard_App">Приложения</string>
-    <string name="Dashboard_Log">Журнал</string>
-    <string name="Dashboard_Perm_Header">Управление %1$d приложениями</string>
+    <string name="Dashboard_Log">Журналы</string>
+    <string name="Dashboard_Perm_Header">Приложений: %1$d</string>
     <string name="Dashboard_Perm_Header_Disabled">Управление доступом отключено</string>
     <string name="Dashboard_Perm_SU_Switch">Разрешение ROOT доступа</string>
     <string name="Dashboard_Perm_SU">Управление ROOT доступом</string>
-    <string name="Dashboard_Perm_SU_Desc">Управление приложениями с ROOT доступом (%1$d)</string>
+    <string name="Dashboard_Perm_SU_Desc">Контроль приложений с ROOT доступом (%1$d)</string>
     <string name="Dashboard_Perm_SU_Disabled">ROOT доступ отключен</string>
-    <string name="Dashboard_Perm_SU_Disabled_In_Stable">ROOT не доступен на стабильных версиях MIUI</string>
-    <string name="Dashboard_Perm_SU_Disabled_In_Stable_Desc">"ROOT разрешения могут привести к нестабильности системы или потери личных данных, системы или повреждения оборудования. 
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable">ROOT доступ недоступен в стабильной версии MIUI</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_Desc">"Разрешение ROOT прав может привести к нестабильной работе системы, к потере личных и системных данных, а также к повреждению оборудования.
 
- Пожалуйста, переключитесь на версию MIUI от разработчика, чтобы включить ROOT разрешения."</string>
+В стабильной версии MIUI ROOT права недоступны. Пожалуйста, используйте версию MIUI для разработчиков."</string>
     <string name="Dashboard_Perm_SU_Disabled_In_Stable_Download">Скачать MIUI</string>
+    <string name="Dashboard_Perm_SU_Disabled_In_Stable_URL">http://www.miui.com/getrom.php</string>
     <string name="Dashboard_Perm_HIPS_Switch">Управление разрешениями</string>
     <string name="Dashboard_Perm_HIPS">Управление доступом приложений</string>
-    <string name="Dashboard_Perm_HIPS_Desc">Управление %1$d приложениями</string>
-    <string name="Dashboard_Perm_HIPS_Desc2">Управление %1$d приложениями</string>
+    <string name="Dashboard_Perm_HIPS_Desc">Контроль приложений (%1$d)</string>
+    <string name="Dashboard_Perm_HIPS_Desc2">Контроль приложений (%1$d)</string>
     <string name="Dashboard_Perm_HIPS_Disabled">Управление разрешениями отключено</string>
-    <string name="Dashboard_Perm_HIPS_Risky">Опасные разрешения (%1$d)</string>
-    <string name="Dashboard_Perm_HIPS_Safe">Безопасные разрешения (%1$d)</string>
+    <string name="Dashboard_Perm_HIPS_Risky">Разрешения с риском (%1$d)</string>
+    <string name="Dashboard_Perm_HIPS_Safe">Разрешения (%1$d)</string>
     <string name="Dashboard_Perm_AutoStart">Автозагрузка</string>
-    <string name="Dashboard_Perm_AutoStart_Desc">Включение или выключение автозагрузки для приложений</string>
+    <string name="Dashboard_Perm_AutoStart_Desc">Включение или выключение автозагрузки приложений</string>
     <string name="Dashboard_HIPS_Disable_Title">Монитор доступа</string>
-    <string name="Dashboard_HIPS_Disable_Content">"Отключение оставит систему MIUI без управления приложениями и без защиты безопасности и конфиденциальности.
-Вы действительно хотите отключить?"</string>
+    <string name="Dashboard_HIPS_Disable_Content">"Отключение функции может подвергнуть систему опасности.
+Продолжить?"</string>
     <string name="Dashboard_Su_Enable_Title">Разрешения ROOT</string>
     <string name="Dashboard_Su_Enable_Content">"Включение этой функции позволит приложениям запрашивать доступ к системе от имени администратора.
 Внимание: приложения с ROOT доступом могут вызвать нестабильность в работе системы, а также потерю личных данных.
 
 Вы уверены, что хотите включить ROOT доступ?"</string>
-    <string name="Dashboard_Log_Clear_Title">Очистить журнал</string>
+    <string name="Dashboard_Log_Clear_Title">Очистить журналы</string>
     <string name="Dashboard_Log_Clear_Content">Удалить все журналы?</string>
     <string name="Privacy_Perm_Count">Разрешено: %1$d | Запрещено: %2$d</string>
-    <string name="Privacy_AppPerm_Count">%1$d разрешения</string>
+    <string name="Privacy_AppPerm_Count">Разрешения: %1$d</string>
     <string name="Privacy_AppPerm_Count_Trust">%1$d разрешения - &lt;font color=#478800>доверенные&lt;/font></string>
-    <string name="Privacy_App_Trust">Доверие</string>
-    <string name="Privacy_App_Trust_Summary_Off">Контроль этого приложения</string>
-    <string name="Privacy_App_Trust_Summary_On">Доверие этому приложению</string>
+    <string name="Privacy_App_Trust">Запрос разрешений</string>
+    <string name="Privacy_App_Trust_Summary_Off">Уведомлять, когда это приложение будет запрашивать доступ к системе.</string>
+    <string name="Privacy_App_Trust_Summary_On">Уведомлять, когда это приложение будет запрашивать доступ к системе.</string>
     <string name="Privacy_App_Manage">Подробности</string>
     <string name="Privacy_App_Uninstall">Удаление</string>
-    <string name="Privacy_App_Log">Журнал</string>
+    <string name="Privacy_App_Log">Журналы</string>
     <string name="Privacy_App_Installed">Настройка доступа</string>
     <string name="Privacy_App_Finish">Закрыть</string>
     <string name="Privacy_App_Launch">Открыть</string>
     <string name="Privacy_App_TrustDialog_Title">Доверять этому приложению</string>
-    <string name="Privacy_App_TrustDialog_Content">Система не будет спрашивать Вашего подтверждения какой-либо безопасности и конфиденциальности операций, связанных с этим приложением</string>
+    <string name="Privacy_App_TrustDialog_Content">Система не будет запрашивать вашего подтверждения какой-либо безопасности и конфиденциальности операций, связанных с этим приложением.</string>
     <string name="SysOpt_Boost_Boot">Загрузка</string>
     <string name="SysOpt_Boost_Receiver">Фоновые</string>
     <string name="SysOpt_Boost_AutoStart_Group">Автозагрузка</string>
     <string name="SysOpt_Boost_AutoStart">Разрешения автозагрузки</string>
-    <string name="Su_Enable_Dialog">%1$s пытается получить ROOT доступ, что отключено по умолчанию для обеспечения безопасности системы. Перейди в приложение безопасность.</string>
-    <string name="Su_Unavailable">Права администратора не доступны в стабильной версии MIUI. Установи версию для разработчиков.</string>
+    <string name="Su_Enable_Dialog">Приложение \"%1$s\" пытается получить ROOT доступ</string>
+    <string name="Su_Unavailable">ROOT доступ не входит в данную версию MIUI. Установите еженедельную версию (для разработчиков).</string>
     <string name="Su_Package_Forbidden">Приложение \"%1$s\" не имеет ROOT доступ</string>
     <string name="permisson_reject_notice_toast_text">Приложение \"%1$s\" не имеет: %2$s</string>
     <string name="HIPS_Action_Reject_Once">Запретить сейчас</string>
@@ -246,7 +247,7 @@
     <string name="HIPS_SecurityPrompt_Reject_Once">Запретить сейчас (%d)</string>
     <string name="HIPS_Perm_Read_SMS">Чтение SMS сообщений</string>
     <string name="HIPS_Perm_Read_SMS_Desc">Доступ к чтению SMS сообщений</string>
-    <string name="HIPS_Perm_Read_SMS_Hint">Доступ к чтению SMS сообщений (%1$s)</string>
+    <string name="HIPS_Perm_Read_SMS_Hint">Доступ к чтению sMS сообщений (%1$s)</string>
     <string name="HIPS_Perm_Read_MMS">Чтение MMS сообщений</string>
     <string name="HIPS_Perm_Read_MMS_Desc">Доступ к чтению MMS сообщений</string>
     <string name="HIPS_Perm_Read_MMS_Hint">Доступ к чтению MMS сообщений (%1$s)</string>
@@ -259,34 +260,34 @@
     <string name="HIPS_Perm_Xiaomi_Account">Mi аккаунт</string>
     <string name="HIPS_Perm_Xiaomi_Account_Desc">Доступ к Mi аккаунту</string>
     <string name="HIPS_Perm_Xiaomi_Account_Hint">Доступ к Mi аккаунту (%1$s)</string>
-    <string name="HIPS_Perm_External_Storage">Возможность изменять файлы</string>
-    <string name="HIPS_Perm_External_Storage_Desc">Добавление и удаление файлов из памяти устройства</string>
-    <string name="HIPS_Perm_Body_Sensors">Датчики тела</string>
-    <string name="HIPS_Perm_Body_Sensors_Desc">Пульсометр и прочее</string>
-    <string name="HIPS_Perm_get_accounts">Доступ к аккаунтам</string>
-    <string name="HIPS_Perm_get_accounts_Desc">Управление аккаунтами</string>
+    <string name="HIPS_Perm_External_Storage">Чтение и изменение файлов в памяти устройства</string>
+    <string name="HIPS_Perm_External_Storage_Desc">Добавление и удаление файлов в памяти устройства</string>
+    <string name="HIPS_Perm_Body_Sensors">Датчики</string>
+    <string name="HIPS_Perm_Body_Sensors_Desc">Датчики (например, сердечного ритма)</string>
+    <string name="HIPS_Perm_get_accounts">Доступ к аккаунтам на устройстве</string>
+    <string name="HIPS_Perm_get_accounts_Desc">Доступ ко всем аккаунтам, хранимым в памяти устройства</string>
     <string name="HIPS_Perm_add_voicemail">Голосовые сообщения</string>
-    <string name="HIPS_Perm_add_voicemail_Desc">Создание голосовых сообщений</string>
-    <string name="HIPS_Perm_use_sip">Сервисы видео</string>
+    <string name="HIPS_Perm_add_voicemail_Desc">Добавлять системные голосовые сообщения</string>
+    <string name="HIPS_Perm_use_sip">Видео сервисы</string>
     <string name="HIPS_Perm_use_sip_Desc">Использование протокола SIP для потокового видео</string>
-    <string name="HIPS_Perm_process_outgoing_calls">Доступ к вызовам</string>
-    <string name="HIPS_Perm_process_outgoing_calls_Desc">Управление вызовами</string>
-    <string name="permission_group_title_charges_related">Платежи</string>
+    <string name="HIPS_Perm_process_outgoing_calls">Доступ к телефону</string>
+    <string name="HIPS_Perm_process_outgoing_calls_Desc">Отслеживание и завершение вызовов</string>
+    <string name="permission_group_title_charges_related">Расходы</string>
     <string name="permission_group_title_privacy_related">Конфиденциальность</string>
-    <string name="permission_group_title_media_related">Мультимедиа</string>
+    <string name="permission_group_title_media_related">Медиа</string>
     <string name="permission_group_title_settings_related">Настройки</string>
-    <string name="ok">ОК</string>
-    <string name="default_permission_description">Выполнение неизвестных действий</string>
+    <string name="ok">OK</string>
+    <string name="default_permission_description">Неизвестное действие</string>
     <string name="location_settings">Настройки местоположения</string>
-    <string name="location_warning">%1$s является провайдером местоположения</string>
+    <string name="location_warning">%1$s обеспечивает данные местоположения на устройстве. Доступ к местоположению можно изменить в Настройках.</string>
     <string name="permission_request_title">Запрос доступа</string>
-    <string name="permission_warning_template">Предоставить для \"%1$s\" следующие разрешения? Запрос: %2$s</string>
-    <string name="screen_overlay_title">Обнаружение наложений экрана</string>
-    <string name="screen_overlay_message">Для изменения этого разрешения требуется отключить наложения экрана в настройках</string>
-    <string name="screen_overlay_button">Настройки</string>
-    <string name="grant_confirm_question">Разрешить следующее? Запрос:</string>
+    <string name="permission_warning_template">Разрешить %2$s для %1$s?</string>
+    <string name="screen_overlay_title">Обнаружено наложение экранов</string>
+    <string name="screen_overlay_message">Чтобы изменить настройки разрешений, необходимо отключить наложение экранов, перейдя в Настройки > Приложения</string>
+    <string name="screen_overlay_button">Открыть настройки</string>
+    <string name="grant_confirm_question">Предоставить следующие разрешения? Запрашивается доступ:</string>
     <string name="grant_dialog_button_allow">Разрешить</string>
     <string name="grant_dialog_button_deny">Запретить</string>
     <string name="current_permission_template">%1$s из %2$s</string>
-    <string name="never_ask_again">Запомнить</string>
+    <string name="never_ask_again">Больше не спрашивать</string>
 </resources>

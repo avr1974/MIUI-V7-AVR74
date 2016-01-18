@@ -3,29 +3,29 @@
     <string name="launcherDialer">Телефон</string>
     <string name="people">Контакты</string>
     <string name="contactsList">Контакты</string>
-    <string name="shortcutContact">Контакты</string>
-    <string name="shortcutDialContact">Быстрый набор</string>
-    <string name="shortcutMessageContact">Быстрое SMS</string>
+    <string name="shortcutContact">Контакт</string>
+    <string name="shortcutDialContact">"Быстрый набор "</string>
+    <string name="shortcutMessageContact">Быстрое сообщение</string>
     <string name="shortcutActivityTitle">Функция ярлыка на рабочем столе</string>
     <string name="callShortcutActivityTitle">Выберите номер для вызова</string>
     <string name="messageShortcutActivityTitle">Выбрать номер для отправки сообщения</string>
-    <string name="contactPickerActivityTitle">Выбор контакта</string>
-    <string name="starredList">Избранные</string>
+    <string name="contactPickerActivityTitle">Выберите контакт</string>
+    <string name="starredList">Помеченные</string>
     <string name="frequentList">Часто вызываемые</string>
     <string name="strequentList">Избранные</string>
-    <string name="viewContactTitle">Информация о контакте</string>
-    <string name="viewContactDesription">Просмотреть контакт</string>
+    <string name="viewContactTitle">Данные контакта</string>
+    <string name="viewContactDesription">Посмотреть контакт</string>
     <string name="editContactDescription">Изменить контакт</string>
     <string name="insertContactDescription">Создать контакт</string>
     <string name="editGroupDescription">Изменить группу</string>
     <string name="insertGroupDescription">Создать группу</string>
-    <string name="contactDetailAbout">Информация</string>
+    <string name="contactDetailAbout">Контактная информация</string>
     <string name="contactDetailUpdates">Лента активности</string>
     <string name="searchHint">Поиск контактов</string>
     <string name="menu_search">Поиск</string>
     <string name="menu_newContact">Новый контакт</string>
     <string name="menu_viewContact">Просмотреть контакт</string>
-    <string name="menu_callNumber">Вызов: %s</string>
+    <string name="menu_callNumber">Вызов %s</string>
     <string name="menu_addStar">В избранные</string>
     <string name="menu_removeStar">Из избранных</string>
     <string name="menu_editContact">Изменить</string>
@@ -43,7 +43,7 @@
     <string name="splitConfirmation">Вы хотите разделить контакт?</string>
     <string name="menu_joinAggregate">Объединить</string>
     <string name="titleJoinContactDataWith">Объединить контакты</string>
-    <string name="blurbJoinContactDataWith">Выберите контакт, который хотите объединить с \"%s\":</string>
+    <string name="blurbJoinContactDataWith">Выберите контакт, для объединения с \"%s\":</string>
     <string name="showAllContactsJoinItem">Показать все контакты</string>
     <string name="separatorJoinAggregateSuggestions">Предлагаемые контакты</string>
     <string name="separatorJoinAggregateAll">Все контакты</string>
@@ -76,7 +76,7 @@
     <string name="attach_photo_dialog_title">Фото контакта</string>
     <string name="customLabelPickerTitle">Название ярлыка</string>
     <string name="send_to_voicemail_checkbox">Перенаправлять вызовы на голосовую почту</string>
-    <string name="removePhoto">Удалить</string>
+    <string name="removePhoto">Удалить фото</string>
     <string name="noContacts">Нет контактов</string>
     <string name="noGroups">Нет групп</string>
     <string name="noAccounts">Для создания групп нужен аккаунт</string>
@@ -97,7 +97,7 @@
     <string name="listTotalAllContactsZeroGroup">Нет контактов в \"%s\"</string>
     <string name="listSingleContact">Одиночный контакт</string>
     <string name="listCustomView">Контакты в пользовательском виде</string>
-    <string name="foundTooManyContacts">Найдено более %d</string>
+    <string name="foundTooManyContacts">Найдено более %d.</string>
     <string name="listFoundAllContactsZero">Нет контактов</string>
     <string name="contactsAllLabel">Контакты</string>
     <string name="contactsGroupsLabel">Группы</string>
@@ -119,6 +119,8 @@
     <string name="clearFrequentsConfirmation_title">Очистить популярные контакты?</string>
     <string name="clearFrequentsConfirmation">Будут очищены все часто используемые контакты</string>
     <string name="clearFrequentsProgress_title">Очистка контактов…</string>
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
     <string name="voicemail">Голосовая почта</string>
     <string name="unknown">Неизвестно</string>
     <string name="private_num">Скрытый номер</string>
@@ -129,7 +131,7 @@
     <string name="simContacts_title">Контакты на SIM карте</string>
     <string name="noContactsHelpTextWithSyncForCreateShortcut">Отсутствуют контакты для отображения. (Если аккаунт был только что добавлен, потребуется несколько минут для синхронизации контактов.)</string>
     <string name="noContactsHelpTextForCreateShortcut">Отсутствуют контакты для отображения</string>
-    <string name="noContactsHelpText">"У вас нет контактов для отображения.
+    <string name="noContactsHelpText">"\"У вас нет контактов для отображения.
 
 Чтобы добавить контакт нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>", затем нажмите:
  
@@ -138,8 +140,8 @@
 "<b><font fgcolor="#ffffffff"><li>"Новый контакт для создания нового контакта
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Импорт/экспорт для импорта контактов с SIM или SD карты
-"</li></font></b></string>
-    <string name="noContactsHelpTextWithSync">"У вас нет контактов для отображения. (Если вы только что добавили аккаунт, синхронизация займет несколько минут.)
+"</li></font></b>"\" "</string>
+    <string name="noContactsHelpTextWithSync">"\"У вас нет контактов для отображения. (Если вы только что добавили аккаунт, синхронизация займет несколько минут.)
 
 Чтобы добавить контакт нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>", затем нажмите:
  
@@ -150,8 +152,8 @@
 "<b><font fgcolor="#ffffffff"><li>"Новый контакт для создания нового контакта
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Импорт/экспорт для импорта контактов с SIM или SD карты
-"</li></font></b></string>
-    <string name="noContactsNoSimHelpText">"У вас нет контактов для отображения.
+"</li></font></b>"\" "</string>
+    <string name="noContactsNoSimHelpText">"\"У вас нет контактов для отображения.
 
 Чтобы добавить контакт нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>", затем нажмите:
  
@@ -160,8 +162,8 @@
 "<b><font fgcolor="#ffffffff"><li>"Новый контакт для создания нового контакта
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Импорт/экспорт для импорта контактов с SD карты
-"</li></font></b></string>
-    <string name="noContactsNoSimHelpTextWithSync">"У вас нет контактов для отображения. (Если вы только что добавили аккаунт, синхронизация займет несколько минут.)
+"</li></font></b>"\" "</string>
+    <string name="noContactsNoSimHelpTextWithSync">"\"У вас нет контактов для отображения. (Если вы только что добавили аккаунт, синхронизация займет несколько минут.)
 
 Чтобы добавить контакт нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>", затем нажмите:
  
@@ -172,18 +174,17 @@
 "<b><font fgcolor="#ffffffff"><li>"Новый контакт для создания нового контакта
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Импорт/экспорт для импорта контактов с SD карты
-"</li></font></b></string>
+"</li></font></b>"\" "</string>
     <string name="noFavoritesHelpText">"У вас нет избранных контактов.
 
-Чтобы добавить контакт в избранное:
+Чтобы сделать контакт избранным,
 
-
-"<li>нажмите вкладку <b>Контакты</b>"
-"</li>" 
-"<li>"нажмите контакт, который нужно сделать избранным;
-"</li>" 
-"<li>"нажмите звездочку возле имени контакта.
-"</li></string>
+ нажмите вкладку Контакты;
+ 
+нажмите контакт, который нужно сделать избранным;
+ 
+нажмите звездочку возле имени контакта.
+"</string>
     <string name="dialer_useDtmfDialpad">Использовать тональную клавиатуру</string>
     <string name="dialer_returnToInCallScreen">Вернуться к вызову</string>
     <string name="dialer_addAnotherCall">Добавить вызов</string>
@@ -235,9 +236,9 @@
     <string name="fail_reason_io_error">Ошибка ввода-вывода</string>
     <string name="fail_reason_low_memory_during_import">Недостаточно памяти. Возможно файл слишком большой.</string>
     <string name="fail_reason_vcard_parse_error">Невозможно открыть vCard по неизвестным причинам</string>
-    <string name="fail_reason_not_supported">Формат не поддерживается</string>
-    <string name="vcard_import_failed">Не удалось импортировать данные vCard %s</string>
-    <string name="import_failure_no_vcard_file">Файл vCard не найден</string>
+    <string name="fail_reason_not_supported">Формат не поддерживается.</string>
+    <string name="vcard_import_failed">Не удалось импортировать визитку %s.</string>
+    <string name="import_failure_no_vcard_file">Файлы vCard на SD карте не найдены.</string>
     <string name="fail_reason_failed_to_collect_vcard_meta_info">Невозможно получить информацию из vCard</string>
     <string name="fail_reason_failed_to_read_files">Один или несколько файлов не могут быть импортированы (%s)</string>
     <string name="fail_reason_unknown">Неизвестная ошибка</string>
@@ -247,32 +248,33 @@
     <string name="importing_vcard_description">Импортирование \"%s\"</string>
     <string name="reading_vcard_failed_title">Ошибка чтения vCard</string>
     <string name="reading_vcard_canceled_title">Чтение данных vCard отменено</string>
-    <string name="importing_vcard_finished_title">Импорт завершен: \"%s\"</string>
-    <string name="importing_vcard_canceled_title">Импорт отменен: \"%s\"</string>
-    <string name="vcard_import_will_start_message">Импорт \"%s\" начнется в ближайшее время</string>
+    <string name="importing_vcard_finished_title">Импорт завершен: %s</string>
+    <string name="importing_vcard_canceled_title">Импорт отменен: %s</string>
+    <string name="vcard_import_will_start_message">Импорт \"%s\" начнется в ближайшее время.</string>
     <string name="vcard_import_will_start_message_with_default_name">Файл будет импортирован в ближайшее время</string>
-    <string name="vcard_import_request_rejected_message">Импорт vCard отменен</string>
-    <string name="vcard_export_will_start_message">Экспорт \"%s\" начнется в ближайшее время</string>
+    <string name="vcard_import_request_rejected_message">Импорт vCard отменен.</string>
+    <string name="vcard_export_will_start_message">Экспорт \"%s\" начнется в ближайшее время.</string>
     <string name="vcard_export_request_rejected_message">Экспорт vCard отменен</string>
     <string name="vcard_unknown_filename">контакт</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Экспорт контактов</string>
-    <string name="confirm_export_message">Список контактов будет экспортирован в файл \"%s\"</string>
+    <string name="confirm_export_message">Список контактов будет экспортирован в файл \"%s\".</string>
     <string name="exporting_contact_failed_title">Не удалось экспортировать</string>
     <string name="exporting_contact_failed_message">"Не удалось экспортировать данные.
-Причина: %s"</string>
+Причина: \"%s\""</string>
     <string name="fail_reason_no_exportable_contact">Нет контактов для экспорта</string>
     <string name="fail_reason_too_many_vcard">Слишком много файлов vCard на накопителе</string>
-    <string name="fail_reason_too_long_filename">Слишком длинное название: %s</string>
+    <string name="fail_reason_too_long_filename">Слишком длинное название: %s.</string>
     <string name="exporting_vcard_finished_title">Экспортирование завершено: %s</string>
     <string name="exporting_vcard_canceled_title">Экспортирование отменено: %s</string>
     <string name="exporting_contact_list_title">Экспорт данных контакта</string>
-    <string name="exporting_contact_list_message">Экспортирование в \"%s\"</string>
+    <string name="exporting_contact_list_message">Экспортирование в \"%s\".</string>
     <string name="fail_reason_could_not_initialize_exporter">Не удается экспортировать: %s.</string>
     <string name="fail_reason_error_occurred_during_export">Ошибка при экспорте: %s.</string>
     <string name="composer_failed_to_get_database_infomation">База данных недоступна</string>
     <string name="composer_has_no_exportable_contact">Не найдены контакты для экспорта. Возможно, экспорт контактов с телефона не поддерживается поставщиком услуг передачи данных.</string>
     <string name="composer_not_initialized">Редактор vCard запущен некорректно</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Не удалось открыть \"%s\": %s.</string>
+    <string name="fail_reason_could_not_open_file" formatted="false">Не удалось открыть \"%s: %s.</string>
     <string name="exporting_contact_list_progress" formatted="false">Контактов: %s из %s</string>
     <string name="cancel_import_confirmation_message">Отменить импорт \"%s\"?</string>
     <string name="cancel_export_confirmation_message">Отменить экспорт \"%s\"?</string>
@@ -293,7 +295,7 @@
     <string name="dialog_import_export">Импорт и экспорт контактов</string>
     <string name="dialog_import">Импорт контактов</string>
     <string name="menu_share">Отправить</string>
-    <string name="share_via">Отправить</string>
+    <string name="share_via">Отправить с помощью</string>
     <string name="share_error">Не удалось передать данные</string>
     <string name="nameLabelsGroup">Имя</string>
     <string name="nicknameLabelsGroup">Ник</string>
@@ -309,7 +311,7 @@
     <string name="display_more_groups">Другие группы…</string>
     <string name="display_ungrouped">Все остальные контакты</string>
     <string name="display_all_contacts">Все контакты</string>
-    <string name="display_warn_remove_ungrouped">Вместе с группой \"%s\" перестанут синхронизироваться контакты, не добавленные в группы</string>
+    <string name="display_warn_remove_ungrouped">Вместе с группой \"%s\" перестанут синхронизироваться контакты, не добавленные в группы.</string>
     <string name="account_phone">Только телефон</string>
     <string name="call_custom">Вызов %s</string>
     <string name="call_home">Домашний телефон</string>
@@ -359,7 +361,7 @@
     <string name="email_mobile">Мобильный Email</string>
     <string name="email_work">Рабочий Email</string>
     <string name="email_other">Email</string>
-    <string name="email_custom">Написать Email %s</string>
+    <string name="email_custom">Написать email %s</string>
     <string name="email">Email</string>
     <string name="map_home">Просмотреть домашний адрес</string>
     <string name="map_work">Просмотреть рабочий адрес</string>
@@ -399,7 +401,8 @@
     <string name="recent">Недавние</string>
     <string name="recent_updates">Недавние обновления</string>
     <string name="account_type_format">Контакт %1$s</string>
-    <string name="use_photo_as_primary">Использовать это фото</string>
+    <string name="from_account_format">%1$s</string>
+    <string name="use_photo_as_primary">Использовать данное изображение</string>
     <string name="contact_read_only">Контакт только для чтения</string>
     <string name="no_contact_details">Нет других данных об этом контакте</string>
     <string name="group_read_only">Здесь доступно только для чтения</string>
@@ -409,13 +412,13 @@
     <string name="display_options_view_names_as">Показывать в контактах</string>
     <string name="display_options_view_given_name_first">Сначала имя</string>
     <string name="display_options_view_family_name_first">Сначала фамилию</string>
-    <string name="take_photo">Камера</string>
-    <string name="take_new_photo">Камера</string>
-    <string name="pick_photo">Галерея</string>
-    <string name="pick_new_photo">Галерея</string>
+    <string name="take_photo">Снять фото</string>
+    <string name="take_new_photo">Снять фото</string>
+    <string name="pick_photo">Выбрать фото из галереи</string>
+    <string name="pick_new_photo">Выбрать фото из галереи</string>
     <string name="locale_change_in_progress">Список контактов обновится после смены языка интерфейса</string>
     <string name="upgrade_in_progress">Список контактов обновляется…</string>
-    <string name="upgrade_out_of_memory">"Список контактов обновляется.
+    <string name="upgrade_out_of_memory">"Список контактов обновляется. 
 
 Процесс обновления требует около %s Мб памяти.
 
@@ -426,7 +429,7 @@
     <string name="menu_display_selected">Показать выбранные</string>
     <string name="menu_display_all">Показать все</string>
     <string name="menu_select_all">" Выбрать все "</string>
-    <string name="menu_select_none">" Снять выбор "</string>
+    <string name="menu_select_none">Снять выбор</string>
     <string name="no_contacts_selected">Контакты не выбраны</string>
     <string name="add_field">Добавить поле</string>
     <string name="add_new_entry_for_section">Добавить</string>
@@ -466,6 +469,7 @@
     <string name="non_phone_add_to_contacts">Добавить к контакту</string>
     <string name="activity_title_confirm_add_detail">Добавление данных</string>
     <string name="non_phone_close">Закрыть</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="date_year_toggle">Указать год</string>
     <string name="social_widget_label">Контакт</string>
     <string name="social_widget_loading">Загрузка…</string>
@@ -475,7 +479,7 @@
     <string name="create_group_dialog_title">Создание новой группы</string>
     <string name="create_group_item_label">Создать новую группу</string>
     <string name="delete_group_dialog_title">Удаление группы</string>
-    <string name="delete_group_dialog_message">Удалить группу \"%1$s\"? Контакты не будут удалены.</string>
+    <string name="delete_group_dialog_message">Удалить группу \"%1$s\"? Контакты этой группы не будут удалены.</string>
     <string name="toast_join_with_empty_contact">Укажите имя контакта, который хотите объединить</string>
     <string name="copy_text">Копировать</string>
     <string name="set_default">Установить как основной</string>
@@ -483,10 +487,12 @@
     <string name="toast_text_copied">Текст скопирован</string>
     <string name="cancel_confirmation_dialog_title">Отмена</string>
     <string name="cancel_confirmation_dialog_message">Отменить изменения?</string>
+    <string name="call_type_and_date">%1$s %2$s     </string>
     <string name="profile_display_name">Визитная карточка</string>
     <string name="enter_contact_name">Имя контакта</string>
     <string name="view_updates_from_group">Обновления</string>
     <string name="notification_action_voicemail_play">Прослушать</string>
+    <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
     <string name="notification_new_voicemail_ticker">Новое голосовое сообщение от %1$s</string>
     <string name="voicemail_playback_error">Не удалось воспроизвести сообщение</string>
     <string name="voicemail_buffering">Буферизация…</string>
@@ -505,6 +511,7 @@
     <string name="voicemail_speed_normal">Средняя скорость</string>
     <string name="voicemail_speed_faster">Высокая скорость</string>
     <string name="voicemail_speed_fastest">Максимальная скорость</string>
+    <string name="call_log_item_count_and_date">(%1$d) %2$s</string>
     <string name="group_name_hint">Название группы</string>
     <string name="nfc_vcard_file_name">Контакт получен по NFC</string>
     <string name="menu_show_voicemails_only">Показать только голосовые сообщения</string>
@@ -525,6 +532,7 @@
     <string name="description_send_message">Отправить сообщение %1$s</string>
     <string name="description_dial_phone_number">Вызов %1$s</string>
     <string name="description_quick_contact_for">Быстрый вызов %1$s</string>
+    <string name="call_log_empty_gecode">-</string>
     <string name="user_profile_contacts_list_header">Я</string>
     <string name="local_profile_title">Мой профиль</string>
     <string name="external_profile_title">Мой профиль %1$s</string>
@@ -536,19 +544,19 @@
     <string name="generic_no_account_prompt">Держите свои контакты в безопасности, даже если Вы потеряете свой телефон: синхронизация с онлайн-сервисом</string>
     <string name="generic_no_account_prompt_title">Добавить аккаунт</string>
     <string name="contact_editor_prompt_zero_accounts">Резервная копия нового контакта не будет сохранена. Добавить аккаунт для сохранения контактов в Mi Cloud?</string>
-    <string name="contact_editor_prompt_one_account">Контакт будет добавлен в аккаунт \"%1$s\"</string>
-    <string name="contact_editor_prompt_multiple_accounts">Выберите аккаунт</string>
-    <string name="keep_local">Сохранить локально</string>
+    <string name="contact_editor_prompt_one_account">Новые контакты будут синхронизированы с %1$s.</string>
+    <string name="contact_editor_prompt_multiple_accounts">Сохранить контакт в</string>
+    <string name="keep_local">Не синхронизировать</string>
     <string name="add_account">Добавить аккаунт</string>
     <string name="add_new_account">Добавить аккаунт</string>
     <string name="dialog_phone_call_prohibited_message">Вызов не отправлен</string>
     <string name="dialog_voicemail_not_ready_message">Чтобы настроить голосовую почту, перейдите в Меню > Настройки</string>
-    <string name="dialog_voicemail_airplane_mode_message">Для вызова голосовой почты, сначала выключите режим полета</string>
+    <string name="dialog_voicemail_airplane_mode_message">Для звонка на голосовую почту отключите режим полета.</string>
     <string name="action_menu_overflow_description">Дополнительные параметры</string>
-    <string name="yellowpage_search_the_yellowpage">Поиск сервиса</string>
+    <string name="yellowpage_search_the_yellowpage">Поиск в Справочнике</string>
     <string name="import_from_sim">Импорт с SIM карты</string>
     <string name="export_to_sim_title">Экспортирование…</string>
-    <string name="import_from_sim1">Импорт из SIM карты 1</string>
+    <string name="import_from_sim1">Импорт с SIM карты 1</string>
     <string name="import_from_sim2">Импорт с SIM карты 2</string>
     <string name="sim_no_contact">Нет контактов на SIM карте</string>
     <string name="sim_indexed_contact_not_exist">Позиция %1$d не является допустимой на SIM карте, должна быть между %2$d и %3$d</string>
@@ -557,7 +565,7 @@
     <string name="account_sim2">SIM карта %d</string>
     <string name="display_sim_contacts">Контакты SIM карты</string>
     <string name="export_to_sim">Экспорт на SIM карту</string>
-    <string name="export_to_sim1">Экспорт на SIM карту 1</string>
+    <string name="export_to_sim1">Экспорт на SIM Карту 1</string>
     <string name="export_to_sim2">Экспорт на SIM карту 2</string>
     <string name="sim_card_no_free_space_title">SIM карта заполнена!</string>
     <string name="sim_card_no_free_space_message">Недостаточно памяти</string>
@@ -581,104 +589,120 @@
     <string name="sim_account_name">SIM</string>
     <string name="miprofile_name">Мой профиль</string>
     <string name="miprofile_edit_title">Изменить профиль</string>
-    <string name="miprofile_account_type">Визитки контактов</string>
-    <string name="contact_detail_miprofile_request">Нажмите для обмена визитками</string>
-    <string name="contact_detail_miprofile_request_subtitle">Автоматически обновлять информацию о контакте</string>
+    <string name="miprofile_account_type">Визитки</string>
+    <string name="contact_detail_miprofile_request">Обменяться визитками</string>
+    <string name="contact_detail_miprofile_request_subtitle">Автообновление данных этого контакта</string>
     <string name="contact_detail_miprofile_request_success_toast">Запрос отправлен</string>
-    <string name="contact_detail_miprofile_request_fail_toast">Не удается отправить запрос</string>
+    <string name="contact_detail_miprofile_request_fail_toast">Не удалось отправить запрос</string>
     <string name="contact_detail_miprofile_save">Нажмите для получения визитки</string>
     <string name="contact_detail_miprofile_save_success_toast">Визитка получена</string>
-    <string name="contact_detail_miprofile_save_fail_toast">Не удается получить визитку</string>
-    <string name="contact_detail_miprofile_accept">Обмен визитками</string>
-    <string name="contact_detail_miprofile_accept_success_toast">Обмен визитками завершен</string>
-    <string name="contact_detail_miprofile_accept_fail_toast">Не удается обменяться визитками</string>
+    <string name="contact_detail_miprofile_save_fail_toast">Не удалось получить визитку</string>
+    <string name="contact_detail_miprofile_accept">Обменяться визитками</string>
+    <string name="contact_detail_miprofile_accept_success_toast">Обмен состоялся</string>
+    <string name="contact_detail_miprofile_accept_fail_toast">Не удалось обменяться визитками</string>
     <string name="add_incall_show_entry">Добавить видео</string>
     <string name="preview_incall_show_entry">Просмотр видео</string>
-    <string name="play_incall_show_entry">Играть видео</string>
+    <string name="play_incall_show_entry">Воспроизведение видео</string>
     <string name="add_display_photo_entry">Добавить фото профиля</string>
-    <string name="contact_detail_profile_switch_on">Обмен визитками</string>
-    <string name="contact_detail_profile_switch_on_subtitle">Нажмите для включения</string>
-    <string name="contact_detail_profile_switch_off">Отключить визитку</string>
-    <string name="contact_detail_profile_switch_on_success_toast">Визитка включена</string>
-    <string name="contact_detail_profile_switch_on_fail_toast">Не удается включить визитку</string>
-    <string name="contact_detail_profile_switch_fail_toast">Ошибка сервера</string>
-    <string name="contact_detail_profile_switch_off_success_toast">Визитка отключена</string>
-    <string name="contact_detail_profile_switch_off_fail_toast">Не удается отключить визитку</string>
-    <string name="contact_detail_profile_switch_fail_network_toast">Не удается подключиться к интернету</string>
-    <string name="contact_detail_miprofile_settings_header">Настройки обмена</string>
-    <string name="contact_detail_miprofile_binded_label">Проверен</string>
-    <string name="contact_detail_miprofile_subtitle">Обмен визитками уже совершен</string>
+    <string name="contact_detail_profile_switch_on">Просмотреть фото контактов</string>
+    <string name="contact_detail_profile_switch_on_subtitle">Включить визитки</string>
+    <string name="contact_detail_profile_switch_off">Отключить визитки</string>
+    <string name="contact_detail_profile_switch_on_success_toast">Визитки включены</string>
+    <string name="contact_detail_profile_switch_on_fail_toast">Не удалось включить визитки</string>
+    <string name="contact_detail_profile_switch_fail_toast">Что-то не так с нашим сервером</string>
+    <string name="contact_detail_profile_switch_off_success_toast">Визитки отключены</string>
+    <string name="contact_detail_profile_switch_off_fail_toast">Не удалось отключить визитки</string>
+    <string name="contact_detail_profile_switch_fail_network_toast">Не удалось подключиться к сети</string>
+    <string name="contact_detail_miprofile_settings_header">ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ</string>
+    <string name="contact_detail_miprofile_binded_label">Подтверждено</string>
+    <string name="contact_detail_miprofile_subtitle">Обмен карточками состоялся</string>
     <string name="combined_title_and_miprofile_swaped">%1$s, %2$s</string>
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
     <string name="contact_detail_menu_delete_miprofile">Удалить визитку</string>
-    <string name="contact_detail_miprofile_exchange_closed">"Номер телефона не привязан к этому Mi аккаунту.
-Визитка отключена."</string>
-    <string name="contact_detail_miprofile_privacy_settings">Просмотр визитки по запросу</string>
-    <string name="miprofile_request_alertdialog_title">Обмен визитками</string>
-    <string name="miprofile_request_alertdialog_message">Ваша визитка будет отправлена автоматически после принятия запроса контактом</string>
+    <string name="contact_detail_miprofile_exchange_closed">"Mi аккаунт не связан с телефонным номером
+Визитки отключены"</string>
+    <string name="contact_detail_miprofile_privacy_settings">Запрашивать разрешение на просмотр</string>
+    <string name="miprofile_request_alertdialog_title">Обменяться визитками</string>
+    <string name="miprofile_request_alertdialog_message">Ваша визитка будет отправлена автоматически после принятия собеседником.</string>
     <string name="miprofile_save_alertdialog_title">Визитка получена</string>
-    <string name="miprofile_save_alertdialog_message">Ваша визитка будет отправлена контакту автоматически</string>
+    <string name="miprofile_save_alertdialog_message">Ваша визитка будет отправлена контакту автоматически.</string>
     <string name="miprofile_notice_text">Нажмите для просмотра фото профиля</string>
     <string name="miprofile_switch_on_alertdialog_title">Обновление фото профиля</string>
-    <string name="miprofile_switch_on_alertdialog_message">Включить обмен визитками?</string>
-    <string name="miprofile_switch_on_alertdialog_positive">ОК</string>
+    <string name="miprofile_switch_on_alertdialog_message">Обменяйтесь визитками для просмотра обновлений фото профиля.</string>
+    <string name="miprofile_switch_on_alertdialog_positive">Включить</string>
     <string name="miprofile_alertdialog_title">Введите имя</string>
-    <string name="miprofile_alertdialog_message">Показывать это имя контактам при запросе визитки</string>
+    <string name="miprofile_alertdialog_message">Показать это имя контактам, когда вы отправляете запрос на обмен визитками.</string>
     <string name="miprofile_alertdialog_edit">Введите имя</string>
-    <string name="miprofile_switch_off_alertdialog_message">Вы не сможете обмениваться визитками. Контакты не смогут видеть ваше видео профиля.</string>
+    <string name="miprofile_switch_off_alertdialog_message">Вы не сможете обмениваться визитками со своими контактами, а контакты не смогут увидеть ваше фото профиля.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Добавить номер телефона</string>
-    <string name="miprofile_bind_account_alertdialog_message">Необходимо добавить номер телефона в Mi аккаунт для использования этой функции</string>
+    <string name="miprofile_bind_account_alertdialog_message">Для использования этой функции необходимо добавить номер телефона в Mi аккаунт.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Добавить номер</string>
+    <string name="miprofile_request_header">Exchange requests (auto expired in a week)</string>
     <string name="miprofile_request_agree">Принять</string>
-    <string name="miprofile_request_clear_alertdialog_title">Предупреждение</string>
-    <string name="miprofile_request_clear_alertdialog_message">Очистить историю обмена визитками?</string>
-    <string name="miprofile_request_exchange_title">Найти визитки контактов</string>
-    <string name="miprofile_request_agenda_today">%1$s хочет обменяться визитками</string>
-    <string name="miprofile_request_agenda_yesterday">%1$s хочет обменяться визитками</string>
-    <string name="miprofile_request_agenda_date">%1$s хочет обменяться визитками</string>
-    <string name="miprofile_request_message">Контактов с запросом на обмен визитками: %1$s</string>
-    <string name="miprofile_request_agree_exchange_profile">Обмен визитками завершен</string>
-    <string name="miprofile_request_time_expired_deleted">Запросы недельной давности будут удалены автоматически</string>
+    <string name="miprofile_finding_label">Contact card finding</string>
+    <string name="miprofile_request_agenda_today">This person wants to exchange cards [Today %1$s]</string>
+    <string name="miprofile_request_agenda_yesterday">This person wants to exchange cards [Yesterday %1$s]</string>
+    <string name="miprofile_request_agenda_date">This person wants to exchange cards [%1$s]</string>
+    <string name="miprofile_request_message">Запросов на обмен визитками: %1$s</string>
+    <string name="miprofile_request_agree_exchange_profile">Обмен состоялся</string>
     <string name="miprofile_request_menu_clear_request">Очистить историю</string>
     <string name="miprofile_request_empty_request">Нет запросов</string>
-    <string name="miprofile_request_notification_message">Разрешить просматривать фото и другую информацию профиля</string>
-    <string name="miprofile_request_notification_title">Контактов с запросом на обмен визитками: %1$s</string>
-    <string name="miprofile_request_notification_title_name">Контактов с запросом на обмен визитками: %1$s</string>
-    <string name="miprofile_request_deleted">Визитка удалена</string>
-    <string name="miprofile_request_agreed">Контакт \"%1$s\" готов обменяться визитками</string>
-    <string name="miprofile_error_not_opened">Визитка отключена</string>
+    <string name="miprofile_request_notification_message">Примите запрос для просмотра фото и информации</string>
+    <string name="miprofile_request_notification_title">Запросов на обмен визитками: %1$s</string>
+    <string name="miprofile_request_notification_title_name">%1$s хочет обменяться визитками</string>
+    <string name="miprofile_request_deleted_or_not_added">Card deleted or not added</string>
+    <string name="miprofile_request_agreed">%1$s agreed to exchange contact cards</string>
+    <string name="miprofile_contact_header">Contacts with contact cards</string>
+    <string name="miprofile_contact_add">Add</string>
+    <string name="miprofile_contact_added">Added</string>
+    <string name="miprofile_contact_verifying">Verifying</string>
+    <string name="miprofile_contact_meaasge">Local contacts</string>
+    <string name="miprofile_find_profile_loading">Loading</string>
+    <string name="miprofile_find_profile_batch_add">Add all profile</string>
+    <string name="miprofile_find_profile_batch_finish">Finish</string>
+    <string name="miprofile_find_miprofile_title">Add profile</string>
+    <string name="miprofile_find_profile_subtitle">Add to view photo and more info</string>
+    <string name="miprofile_find_profile_no_recommend">No recommend profile</string>
+    <string name="miprofile_find_profile_batch_request_failed">Failed to add profile</string>
+    <string name="miprofile_error_not_opened">Отключить визитки</string>
     <string name="miprofile_error_not_set">Ваша визитка не синхронизирована с сервером</string>
-    <string name="miprofile_error_accept_self">Не удается обменяться визитками</string>
-    <string name="miprofile_error_no_miaccount">Войдите в Mi аккаунт</string>
+    <string name="miprofile_error_accept_self">Нельзя обменяться визитками с собой</string>
+    <string name="miprofile_error_no_miaccount">Войти в Mi аккаунт</string>
     <string name="miprofile_error_unknown">Неизвестная ошибка</string>
+    <string name="miprofile_nick_name_edit_dialog_title">Изменить ник</string>
+    <string name="miprofile_nick_name_edit_dialog_message">Ник будет отображаться в журнале вызовов и в профиле</string>
+    <string name="miprofile_nick_name_edit_dialog_hint">Введите ник</string>
+    <string name="miprofile_nick_name_divider">"  |  "</string>
     <string name="in_call_show">Видео</string>
     <string name="my_in_call_show">Мое видео</string>
-    <string name="contacts_in_call_show">Видео %s</string>
-    <string name="in_call_show_pick_video">Выбрать</string>
+    <string name="contacts_in_call_show">Видео пользователя %s</string>
+    <string name="in_call_show_pick_video">Выбрать видео</string>
     <string name="in_call_show_preview">Просмотр</string>
-    <string name="in_call_show_reshoot">Повтор</string>
-    <string name="in_call_show_long_press_to_record">Удерживайте кнопку записи</string>
+    <string name="in_call_show_reshoot">Записать снова</string>
+    <string name="in_call_show_long_press_to_record">Нажмите и удерживайте для записи</string>
     <string name="in_call_show_recording">Запись…</string>
-    <string name="in_call_show_too_short">Слишком короткое видео</string>
+    <string name="in_call_show_too_short">Слишком коротко. Попробуйте записать видео подлиннее.</string>
     <string name="in_call_show_delete_title">Удалить видео?</string>
     <string name="in_call_show_delete_message">Удалить ваше видео?</string>
-    <string name="in_call_show_save_failed">Не удается сохранить видео</string>
+    <string name="in_call_show_save_failed">Не удалось сохранить видео</string>
     <string name="in_call_show_save_completed">Видео профиля сохранено</string>
-    <string name="in_call_show_preview_reshoot">Повтор</string>
-    <string name="in_call_show_tap_to_show_demo">Нажмите для просмотра</string>
+    <string name="in_call_show_preview_reshoot">Повторить</string>
+    <string name="in_call_show_tap_to_show_demo">Нажмите на экран для просмотра</string>
     <string name="in_call_show_demo_present">Просмотр</string>
-    <string name="in_call_show_guide_start_recording">Снять</string>
+    <string name="in_call_show_guide_start_recording">Записать сейчас</string>
     <string name="in_call_show_guide_title">Видео профиля</string>
-    <string name="in_call_show_guide_intro">Запишите видео профиля, которое будет отображаться у других пользователей MIUI при вызове</string>
-    <string name="in_call_show_video_pick">Выбрать видео</string>
-    <string name="in_call_show_video_pick_filter">"Видео должно быть не более 3 Мб и длиться не более 20 секунд. "</string>
-    <string name="in_call_show_view_play_error">Ошибка воспроизведения видео</string>
-    <string name="in_call_show_camera_open_error">Не удается запустить камеру</string>
+    <string name="in_call_show_guide_intro">"Запишите видео профиля,
+которое увидит собеседник во время входящего вызова от вас"</string>
+    <string name="in_call_show_video_pick">Выбрать</string>
+    <string name="in_call_show_video_pick_filter">"Видео должно быть меньше 3 МБ и короче 20 секунд. "</string>
+    <string name="in_call_show_view_play_error">Не удалось воспроизвести видео</string>
+    <string name="in_call_show_camera_open_error">Не удалось открыть камеру</string>
     <string name="in_call_show_filter_processing">Обработка…</string>
-    <string name="in_call_show_filter_process_error">Не удалось обработать</string>
-    <string name="in_call_show_filter_none">Оригинал</string>
-    <string name="in_call_show_filter_mono">Моно</string>
+    <string name="in_call_show_filter_process_error">Произошла ошибка, повторите попытку.</string>
+    <string name="in_call_show_filter_none">Без фильтра</string>
+    <string name="in_call_show_filter_mono">Монохром</string>
     <string name="in_call_show_filter_vivid">Ярко</string>
     <string name="in_call_show_filter_brannan">Рассвет</string>
     <string name="in_call_show_filter_jstyle">Япония</string>
@@ -686,11 +710,11 @@
     <string name="in_call_show_filter_nashvile">Индиго</string>
     <string name="summary_kind_title">Основная информация</string>
     <string name="callrecordview_item_newcontact">Новый контакт</string>
-    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d мин. %d сек.</string>
+    <string name="callrecordview_item_op_time_minutes_seconds">%1$d мин. %2$d сек.</string>
     <string name="callrecordview_item_op_time_only_minutes">%d мин.</string>
     <string name="callrecordview_item_op_time_only_seconds">%d сек.</string>
-    <string name="callrecordview_item_op_time_short_outgoing">" | "</string>
-    <string name="callrecordview_item_op_time_short_incoming">" | "</string>
+    <string name="callrecordview_item_op_time_short_outgoing">"Исходящий: "</string>
+    <string name="callrecordview_item_op_time_short_incoming">"Входящий: "</string>
     <string name="callrecordview_item_op_time_missed">| Нет ответа</string>
     <string name="callrecordview_item_op_time_rejected">Отклонен</string>
     <string name="callrecordview_menu_show_title">Отображение вызовов</string>
@@ -701,43 +725,44 @@
     <string name="callrecordview_menu_show_stranger">Неизвестные</string>
     <string name="callrecordview_menu_show_new">Новые контакты</string>
     <string name="callrecordview_menu_show_sim">Вызовов: %s</string>
-    <string name="callrecordview_menu_delete">Удалить вызовы контакта</string>
-    <string name="callrecordview_menu_delete_all">Очистить журнал</string>
+    <string name="callrecordview_menu_delete">Очистить журнал вызовов</string>
+    <string name="callrecordview_menu_delete_all">Очистить журнал вызовов</string>
     <string name="callrecordview_menu_delete_missed">Очистить пропущенные вызовы</string>
     <string name="callrecordview_menu_delete_called">Очистить журнал исходящих вызовов</string>
     <string name="callrecordview_menu_delete_accepted">Очистить журнал входящих вызовов</string>
     <string name="callrecordview_menu_delete_stranger">Открыть непринятые вызовы</string>
-    <string name="callrecordview_menu_delete_new">Удалить журнал вызовов новых контактов</string>
-    <string name="callrecordview_menu_delete_sim">Очистить вызовы (%s)</string>
+    <string name="callrecordview_menu_delete_new">Удалить журналы вызовов новых контактов</string>
+    <string name="callrecordview_menu_delete_sim">Удалить истории вызовов (%s)</string>
+    <string name="callrecordview_menu_delete_confirm">%s?</string>
     <string name="callrecordview_menu_delete_one">Удалить вызов</string>
     <string name="callrecordview_menu_add_call_note">Добавить заметку</string>
     <string name="callrecordview_menu_edit_call_note">Редактировать заметку</string>
     <string name="menu_dialpad_text">Клавиатура</string>
-    <string name="emergency_number_label">Экстренный вызов</string>
+    <string name="emergency_number_label">Экстренный номер</string>
     <string name="callrecordview_item_op_video">Видео</string>
     <string name="dialer_empty_text_no_search_result">Контакты не найдены</string>
-    <string name="dialer_empty_text_loading">Загрузка…</string>
+    <string name="dialer_empty_text_loading">Секунду…</string>
     <string name="dialer_empty_text_no_call_log">Нет вызовов</string>
     <string name="callrecordview_menu_settings">Настройки</string>
     <string name="callrecordview_menu_show">Отображение вызовов</string>
     <string name="callrecordview_menu_paste">Вставить</string>
-    <string name="callrecordview_menu_conference">Конференция</string>
+    <string name="callrecordview_menu_conference">Конференц-вызов</string>
     <string name="openDialKeyboard">Клавиатура</string>
-    <string name="t9_search_guide_pinyin">Введите \"2\" и \"5\" для поиска \"Владимир Путин\"</string>
-    <string name="t9_search_guide_zhuyin">Введите \"2\" и \"5\" для поиска \"Владимир Путин\"</string>
+    <string name="t9_search_guide_pinyin">Введите \"5\" и \"4\" для поиска \"Михаил Ломоносов\"</string>
+    <string name="t9_search_guide_zhuyin">Введите \"5\" и \"4\" для поиска \"Михаил Ломоносов\"</string>
     <string name="date_time_set">Настроить</string>
     <string name="service_provider">Сервисные контакты</string>
     <string name="zero_items_selected">Выберите контакты</string>
-    <string name="select_all">" Выбрать все "</string>
+    <string name="select_all">Выбрать все</string>
     <string name="deselect_all">Снять выбор</string>
-    <string name="select_done">Больше нельзя выбрать</string>
+    <string name="select_done">Нет элементов для выбора</string>
     <string name="select_none">Необходимо выбрать контакты</string>
     <string name="toast_finish_delete_call_log">Журнал вызовов очищен</string>
     <string name="toast_finish_delete_selected_call_log">Удаление завершено</string>
     <string name="delete_call_log_title">Удалить выбранный вызов?</string>
     <string name="delete_call_log_message">Очистить журнал вызовов?</string>
-    <string name="confirm_delete_contact_all_call_logs">Удалить все вызовы контакта?</string>
-    <string name="confirm_delete_selected_all_call_logs">Удалить все вызовы?</string>
+    <string name="confirm_delete_contact_all_call_logs">Очистить журнал вызовов?</string>
+    <string name="confirm_delete_selected_all_call_logs">Очистить журнал вызовов?</string>
     <string name="calllog_menu_blacklist">В черный список</string>
     <string name="calllog_menu_edit_before_call">Изменить перед вызовом</string>
     <string name="calllog_menu_send_sms">Отправить сообщение</string>
@@ -745,11 +770,11 @@
     <string name="call_sim2_menu_title">Вызов с SIM2</string>
     <string name="menu_call_ip_number">Вызов через IP (вызов %s)</string>
     <string name="menu_dial_ip_number">Совершить IP-вызов</string>
-    <string name="delete_contact_calllog_title">Удалить журнал вызовов?</string>
-    <string name="delete_unknown_contact_calllog_title">Удаление вызовов</string>
+    <string name="delete_contact_calllog_title">Очистить журнал вызовов?</string>
+    <string name="delete_unknown_contact_calllog_title">Очистить журнал вызовов?</string>
     <string name="callrecordview_menu_batch_delete">Пакетное удаление</string>
     <string name="delete_call_log_selected_title">Удалить выбранные вызовы?</string>
-    <string name="multi_number_title">Конференция</string>
+    <string name="multi_number_title">Конференц-вызов</string>
     <string name="multi_number_menu_call">Вызов</string>
     <string name="multi_number_menu_message">Сообщение</string>
     <string name="multi_number_menu_group">Новая группа</string>
@@ -758,30 +783,28 @@
     <string name="edit_contact_card_title">Изменить контакт</string>
     <string name="preview_contact_card_title">Импорт</string>
     <string name="import_contact_card_button">Импорт</string>
-    <string name="success_message_import_from_account">Импорт завершен</string>
+    <string name="success_message_import_from_account">Импортировано</string>
     <string name="unknown_contact_name">Неизвестный номер</string>
     <string name="contactDetailCalllog">Журнал вызовов</string>
-    <string name="add_blacklist">В черный список</string>
+    <string name="add_blacklist">Добавить в черный список</string>
     <string name="remove_blacklist">Удалить из черного списка</string>
-    <string name="blacklist">Блокировать</string>
-    <string name="details_list_group_header_other">Другое</string>
+    <string name="blacklist">В черный список</string>
+    <string name="details_list_group_header_other">ПРОЧЕЕ</string>
     <string name="details_list_group_header_more_action">Еще</string>
     <string name="photo_fragment">Фото</string>
-    <string name="photo_load_failed">Не удается загрузить фото</string>
-    <string name="empty_divider_title">Вы можете</string>
-    <string name="noContactHelpTextAccountsInfo" />
+    <string name="photo_load_failed">Не удалось загрузить фото</string>
     <string name="noContactHelpTextImportXiaomiAccountInfo">Восстановить контакты из резервной копии в Mi аккаунте</string>
     <string name="recent_contacts_label">Недавние</string>
     <string name="noRecentContacts">Нет контактов</string>
-    <string name="loading_groups">Загрузка групп…</string>
-    <string name="loading_group_members">Загрузка контактов…</string>
-    <string name="loading_recent">Загрузка последних контактов…</string>
+    <string name="loading_groups">Секунду…</string>
+    <string name="loading_group_members">Секунду…</string>
+    <string name="loading_recent">Секунду…</string>
     <string name="contactMultiPickerActivityTitle">Выбрать контакты</string>
-    <string name="picker_join_title">Объединение с \"%s\"</string>
+    <string name="picker_join_title">Объединение с %s</string>
     <string name="picker_contact_title">Выберите контакт</string>
     <string name="picker_number_title">Выберите номер</string>
-    <string name="group_add_fail_toast">Ошибка добавления контаков</string>
-    <string name="group_sms_error_message">Предел получателей превышен: %s</string>
+    <string name="group_add_fail_toast">Не удалось добавить получателей</string>
+    <string name="group_sms_error_message">SMS не может иметь более %s получателей.</string>
     <string name="picker_postal_title">Выберите почтовый индекс</string>
     <string name="picker_email_title">Выберите адрес Email</string>
     <string name="preference_import">Импорт</string>
@@ -796,22 +819,22 @@
     <string name="delete_duplicate">Объединить</string>
     <string name="delete_duplicate_message">Объединение контактов…</string>
     <string name="label_no_duplicate_contacts">На данный момент нет дубликатов контактов</string>
-    <string name="quit_dialog_confirm_title">Выйти из режима объединения?</string>
-    <string name="quit_dialog_confirm_message">У вас нет объединенных контактов</string>
+    <string name="quit_dialog_confirm_title">Отменить объединение контактов</string>
+    <string name="quit_dialog_confirm_message">Выйти из режима объединения</string>
     <string name="label_duplicate_count">(%1$d)</string>
     <string name="preference_import_export">Импорт и экспорт</string>
     <string name="preference_import_export_title">Импорт и экспорт</string>
     <string name="import_vcard_description">Импорт контактов из памяти телефона</string>
     <string name="export_vcard_description">Экспорт vCard в память телефона</string>
-    <string name="export_sim_contact_finish_msg">Передано: %1$d | Пропущено: %2$d | Осталось: %3$d</string>
-    <string name="pref_title_account_import">Импорт из аккаунта</string>
-    <string name="pref_title_import_from_account">В Mi аккаунт</string>
+    <string name="export_sim_contact_finish_msg">%1$d эксортировано | %2$d повторяется | %3$d остается</string>
+    <string name="pref_title_account_import">Импорт контактов</string>
+    <string name="pref_title_import_from_account">Импорт в Mi аккаунт</string>
     <string name="pref_summary_import_from_account">Импорт контактов из аккаунта Google в Mi аккаунт</string>
     <string name="import_to_xiaomi_account_confirm">Импорт</string>
     <string name="import_to_xiaomi_account_progress_title">Импорт контактов в Mi аккаунт</string>
     <string name="import_to_xiaomi_account_progress_message">Импортирование…</string>
     <string name="import_to_xiaomi_account_progress_finish">Импорт завершен</string>
-    <string name="import_to_xiaomi_account_title">Импортировать контакты в Mi аккаунт?</string>
+    <string name="import_to_xiaomi_account_title">Импорт в Mi аккаунт</string>
     <string name="select_show_contacts">Отображение</string>
     <string name="rebuild_t9_index_dialog_message">Перестроение данных индекса…</string>
     <string name="pref_key_rebuild_t9_index_title">Обновить индекс Т9</string>
@@ -824,8 +847,8 @@
 Нажмите кнопку \"Объединить\", чтобы продолжить."</string>
     <string name="ic_menu_back">Назад</string>
     <string name="preference_display">Отображение</string>
-    <string name="preference_simple_mode_title">Фото контактов в списке</string>
-    <string name="preference_simple_mode_description">Показывать фото и другие данные контактов</string>
+    <string name="preference_simple_mode_title">Показывать фото и информацию</string>
+    <string name="preference_simple_mode_description">Показывать фото и информацию в режиме списка</string>
     <string name="preference_contacts">Контакты</string>
     <string name="preference_contacts_display">Отображение</string>
     <string name="preference_contacts_more">Дополнительно</string>
@@ -848,8 +871,8 @@
     <string name="preference_dial_pad_touch_tone_human">Голос</string>
     <string name="ic_menu_done">Готово</string>
     <string name="cloud_antispam_title">Определение номеров</string>
-    <string name="preference_contacts_recovery_introduction">Восстановление контактов</string>
-    <string name="share_over_limit">Не удается отправить. Лимит превышен.</string>
+    <string name="preference_contacts_recovery_introduction">Восстановить контакты</string>
+    <string name="share_over_limit">Количество превышает 1000, невозможно поделиться</string>
     <string name="account_default">По умолчанию</string>
     <string name="lunarBirthdayLabelsGroup">Лунный день рождения</string>
     <string name="option_view_contact">Просмотр</string>
@@ -862,9 +885,8 @@
     <string name="option_view_group">Посмотреть</string>
     <string name="option_rename_group">Переименовать</string>
     <string name="option_delete_group">Удалить группу</string>
-    <string name="deleteConfirmation_title">Удаление контакта</string>
-    <string name="readOnlyContactDeleteConfirmationDetail">"Контакт \"%s\" содержит информацию в нескольких аккаунтах. 
-Информация, доступная только для чтения, будет скрыта из списка контактов, но не будет удалена."</string>
+    <string name="deleteConfirmation_title">Удалить этот контакт?</string>
+    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" содержит информацию из нескольких аккаунтов. Любая информация, которая не может быть удалена, будет скрыта в списке контактов.</string>
     <string name="multipleContactDeleteConfirmationDetail">Контакт содержит информацию из нескольких аккаунтов. Удаление \"%s\" приведет к очистке информации из всех аккаунтов.</string>
     <string name="deleteConfirmationDetail">Удалить контакт \"%s\"?</string>
     <string name="nickname_picker_name_column">Имя контакта</string>
@@ -893,7 +915,7 @@
     <string name="menu_new_favorite_action_bar">Добавить в избранные</string>
     <string name="click_close">Нажмите, чтобы закрыть</string>
     <string name="phone_primary">Основной</string>
-    <string name="phone_info_divider">" | "</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="menu_bar_group_add">Добавить</string>
     <string name="menu_bar_group_sms">SMS группе</string>
     <string name="menu_bar_group_ringtone">Мелодия группы</string>
@@ -919,7 +941,7 @@
     <string name="picker_all_list_empty">Нет контактов</string>
     <string name="picker_favorites_list_empty">Нет избранных</string>
     <string name="picker_groups_list_empty">Нет групп</string>
-    <string name="contact_edit_title_insert">Добавить %s</string>
+    <string name="contact_edit_title_insert">Сохранить в %s</string>
     <string name="contact_edit_title_edit">Редактирование</string>
     <string name="contact_edit_title_readonly">Контакт только для чтения</string>
     <string name="account_container_title">Из аккаунта</string>
@@ -928,11 +950,11 @@
     <string name="btn_rotation">Поворот</string>
     <string name="contact_pick_photo">Фото</string>
     <string name="btn_split_contact">Разделить контакт</string>
-    <string name="use_photo_as_primary2">Использовать фото %1$s</string>
+    <string name="use_photo_as_primary2">Использовать фото контакта %1$s</string>
     <string name="label_custom_type">Пользовательский</string>
-    <string name="loading_accounts">Загрузка информации о SIM-карте…</string>
+    <string name="loading_accounts">Секунду…</string>
     <string name="pkgLabel">Контакты и телефон</string>
-    <string name="contact_edit_save_error_empty">Введите необходимые данные</string>
+    <string name="contact_edit_save_error_empty">Контакт пуст</string>
     <string name="preference_smart_group_title">Умная группировка</string>
     <string name="preference_smart_group_company_title">По компаниям</string>
     <string name="preference_smart_group_company_summary">Группировка контактов по информации о компании</string>
@@ -940,6 +962,7 @@
     <string name="preference_smart_group_location_summary">Группировка контактов по коду страны</string>
     <string name="preference_smart_group_frequency_title">По последним вызовам</string>
     <string name="preference_smart_group_frequency_summary">Группировка контактов по последним вызовам или SMS</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_label">Умная группировка</string>
     <string name="smart_group_loading">Загрузка групп…</string>
     <string name="smart_group_company_label">По компаниям</string>
@@ -953,7 +976,7 @@
     <string name="smart_group_frequency_4">Более 6 месяцев</string>
     <string name="contact_detail_calllog_call_record_tips">Запись вызова</string>
     <string name="contact_detail_calllog_call_note_tips">Заметка вызова</string>
-    <string name="import_from_onekey_migrate">Импорт через передачу</string>
+    <string name="import_from_onekey_migrate">Импортировать с помощью передачи</string>
     <string name="import_from_other_phone">Импорт из другого телефона</string>
     <string name="device_brand_title">Выберите марку телефона</string>
     <string name="device_version_title">Выберите модель телефона</string>
@@ -964,21 +987,21 @@
     <string name="device_bluetooth_title">Передача контактов</string>
     <string name="device_version_header_no_bluetooth">Импорт контактов с SIM карты</string>
     <string name="device_version_header_bluetooth">Импортирование контактов через Bluetooth</string>
-    <string name="none_paired">Нет сопряженных устройств</string>
-    <string name="device_pairing_dialog_title">Сопряжение устройства</string>
-    <string name="device_pairing_dialog_message">Сопряжение…</string>
-    <string name="device_paired_dialog_title">Устройства сопряжены</string>
+    <string name="none_paired">Нет подключенных устройств</string>
+    <string name="device_pairing_dialog_title">Подключение устройств</string>
+    <string name="device_pairing_dialog_message">Подключение…</string>
+    <string name="device_paired_dialog_title">Получение контактов…</string>
     <string name="device_paired_dialog_message">Получение контактов…</string>
     <string name="no_contacts_dialog_title">Контакты не найдены</string>
     <string name="no_contacts_dialog_message">Не найдено соответствий в ваших контактах. Возможно контакты находятся на SIM карте. Для поиска импортируйте их в телефон.</string>
     <string name="cancel_import_dialog_title">Остановить</string>
     <string name="cancel_import_dialog_message">Остановить импорт контактов?</string>
-    <string name="title_paired_devices">Сопряженные устройства</string>
+    <string name="title_paired_devices">Подключенные устройства</string>
     <string name="title_other_devices">Другие доступные устройства</string>
     <string name="button_scan">Cканировать</string>
     <string name="button_cancel_scan">Остановить</string>
     <string name="device_other_title">Другой телефон</string>
-    <string name="device_other_guide">Если вашего телефона нет в списке, воспользуйтесь инструкцией ниже</string>
+    <string name="device_other_guide">Если вашего телефона нет в списке, воспользуйтесь инструкцией ниже.</string>
     <string name="my_phone_provider_bluetooth">Мой телефон поддерживает Bluetooth</string>
     <string name="my_phone_not_provider_bluetooth">Мой телефон не поддерживает Bluetooth</string>
     <string name="other_phone">Другие телефоны</string>
@@ -987,13 +1010,14 @@
     <string name="device_import_progress_end_message">Импорт завершен</string>
     <string name="device_import_progress_message">Импортирование…</string>
     <string name="device_import_failed_message">Ошибка импорта</string>
-    <string name="hint_distance">Держать дистанцию</string>
     <string name="hint_more_contact">Объединить дубликаты контактов</string>
     <string name="device_import_account_dialog_title">Выберите аккаунт для импорта</string>
     <string name="device_import_account_dialog_title_suffix">"
 (найдено контактов: %1$s)"</string>
     <string name="device_import_local_account">Локальный аккаунт</string>
     <string name="import_name">Имя</string>
+    <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Проверить другой телефон</string>
@@ -1002,10 +1026,10 @@
     <string name="bluetooth_connection_failed_toast">Bluetooth соединение прервано</string>
     <string name="device_import_progress_toast">Импортировано контактов: %1$d</string>
     <string name="no_contact_in_other_phone">Нет контактов</string>
+    <string name="sina_weibo">Sina Weibo</string>
     <string name="import_weibo_dialog_title">Импорт контактов Sina Weibo</string>
     <string name="import_weibo_fetch_followers">Получение контактов Sina Weibo…</string>
     <string name="import_weibo_progress_name">Совпадение \"%1$s\"…</string>
-    <string name="import_weibo_progress_percent">%1$d%%</string>
     <string name="import_weibo_notification_title_done">Обновлено контактов: %s</string>
     <string name="import_weibo_error_no_xiaomi_phone">Нет контактов в Mi аккаунте</string>
     <string name="import_weibo_error_no_matched_contacts">Нет совпадающих контактах</string>
@@ -1022,31 +1046,31 @@
     <string name="set_photo_failed_msg">Ошибка установки фото</string>
     <string name="contact_is_readOnly">Не удается отредактировать контакт только для чтения</string>
     <string name="profile_name">Мой профиль</string>
-    <string name="profile_name_photo">Я</string>
+    <string name="profile_name_photo">Фото</string>
     <string name="toast_copying">Копирование…</string>
     <string name="toast_copy_done">Копирование завершено</string>
     <string name="group_name">Группы</string>
-    <string name="followed_yellowpage">Отслеживаемые сервисы</string>
+    <string name="followed_yellowpage">Подтвержденные аккаунты</string>
     <string name="import_all_sim_entries_miui">Импорт всех контактов</string>
     <string name="import_sim_entry_miui">Импорт</string>
     <string name="delete_sim_entry_miui">Удалить</string>
     <string name="confirm_delete_sim_entry_miui_title">Удалить</string>
-    <string name="importing_sim_contacts_miui_prepare">Подготовка к импорту…</string>
-    <string name="deleting_sim_entry_miui_prepare">Подготовка к удалению…</string>
-    <string name="sim_contact_dropdown_menu_deselect_all_miui">" Снять выбор "</string>
-    <string name="sim_contact_dropdown_menu_select_all_miui">" Выбрать все "</string>
+    <string name="importing_sim_contacts_miui_prepare">Подготовка контактов…</string>
+    <string name="deleting_sim_entry_miui_prepare">Подготовка контактов…</string>
+    <string name="sim_contact_dropdown_menu_deselect_all_miui">Снять выбор</string>
+    <string name="sim_contact_dropdown_menu_select_all_miui">Выбрать все</string>
     <string name="delete_selected_sim_entry_miui">Удалить выбранные контакты</string>
     <string name="import_selected_sim_entries_miui">Импорт выбранных контактов</string>
-    <string name="add_blacklist_dialog_title">Заблокировать номер?</string>
-    <string name="add_blacklist_dialog_message">Блокировать этот номер?</string>
-    <string name="remove_blacklist_dialog_title">Разблокировать номера?</string>
-    <string name="remove_blacklist_dialog_message">Разблокировать этот номер?</string>
+    <string name="add_blacklist_dialog_title">Блокировать</string>
+    <string name="add_blacklist_dialog_message">Добавить номер в черный список?</string>
+    <string name="remove_blacklist_dialog_title">Восстановить</string>
+    <string name="remove_blacklist_dialog_message">Удалить номер из черного списка?</string>
     <string name="close_dial_pad">Закрыть клавиатуру</string>
     <string name="dial">Вызов</string>
     <string name="delete_dial_input">Удалить</string>
     <string name="clear_digits">Очистить номер телефона</string>
-    <string name="call_record_setting_miui">Запись вызовов</string>
-    <string name="accessibility_calllog_detail">Журнал вызовов</string>
+    <string name="call_record_setting_miui">Запись разговоров</string>
+    <string name="accessibility_calllog_detail">Журнал вызовов подробно</string>
     <string name="select_groups">Выбрать группы</string>
     <string name="sim_capacity_content" formatted="false">Всего: %d | Использовано: %d</string>
     <string name="sim_error_generic_failure">Ошибка</string>
@@ -1058,19 +1082,19 @@
     <string name="sim_error_anr_full">Память для номеров заполнена</string>
     <string name="sim_error_password_error">Неверный пароль</string>
     <string name="voip_name">Mi Voice</string>
-    <string name="voip_contacts_entry">Mi VoIP</string>
-    <string name="voip_shortcut_name">Mi VoIP</string>
-    <string name="voip_contact_label">Mi VoIP</string>
-    <string name="voip_loading_contact">Загрузка…</string>
+    <string name="voip_contacts_entry">Mi Voice</string>
+    <string name="voip_shortcut_name">Mi Voice</string>
+    <string name="voip_contact_label">Mi Voice</string>
+    <string name="voip_loading_contact">Секунду…</string>
     <string name="create_voip_shortcut_success">Ярлык создан</string>
-    <string name="no_voip_contacts">Нет контактов VoIP</string>
-    <string name="calls_voip_prompt">VoIP</string>
-    <string name="yellowPageNavigationLabel">Сервисы</string>
-    <string name="yellowPageNavigationIconLabel">Сервисы</string>
+    <string name="no_voip_contacts">Нет контактов Mi Voice</string>
+    <string name="calls_voip_prompt">VOIP</string>
+    <string name="yellowPageNavigationLabel">Справочник</string>
+    <string name="yellowPageNavigationIconLabel">Справочник</string>
     <string name="login_ok">Вход</string>
     <string name="yellowpage_navigation_no_content">Нет результатов</string>
     <string name="yellowpage_navigation_search_history">История</string>
-    <string name="yellowpage_navigation_clear_search_history">Очистить историю</string>
+    <string name="yellowpage_navigation_clear_search_history">Очистить журнал вызовов</string>
     <string name="yellowpage_navigation_search_offline_hint">Интернет недоступен</string>
     <string name="refresh">Обновить</string>
     <string name="yellowpage_navigation_search_city_name_hint">Город</string>
@@ -1093,133 +1117,21 @@
     <string name="clip_dialog_title">Вызвать скопированный номер?</string>
     <string name="edit_contact_photo">Изменить фото контакта</string>
     <string name="qrcode_card_title">QR код</string>
-    <string name="scan_qrcode_card_hint1">Сканируйте QR код,</string>
-    <string name="scan_qrcode_card_hint2">чтобы добавить в список контактов</string>
+    <string name="scan_qrcode_card_hint1">Просканируйте QR код выше</string>
     <string name="create_qrcode_fail_message">Ошибка создания QR кода</string>
     <string name="pull_to_refresh_pull_label">Потяните для обновления</string>
     <string name="pull_to_refresh_release_label">Отпустите для обновления</string>
     <string name="pull_to_refresh_refreshing_label">Загрузка…</string>
-    <string name="phone_call_type_voip">VoIP</string>
-    <string name="cloud_recommend_msg">Нажмите для синхронизации с Mi Cloud</string>
-    <string name="unknow_phone_number_call_failed">Не удается вызвать неизвестный номер</string>
-    <string name="unknow_phone_number_mms_failed">Не удается отправить сообщение на неизвестный номер</string>
-    <string name="voip_recommend_msg">Нажмите для использования VoIP</string>
+    <string name="phone_call_type_voip">Mi Voice</string>
+    <string name="cloud_recommend_msg">Нажмите для синхронизации контактов с Mi Cloud.</string>
+    <string name="unknow_phone_number_call_failed">Невозможно позвонить на неизвестный номер</string>
+    <string name="unknow_phone_number_mms_failed">Невозможно послать сообщение на неизвестный номер</string>
+    <string name="voip_recommend_msg">Нажмите, чтобы использовать Mi Voice</string>
     <string name="cloud_state_sync_finished">Синхронизировано с Mi Cloud</string>
     <string name="cloud_state_syncing">Синхронизировано с Mi Cloud</string>
-    <string name="cloud_state_loading">Загрузка…</string>
+    <string name="cloud_state_loading">Секунду…</string>
     <string name="cloud_state_disabled">Синхронизация с Mi Cloud отключена</string>
-    <string name="more_call_logs">Все записи доступны на сайте i.mi.com</string>
+    <string name="more_call_logs">Подробная история вызовов на i.mi.com</string>
     <string name="transfer_accounts">Передача аккаунтов</string>
-    <string name="account_unactivated">Mi аккаунт не активирован</string>
-    <string name="all_resources">Все</string>
-    <string name="batch_delete_msg">"Удалить выбранные контакты? 
-
-Контактов: %d 
-
-Данные, которые хранятся в Mi Cloud так же будут удалены."</string>
-    <string name="btn_delete_multi_contacts">Удалить контакты (%d)</string>
-    <string name="btn_delete_one_contact">Удалить</string>
-    <string name="callNoAnswerTimeFormat">" | Гудков: %s"</string>
-    <string name="confirm_delete_sim_entry_miui">"Удалить выбранные контакты с SIM карты? 
-Контактов: %d"</string>
-    <string name="deleting">Удаление…</string>
-    <string name="description_author">Автор:</string>
-    <string name="description_designer">Дизайнер:</string>
-    <string name="description_download">Загрузок:</string>
-    <string name="description_size">Размер:</string>
-    <string name="description_summary">Инфо:</string>
-    <string name="description_uploadtime">Обновлено:</string>
-    <string name="description_version">Версия:</string>
-    <string name="description_version_szie">Версия: %1$s | Размер: %2$s</string>
-    <string name="dlg_add_blacklist">Добавить номер в черный список?</string>
-    <string name="dlg_remove_blacklist">Удалить номер из черного списка?</string>
-    <string name="download_failed">Ошибка загрузка</string>
-    <string name="download_preview_failed">Не удалось загрузить эскиз</string>
-    <string name="export_sim_contact_finish_failure">"Недостаточно места. 
-
-Скопировано: %1$d 
-Не удалось: %2$d"</string>
-    <string name="export_sim_contact_finish_success">Скопировано контактов: %d</string>
-    <string name="export_sim_contacts_dialog_message">"Экспортировать контакты на SIM карту? 
-
-Свободно: %d"</string>
-    <string name="fail_to_add_account">Не удалось добавить аккаунт</string>
-    <string name="loading">Загрузка…</string>
-    <string name="loading_resource_detail_fail">Не удалось загрузить ресурс</string>
-    <string name="loading_resource_detail_info">Загрузка…</string>
-    <string name="none_found">Устройства не найдены</string>
-    <string name="online_no_network">Не удается подключиться к сети</string>
-    <string name="online_search_hint">Введите ключевые слова</string>
-    <string name="photo_package_activity_title">Фото из пакета</string>
-    <string name="scanning">Поиск устройств…</string>
-    <string name="sdcard_not_mounted_dialog_message">"Вставьте SD карту 
-"</string>
-    <string name="sdcard_not_mounted_dialog_title">SD карта отсутствует</string>
-    <string name="select_device">Выберите устройство</string>
-    <string name="select_new_photo_from_photo_package">Выбрать новое фото из пакета</string>
-    <string name="select_photo_from_photo_package">Выбрать фото из пакета</string>
-    <string name="to_activate_the_account">Активируйте Mi аккаунт</string>
-    <string name="yellowpage_navigation_network_location_enable">Включить</string>
-    <string name="yellowpage_navigation_network_location_enable_later">Позже</string>
-    <string name="yellowpage_navigation_network_location_enabled">Сервис активен. Отключить его можно в настройках местоположения.</string>
-    <string name="yellowpage_navigation_network_location_not_enabled_summary">Услуги будут отображаться согласно вашему местоположению, в каком городе вы находитесь. Включение этой функции может улучшить качество сервисов.</string>
-    <string name="yellowpage_navigation_network_location_not_enabled_title">Использование местоположения</string>
-    <string name="resource_comment_no_average_score">-/-</string>
-    <string name="resource_failed_to_load_list">Не удалось загрузить список</string>
-    <string name="resource_search_list_empty">Ничего не найдено</string>
-    <string name="resource_unable_to_access">Содержимое, которое вы ищите, недоступно в вашей стране</string>
-    <string name="starred_yellowpage">Избранные сервисы</string>
-    <string name="miprofile_nick_name_divider">"  |  "</string>
-    <string name="miprofile_nick_name_edit_dialog_hint">Введите ник</string>
-    <string name="miprofile_nick_name_edit_dialog_message">Ник будет отображаться в журнале вызовов и на странице контакта</string>
-    <string name="miprofile_nick_name_edit_dialog_title">Изменить ник</string>
     <string name="phone_number_too_long_toast">Номер слишком длинный</string>
-    <string name="resource_tab_to_view">Нажмите для просмотра</string>
-    <string name="resource_get_auth_has_been_undercarriaged">Эта тема больше не доступна</string>
-    <string name="resource_get_auth_not_official">Темы из сторонних источников не поддерживаются</string>
-    <string name="resource_has_been_downloaded">Тема уже загружена</string>
-    <string name="resource_no_match_app">Тип файла не поддерживается</string>
-    <string name="resource_no_network_text">Не удается подключиться к интернету</string>
-    <string name="resource_select_ringtone_confirm">Выбрать эту мелодию?</string>
-    <string name="resource_tip_select_none">Не выбрано</string>
-    <string name="resource_title_category">Категории</string>
-    <string name="resource_title_hot_subject">Популярные</string>
-    <string name="resource_title_local">Локально</string>
-    <string name="resource_title_rank">Топ</string>
-    <string name="resource_title_subject">Новые</string>
-    <string name="resource_pack_get_auth_has_been_undercarriaged">Эта тема больше не доступна</string>
-    <string name="resource_download_notification_content">Нажмите для просмотра</string>
-    <string name="resource_download_notification_title_many">Скачано тем: %1$s</string>
-    <string name="resource_download_notification_title_one">Скачивание темы завершено</string>
-    <string name="check_unsynchronized_accounts">Уведомлять о синхронизации аккаунтов</string>
-    <string name="contact_detail_picture_description">Изменить фото</string>
-    <string name="device_import_done_toast">Контактов импортировано: %1$d</string>
-    <string name="dirty_contacts_notification_description">Несинхронизированных данных с Mi аккаунтом: %d</string>
-    <string name="dirty_contacts_notification_message">Вы можете выключить это уведомление в настройках</string>
-    <string name="dirty_contacts_notification_title">Синхронизировать контакты?</string>
-    <string name="expand_collapse_name_fields_description">Развернуть или свернуть информацию</string>
-    <string name="frequency_none">Никогда</string>
-    <string name="frequency_three_days">Каждые 3 дня</string>
-    <string name="frequency_weekly">Каждую неделю</string>
-    <string name="group_name_contacts">Контакты</string>
-    <string name="group_name_coworkers">Коллеги</string>
-    <string name="group_name_family">Семья</string>
-    <string name="group_name_friends">Друзья</string>
-    <string name="hint_search_contacts">Контактов: %d</string>
-    <string name="hint_search_emails">Адресов Email: %d</string>
-    <string name="hint_search_phone_numbers">Номеров: %d</string>
-    <string name="listAllContactsInAccount">Контакты: %s</string>
-    <string name="login_before_recharging">Сначала необходимо авторизоваться в аккаунте</string>
-    <string name="menu_export_database">Экспорт контактов</string>
-    <string name="pick_favorites_contacts_list_title">Избранных: %1$d</string>
-    <string name="pick_favorites_list_title">Избранных: %1$d</string>
-    <string name="pick_recent_contacts_list_title">Недавних контактов: %1$d</string>
-    <string name="pick_recent_list_title">Недавних контактов: %1$d</string>
-    <string name="progress_notifier_message" formatted="false">Импортирование %s из %s: %s</string>
-    <string name="remind_btn_ignore">Отмена</string>
-    <string name="remind_btn_sync_now">Синхронизировать</string>
-    <string name="unknown_caller">Неизвестный контакт</string>
-    <string name="yellowpage_navigation_search_hint">Поиск</string>
-    <string name="resource_select_ringtone_confirm_picker">Установить выбранную мелодию?</string>
-    <string name="voip_contacts_entry_header">Облачные сообщения и Mi VoIP</string>
 </resources>

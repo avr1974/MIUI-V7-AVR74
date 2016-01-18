@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="weather_type">
-        <item>Ясно</item>
+        <item>Солнечно</item>
         <item>Облачно</item>
         <item>Пасмурно</item>
         <item>Туман</item>
         <item>Буря</item>
         <item>Шторм</item>
-        <item>Сильный ливень</item>
+        <item>Проливной дождь</item>
         <item>Гроза</item>
-        <item>Дождь</item>
-        <item>Ливень</item>
+        <item>Ливни</item>
+        <item>Сильный дождь</item>
         <item>Дождь</item>
         <item>Небольшой дождь</item>
-        <item>Снег с дождем</item>
+        <item>Мокрый снег</item>
         <item>Метель</item>
         <item>Снег</item>
         <item>Снегопад</item>
-        <item>Легкий снег</item>
+        <item>Снег</item>
         <item>Небольшой снег</item>
-        <item>Пыльный шторм</item>
+        <item>Сильная песчаная буря</item>
         <item>Песчаная буря</item>
-        <item>Умеренная пыль</item>
+        <item>Легкая песчаная буря</item>
         <item>Ветрено</item>
         <item>Град</item>
         <item>Пыль</item>
         <item>Дымка</item>
         <item>Морозный дождь</item>
-        <item>Нет данных</item>
+        <item></item>
     </string-array>
     <string-array name="indices_uv_level">
-        <item>Низкий</item>
+        <item>Слабый</item>
         <item>Умеренный</item>
         <item>Высокий</item>
     </string-array>
     <string-array name="indices_sport">
-        <item>Подходящие</item>
-        <item>Не советуется</item>
+        <item>Подходящий</item>
+        <item>Неприемлемый</item>
     </string-array>
     <string-array name="indices_car_wash">
-        <item>Подходящие</item>
-        <item>Не советуется</item>
+        <item>Подходящий</item>
+        <item>Неприемлемый</item>
     </string-array>
     <string-array name="wind_direction">
-        <item>С↓</item>
-        <item>СВ↙</item>
-        <item>В←</item>
-        <item>ЮВ↖</item>
-        <item>Ю↑</item>
-        <item>ЮЗ↗</item>
-        <item>З→</item>
-        <item>СЗ↘</item>
+        <item>С</item>
+        <item>СВ</item>
+        <item>В</item>
+        <item>ЮВ</item>
+        <item>С</item>
+        <item>ЮЗ</item>
+        <item>З</item>
+        <item>СЗ</item>
     </string-array>
     <string-array name="wind_power">
         <item>%s</item>

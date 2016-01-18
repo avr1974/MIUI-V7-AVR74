@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="record_downloading_complete_count">
-        <item quantity="other">Загружено записей: %d</item>
-        <item quantity="one">Загружено записей: %d</item>
+        <item quantity="other">%d записей загружено</item>
+        <item quantity="one">%d запись загружена</item>
+        <item quantity="few">%d записи загружено</item>
     </plurals>
     <plurals name="local_records_count">
-        <item quantity="other">Записей: %d</item>
-        <item quantity="one">Записей: %d</item>
+        <item quantity="other">%d записей</item>
+        <item quantity="one">%d запись</item>
+        <item quantity="few">%d записи</item>
     </plurals>
     <plurals name="unsynced_records_count">
-        <item quantity="other">Записей не синхронизировано: %d</item>
-        <item quantity="one">Записей не синхронизировано: %d</item>
+        <item quantity="other">%d не синхронизировано</item>
+        <item quantity="one">%d не синхронизирована</item>
+        <item quantity="few">%d не синхронизировано</item>
     </plurals>
 </resources>

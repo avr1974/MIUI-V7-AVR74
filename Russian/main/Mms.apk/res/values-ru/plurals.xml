@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Удалить %1$s диалогов?</item>
-        <item quantity="one">Удалить %1$s диалог?</item>
-        <item quantity="few">Удалить %1$s диалога?</item>
-        <item quantity="many">Удалить %1$s диалогов?</item>
+        <item quantity="other">Удалить диалоги? (%1$s)</item>
+        <item quantity="one">Удалить диалог?</item>
+        <item quantity="few">Удалить диалоги? (%1$s)</item>
     </plurals>
     <plurals name="slide_duration">
         <item quantity="other">%s сек.</item>
@@ -17,32 +16,28 @@
         <item quantity="few">%s сек.</item>
     </plurals>
     <plurals name="search_results_title">
-        <item quantity="other">Поиск \"%2$s\" (%1$s)</item>
-        <item quantity="one">Поиск \"%2$s\" (%1$s)</item>
+        <item quantity="other">Результатов для \"%2$s: %1$s</item>
+        <item quantity="one">Результатов для \"%2$s: %1$s</item>
+        <item quantity="few">Результатов для \"%2$s: %1$s</item>
     </plurals>
     <plurals name="recipient_count">
-        <item quantity="other">%1$s получателей</item>
-        <item quantity="one">%1$s получатель</item>
-        <item quantity="few">%1$s получателя</item>
-        <item quantity="many">%1$s получателей</item>
+        <item quantity="other">%1$s человек</item>
+        <item quantity="one">1 человек</item>
+        <item quantity="few">%1$s человека</item>
     </plurals>
     <plurals name="cloud_sms_count">
-        <item quantity="other">%d cообщений</item>
-        <item quantity="zero">Нет cообщений</item>
-        <item quantity="one">%d cообщение</item>
-        <item quantity="few">%d cообщения</item>
-        <item quantity="many">%d cообщений</item>
+        <item quantity="other">%d сообщений</item>
+        <item quantity="one">1 сообщение</item>
+        <item quantity="few">%d сообщения</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">%d несинхронизированных сообщений</item>
-        <item quantity="one">%d несинхронизированное сообщение</item>
-        <item quantity="few">%d несинхронизированных сообщения</item>
-        <item quantity="many">%d несинхронизированных сообщений</item>
+        <item quantity="other">%d сообщения не синхронизированы</item>
+        <item quantity="one">Сообщение не синхронизировано</item>
+        <item quantity="few">%d сообщения не синхронизированы</item>
     </plurals>
     <plurals name="message_count">
-        <item quantity="other">%1$s cообщений</item>
-        <item quantity="one">%1$s cообщение</item>
-        <item quantity="few">%1$s cообщения</item>
-        <item quantity="many">%1$s cообщений</item>
+        <item quantity="other">Сообщений: %1$s</item>
+        <item quantity="one">Сообщений: %1$s</item>
+        <item quantity="few">Сообщений: %1$s</item>
     </plurals>
 </resources>

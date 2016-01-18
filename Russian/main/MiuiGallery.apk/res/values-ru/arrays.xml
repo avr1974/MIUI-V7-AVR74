@@ -5,7 +5,7 @@
         <item>15 минут</item>
         <item>30 минут</item>
         <item>1 час</item>
-        <item>Всегда</item>
+        <item>Бесконечно</item>
     </string-array>
     <string-array name="baby_sexy">
         <item>Мальчик</item>
@@ -14,9 +14,9 @@
     <string-array name="owner_relation">
         <item>Папа</item>
         <item>Мама</item>
-        <item>Дедушка</item>
-        <item>Бабушка</item>
-        <item>Дедушка</item>
-        <item>Бабушка</item>
+        <item>Дедушка по отцу</item>
+        <item>Бабушка по отцу</item>
+        <item>Дедушка по матери</item>
+        <item>Бабушка по матери</item>
     </string-array>
 </resources>

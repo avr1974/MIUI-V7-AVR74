@@ -1,56 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="cache_sort_type">
-        <item>По размеру</item>
-        <item>По имени</item>
+        <item>Размер</item>
+        <item>Имя</item>
     </string-array>
     <string-array name="large_file_sort_type">
-        <item>По размеру</item>
-        <item>По имени</item>
+        <item>Размер</item>
+        <item>Имя</item>
     </string-array>
     <string-array name="installed_app_sort_type">
-        <item>По частоте использования</item>
-        <item>По размеру</item>
+        <item>Часто используемые</item>
+        <item>Размер</item>
     </string-array>
     <string-array name="auto_clean_time">
         <item>Каждый день</item>
         <item>Каждые 3 дня</item>
-        <item>Каждую неделю</item>
+        <item>Каждые 7 дней</item>
     </string-array>
     <string-array name="auto_clean_size">
-        <item>100 Мб</item>
-        <item>300 Мб</item>
-        <item>500 Мб</item>
-        <item>1 Гб</item>
+        <item>100 МБ</item>
+        <item>300 МБ</item>
+        <item>500 МБ</item>
+        <item>1ГБ</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>Спрашивать перед очисткой</item>
-        <item>Очищать в фоне</item>
-        <item>Уведомлять после очистки</item>
+        <item>Показать</item>
+        <item>Не показывать</item>
+        <item>Показать</item>
     </string-array>
     <string-array name="cache_clean_menu">
-        <item>Очистка</item>
-        <item>Файл</item>
-        <item>Добавить в исключения</item>
+        <item>Очистить этот файл</item>
+        <item>Просмотреть расположение</item>
+        <item>Добавить файл в белый список</item>
+        <item>Добавить приложение в белый список</item>
     </string-array>
     <string-array name="trash_clean_menu">
-        <item>Очистить</item>
-        <item>Файл</item>
-        <item>Добавить в исключения</item>
+        <item>Очистить этот файл</item>
+        <item>Просмотреть расположение</item>
+        <item>Добавить файл в белый список</item>
+    </string-array>
+    <string-array name="video_clean_menu">
+        <item>Удалить этот файл</item>
+        <item>Открыть</item>
+        <item>Добавить файл в исключения</item>
     </string-array>
     <string-array name="empty_floder_clean_menu">
         <item>Очистка</item>
     </string-array>
     <string-array name="apk_clean_menu">
         <item>Очистка</item>
-        <item>Файл</item>
+        <item>Установить apk</item>
+        <item>Посмотреть расположение Apk</item>
         <item>Добавить в исключения</item>
-        <item>Установить</item>
     </string-array>
     <string-array name="app_clean_menu">
-        <item>Информация</item>
-        <item>Файл</item>
-        <item>Бэкап и удаление</item>
         <item>Удалить</item>
     </string-array>
     <string-array name="auto_alert_apps_time">

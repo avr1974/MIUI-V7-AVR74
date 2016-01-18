@@ -1,171 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="confirm_delete_album">
-        <item quantity="other">Удалить альбомы? %1$s (всего: %2$s)</item>
-        <item quantity="one">Удалить альбомы? %1$s (всего: %2$s)</item>
+        <item quantity="other">Удалить %1$s альбомов (элементов: %2$s)?</item>
+        <item quantity="one">Удалить альбом (элементов: %s)?</item>
+        <item quantity="few">Удалить %1$s альбома (элементов: %2$s)?</item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_local_image_video_from_homepage">
-        <item quantity="other">Удалить выбранное из памяти устройства и Mi Cloud? (%s)</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элементов из памяти устройства и Mi Cloud?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элемент из памяти устройства и Mi Cloud?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элемента из памяти устройства и Mi Cloud?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_local_image_from_homepage">
-        <item quantity="other">Удалить %s фото из памяти устройства и Mi Cloud?</item>
-        <item quantity="one">Удалить %s фото из памяти устройства и Mi Cloud?</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> фото из памяти устройства и Mi Cloud?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить фото из памяти устройства и Mi Cloud?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> фото из памяти устройства и Mi Cloud?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_local_video_from_homepage">
-        <item quantity="other">Удалить %s видео из памяти устройства и Mi Cloud?</item>
-        <item quantity="one">Удалить %s видео из памяти устройства и Mi Cloud?</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> видео из памяти устройства и Mi Cloud?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить видео из памяти устройства и Mi Cloud?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> видео из памяти устройства и Mi Cloud?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_image_video_from_homepage">
-        <item quantity="other">Удалить выбранное из Mi Cloud? (%s)</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элементов из Mi Cloud?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элемент из Mi Cloud?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элемента из Mi Cloud?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_image_from_homepage">
-        <item quantity="other">Удалить %s фото из Mi Cloud?</item>
-        <item quantity="one">Удалить %s фото из Mi Cloud?</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> фото из Mi Cloud?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить фото из Mi Cloud?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> фото из Mi Cloud?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_video_from_homepage">
-        <item quantity="other">Удалить %s видео из Mi Cloud?</item>
-        <item quantity="one">Удалить %s видео из Mi Cloud?</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> видео из Mi Cloud?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить видео из Mi Cloud?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> видео из Mi Cloud?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_image_video">
-        <item quantity="other">Удалить выбранное из альбома? (%s)</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элементов из этого альбома?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элемент из этого альбома?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> элемента из этого альбома?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_local_image_video">
-        <item quantity="other">Удалить выбранное? (%s)</item>
+        <item quantity="other">Удалить %s элементов?</item>
+        <item quantity="one">Удалить %s элемент?</item>
+        <item quantity="few">Удалить %s элемента?</item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_image">
-        <item quantity="other">Удалить %s фото из &lt;b>Mi Cloud&lt;/b>?</item>
-        <item quantity="one">Удалить %s фото из &lt;b>Mi Cloud&lt;/b>?</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> фото из альбома?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить фото из альбома?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> фото из альбома?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_local_image">
         <item quantity="other">Удалить %s фото?</item>
-        <item quantity="one">Удалить %s фото?</item>
+        <item quantity="one">Удалить фото?</item>
+        <item quantity="few">Удалить %s фото?</item>
     </plurals>
     <plurals name="confirm_delete_has_cloud_video">
-        <item quantity="other">Удалить %s видео из &lt;b>Mi Cloud&lt;/b>?</item>
-        <item quantity="one">Удалить %s видео из &lt;b>Mi Cloud&lt;/b>?</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> видео из этого альбома?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> видео из этого альбома?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%s&lt;/xliff:g> видео из этого альбома?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_has_local_video">
         <item quantity="other">Удалить %s видео?</item>
-        <item quantity="one">Удалить %s видео?</item>
+        <item quantity="one">Удалить видео?</item>
+        <item quantity="few">Удалить %s видео?</item>
     </plurals>
     <plurals name="confirm_delete_video_from_many_albums">
-        <item quantity="other">" &lt;Data> Удалить &amp;amp;lt;xliff:g id=ITEM>%1$d видео&amp;amp;lt;/xliff:g> из альбомов (%2$d)?&lt;/Data> "</item>
-        <item quantity="one">" &lt;Data> Удалить &amp;amp;lt;xliff:g id=ITEM>%1$d видео&amp;amp;lt;/xliff:g> из альбомов (%2$d)?&lt;/Data> "</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%1$d видео&lt;/xliff:g> из альбомов (%2$d)?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить видео из альбомов (%2$d)?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%1$d видео&lt;/xliff:g> из альбомов (%2$d)?&lt;/Data></item>
     </plurals>
     <plurals name="confirm_delete_image_from_many_albums">
-        <item quantity="other">Удалить %1$d фото из альбома (%2$d)?</item>
-        <item quantity="one">Удалить %1$d фото из альбома (%2$d)?</item>
+        <item quantity="other">&lt;Data>Удалить &lt;xliff:g id=ITEM>%1$d фото&lt;/xliff:g> из альбомов (%2$d)?&lt;/Data></item>
+        <item quantity="one">&lt;Data>Удалить фото из альбомов (%2$d)?&lt;/Data></item>
+        <item quantity="few">&lt;Data>Удалить &lt;xliff:g id=ITEM>%1$d фото&lt;/xliff:g> из альбомов (%2$d)?&lt;/Data></item>
     </plurals>
     <plurals name="number_of_items_selected">
         <item quantity="other">Выбрано: %1$d</item>
-        <item quantity="zero">Выбрано: %1$d</item>
         <item quantity="one">Выбрано: %1$d</item>
+        <item quantity="few">Выбрано: %1$d</item>
     </plurals>
     <plurals name="number_of_pictures">
         <item quantity="other">%1$d</item>
-        <item quantity="zero">%1$d</item>
         <item quantity="one">%1$d</item>
+        <item quantity="few">%1$d</item>
     </plurals>
     <plurals name="how_many_pics">
         <item quantity="other">%d фото</item>
         <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
     </plurals>
     <plurals name="how_many_videos">
         <item quantity="other">%d видео</item>
         <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
     </plurals>
     <plurals name="how_many_sub_folders">
         <item quantity="other">Папок: %d</item>
         <item quantity="one">Папок: %d</item>
+        <item quantity="few">Папок: %d</item>
     </plurals>
     <plurals name="message_no_delete_access_with_count">
-        <item quantity="other">Нет доступа для удаления этих файлов (%d)</item>
-        <item quantity="one">Нет доступа для удаления этих файлов (%d)</item>
+        <item quantity="other">Нет доступа для удаления %d файлов.</item>
+        <item quantity="one">Нет доступа для удаления файлов (%d).</item>
+        <item quantity="few">Нет доступа для удаления %d файлов.</item>
     </plurals>
     <plurals name="pick_with_limited_upper_bound_title">
         <item quantity="other">Вы можете выбрать элементов: %d</item>
         <item quantity="one">Вы можете выбрать элементов: %d</item>
+        <item quantity="few">Вы можете выбрать элементов: %d</item>
     </plurals>
     <plurals name="number_of_images">
-        <item quantity="other">Изображений: %1$d</item>
-        <item quantity="zero">Изображений: %1$d</item>
-        <item quantity="one">Изображений: %1$d</item>
+        <item quantity="other">%1$d фото</item>
+        <item quantity="one">%1$d фото</item>
+        <item quantity="few">%1$d фото</item>
     </plurals>
     <plurals name="number_of_items">
         <item quantity="other">Файлов: %1$d</item>
-        <item quantity="zero">Файлов: %1$d</item>
         <item quantity="one">Файлов: %1$d</item>
+        <item quantity="few">Файлов: %1$d</item>
     </plurals>
     <plurals name="seconds">
-        <item quantity="other">%d сек.</item>
-        <item quantity="one">%d сек.</item>
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 секунда</item>
+        <item quantity="few">%d секунды</item>
     </plurals>
     <plurals name="ignore_faces_alert_msg">
-        <item quantity="other">Не показывать выбранные лица?</item>
-        <item quantity="one">Не показывать выбранные лица?</item>
+        <item quantity="other">Не показывать эти лица?</item>
+        <item quantity="one">Не показывать это лицо?</item>
+        <item quantity="few">Не показывать эти лица?</item>
     </plurals>
     <plurals name="more_face">
-        <item quantity="other">%1$s похожих фото</item>
-        <item quantity="one">%1$s похожее фото</item>
+        <item quantity="other">%1$s фото с %2$s</item>
+        <item quantity="one">%1$s фото с %2$s</item>
+        <item quantity="few">%1$s фото с %2$s</item>
     </plurals>
     <plurals name="baby_album_sharer_recommand_old_pictures">
-        <item quantity="other">%1$d фото от \"%2$s\" будут добавлены</item>
-        <item quantity="one">%1$d фото от \"%2$s\" будут добавлены</item>
+        <item quantity="other">%1$d фото ребенка %2$s будут добавлены</item>
+        <item quantity="one">%1$d фото ребенка %2$s будет добавлено</item>
+        <item quantity="few">%1$d фото ребенка %2$s будут добавлены</item>
     </plurals>
     <plurals name="baby_album_sharer_recommand_new_pictures">
-        <item quantity="other">%1$d фото от \"%2$s\" будут добавлены</item>
-        <item quantity="one">%1$d фото от \"%2$s\" будут добавлены</item>
+        <item quantity="other">%1$d фото ребенка %2$s будут добавлены</item>
+        <item quantity="one">%1$d фото ребенка %2$s будет добавлено</item>
+        <item quantity="few">%1$d фото ребенка %2$s будут добавлены</item>
     </plurals>
     <plurals name="baby_age_subtitle_year">
-        <item quantity="other">"%1$d л. "</item>
-        <item quantity="one">"%1$d г. "</item>
-        <item quantity="few">"%1$d г. "</item>
-        <item quantity="many">"%1$d л. "</item>
+        <item quantity="other">"%1$d лет "</item>
+        <item quantity="one">"%1$d год "</item>
+        <item quantity="few">"%1$d года "</item>
     </plurals>
     <plurals name="baby_age_subtitle_month">
-        <item quantity="other">"%1$d мес. "</item>
-        <item quantity="one">"%1$d мес. "</item>
+        <item quantity="other">"%1$d месяцев "</item>
+        <item quantity="one">"%1$d месяц "</item>
+        <item quantity="few">"%1$d месяца "</item>
     </plurals>
     <plurals name="baby_age_subtitle_day">
-        <item quantity="other">"%1$d дн. "</item>
-        <item quantity="one">"%1$d дн. "</item>
+        <item quantity="other">%1$d дней</item>
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
     </plurals>
     <plurals name="baby_album_share_user_count_tip">
-        <item quantity="other">Пользователей: %1$d</item>
-        <item quantity="one">Пользователей: %1$d</item>
+        <item quantity="other">%1$d подписчиков</item>
+        <item quantity="one">%1$d подписчик</item>
+        <item quantity="few">%1$d подписчика</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
-        <item quantity="other">Фото для загрузки: %1$d</item>
-        <item quantity="one">Фото для загрузки: %1$d</item>
+        <item quantity="other">Ожидание синхронизации: %1$d фото</item>
+        <item quantity="one">Ожидание синхронизации: 1 фото</item>
+        <item quantity="few">Ожидание синхронизации: %1$d фото</item>
     </plurals>
     <plurals name="number_of_videos_to_upload">
-        <item quantity="other">Видео для загрузки: %1$d</item>
-        <item quantity="one">Видео для загрузки: %1$d</item>
+        <item quantity="other">%1$d видео ожидает синхронизации</item>
+        <item quantity="one">Видео ожидает синхронизации</item>
+        <item quantity="few">%1$d видео ожидает синхронизации</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
-        <item quantity="other">Файлов для загрузки: %1$d</item>
-        <item quantity="one">Файлов для загрузки: %1$d</item>
-        <item quantity="few">Файлов для загрузки: %1$d</item>
-        <item quantity="many">Файлов для загрузки: %1$d</item>
+        <item quantity="other">Ожидание синхронизации: %1$d элементов</item>
+        <item quantity="one">Ожидание синхронизации: 1 элемент</item>
+        <item quantity="few">Ожидание синхронизации: %1$d элемента</item>
     </plurals>
     <plurals name="number_of_uploading_images">
-        <item quantity="other">Загрузка %1$d фото…</item>
-        <item quantity="one">Загрузка %1$d фото…</item>
+        <item quantity="other">Синхронизация %1$d фото…</item>
+        <item quantity="one">Синхронизация фото…</item>
+        <item quantity="few">Синхронизация %1$d фото…</item>
     </plurals>
     <plurals name="number_of_uploading_videos">
-        <item quantity="other">Загрузка %1$d видео…</item>
-        <item quantity="one">Загрузка %1$d видео…</item>
+        <item quantity="other">Синхронизация %1$d видео…</item>
+        <item quantity="one">Синхронизация видео…</item>
+        <item quantity="few">Синхронизация %1$d видео…</item>
     </plurals>
     <plurals name="number_of_uploading_images_and_videos">
-        <item quantity="other">Загрузка %1$d файлов…</item>
-        <item quantity="one">Загрузка %1$d файла…</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_local_image">
-        <item quantity="other">Удалить %s фото из &lt;b>памяти телефона и Mi Cloud&lt;/b>?</item>
-        <item quantity="one">Удалить %s фото из &lt;b>памяти телефона и Mi Cloud&lt;/b>?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_local_video">
-        <item quantity="other">Удалить %s видео из &lt;b>памяти телефона и Mi Cloud&lt;/b>?</item>
-        <item quantity="one">Удалить %s видео из &lt;b>памяти телефона и Mi Cloud&lt;/b>?</item>
+        <item quantity="other">Синхронизация %1$d элементов…</item>
+        <item quantity="one">Синхронизация элемента…</item>
+        <item quantity="few">Синхронизация %1$d элементов…</item>
     </plurals>
 </resources>

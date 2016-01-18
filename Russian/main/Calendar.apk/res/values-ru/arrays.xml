@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="reminder_methods_labels">
-        <item>Уведомление</item>
-        <item>Электронное сообщение</item>
-        <item>Текстовое сообщение</item>
-        <item>Будильник</item>
+        <item>Оповещение</item>
+        <item>Эл. почта</item>
+        <item>SMS</item>
+        <item>Сигнал</item>
     </string-array>
     <string-array name="reminder_minutes_labels">
-        <item>Не напоминать</item>
-        <item>По факту</item>
-        <item>За 5 минут</item>
-        <item>За 10 минут</item>
-        <item>За 15 минут</item>
-        <item>За 30 минут</item>
-        <item>За 1 час</item>
-        <item>За 1 день</item>
-        <item>За 2 дня</item>
-        <item>За 1 неделю</item>
+        <item>0 минут</item>
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>12 часов</item>
+        <item>24 часа</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
     </string-array>
     <string-array name="preferences_default_reminder_labels">
-        <item>Не напоминать</item>
-        <item>По факту</item>
-        <item>За 5 минут</item>
-        <item>За 10 минут</item>
-        <item>За 15 минут</item>
-        <item>За 30 минут</item>
-        <item>За 1 час</item>
-        <item>За 1 день</item>
-        <item>За 2 дня</item>
-        <item>За 1 неделю</item>
+        <item>Нет</item>
+        <item>0 минут</item>
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>12 часов</item>
+        <item>24 часа</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>По региону</item>
-        <item>Суббота</item>
-        <item>Воскресенье</item>
-        <item>Понедельник</item>
+        <item>Региональные настройки по умолчанию</item>
+        <item>суббота</item>
+        <item>воскресенье</item>
+        <item>понедельник</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Маршалловы о-ва</item>
@@ -53,18 +66,18 @@
         <item>Богота</item>
         <item>Восточное время</item>
         <item>Венесуэла</item>
-        <item>Атлантика (Барбадос)</item>
-        <item>Атлантика (Канада)</item>
+        <item>Атлант. время (Барбадос)</item>
+        <item>Атлант. время (Канада)</item>
         <item>Манаус</item>
         <item>Сантьяго</item>
         <item>Ньюфаундленд</item>
-        <item>Бразилия</item>
+        <item>Бразилиа</item>
         <item>Буэнос-Айрес</item>
         <item>Гренландия</item>
         <item>Монтевидео</item>
-        <item>Центр. Атлантика</item>
-        <item>Азорские о-ва</item>
-        <item>О-ва Кабо-Верде</item>
+        <item>Среднеатлантические штаты</item>
+        <item>Азорские острова</item>
+        <item>Кабо-Верде</item>
         <item>Касабланка</item>
         <item>Лондон, Дублин</item>
         <item>Амстердам, Берлин</item>
@@ -89,7 +102,7 @@
         <item>Баку</item>
         <item>Тбилиси</item>
         <item>Ереван</item>
-        <item>Дубаи</item>
+        <item>Дубай</item>
         <item>Кабул</item>
         <item>Исламабад, Карачи</item>
         <item>Уральск</item>
@@ -140,7 +153,7 @@
         <item>последн.</item>
     </string-array>
     <string-array name="response_labels1">
-        <item>Нет ответов</item>
+        <item>Не ответили</item>
         <item>Да</item>
         <item>Может быть</item>
         <item>Нет</item>
@@ -165,10 +178,10 @@
         <item>Повестка дня</item>
     </string-array>
     <string-array name="quick_response_defaults">
-        <item>Опоздаю на несколько минут</item>
-        <item>Буду там через 10 минут</item>
-        <item>Начинайте без меня</item>
-        <item>Извините, я не могу этого сделать. Нужно пересмотреть расписание.</item>
+        <item>Задерживаюсь на пару минут.</item>
+        <item>Буду примерно через 10 минут.</item>
+        <item>Начинайте без меня.</item>
+        <item>К сожалению, я не успеваю. Придется перенести мероприятие.</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Всегда</item>
@@ -180,28 +193,28 @@
         <item>Белый</item>
     </string-array>
     <string-array name="miui_reminder_minutes_labels">
-        <item>Отключено</item>
-        <item>По факту</item>
-        <item>За 5 минут</item>
-        <item>За 10 минут</item>
-        <item>За 15 минут</item>
-        <item>За 30 минут</item>
-        <item>За 1 час</item>
-        <item>За 1 день</item>
-        <item>За 2 дня</item>
-        <item>За 1 неделю</item>
+        <item>Нет напоминаний</item>
+        <item>0 минут</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>1 день</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
     </string-array>
     <string-array name="miui_preferences_default_reminder_labels">
-        <item>Отключено</item>
-        <item>Сразу</item>
-        <item>За 5 минут</item>
-        <item>За 10 минут</item>
-        <item>За 15 минут</item>
-        <item>За 30 минут</item>
-        <item>За 1 час</item>
-        <item>За 1 день</item>
-        <item>За 2 дня</item>
-        <item>За 1 неделю</item>
+        <item>Нет напоминаний</item>
+        <item>0 минут</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>1 день</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
     </string-array>
     <string-array name="travel_reminder_minutes_labels">
         <item>3 часа</item>
@@ -211,10 +224,16 @@
         <item>1 день</item>
     </string-array>
     <string-array name="repeat_frequency_spinner">
+        <item>день</item>
+        <item>неделя</item>
+        <item>месяц</item>
+        <item>год</item>
+    </string-array>
+    <string-array name="repeat_frequency_spinner_plural">
         <item>дн.</item>
         <item>нед.</item>
         <item>мес.</item>
-        <item>год</item>
+        <item>г. (лет)</item>
     </string-array>
     <string-array name="repeat_choose_day">
         <item>1</item>
@@ -250,13 +269,13 @@
         <item>31</item>
     </string-array>
     <string-array name="repeat_choose_weekday">
-        <item>Пн.</item>
-        <item>Вт.</item>
-        <item>Ср.</item>
-        <item>Чт.</item>
-        <item>Пт.</item>
-        <item>Сб.</item>
-        <item>Вс.</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
     </string-array>
     <string-array name="repeat_choose_month">
         <item>Янв</item>
@@ -273,104 +292,20 @@
         <item>Дек</item>
     </string-array>
     <string-array name="repeat_choose_week_left">
-        <item>перв.</item>
-        <item>втор.</item>
-        <item>трет.</item>
-        <item>четв.</item>
-        <item>посл.</item>
+        <item>первая</item>
+        <item>вторая</item>
+        <item>третья</item>
+        <item>четвертая</item>
+        <item>последняя</item>
     </string-array>
     <string-array name="repeat_choose_week_right">
-        <item>Понедельник - пятница</item>
+        <item>Пн - Пт</item>
         <item>Выходные</item>
         <item>Всю неделю</item>
     </string-array>
     <string-array name="repeat_choose_end">
         <item>Никогда</item>
-        <item>По времени</item>
-        <item>По количеству</item>
-    </string-array>
-    <string-array name="repeat_frequency_spinner_plural">
-        <item>дн.</item>
-        <item>нед.</item>
-        <item>мес.</item>
-        <item>г.</item>
-    </string-array>
-    <string-array name="preferences_skip_reminders_labels">
-        <item>Только при отказе</item>
-        <item>При отказе или при неответе</item>
-    </string-array>
-    <string-array name="repeat_by_nth_fri">
-        <item>каждую первую пятницу</item>
-        <item>каждую вторую пятницу</item>
-        <item>каждую третью пятницу</item>
-        <item>каждую четвертую пятницу</item>
-        <item>каждую последнюю пятницу</item>
-    </string-array>
-    <string-array name="repeat_by_nth_mon">
-        <item>каждый первый понедельник</item>
-        <item>каждый второй понедельник</item>
-        <item>каждый третий понедельник</item>
-        <item>каждый четвертый понедельник</item>
-        <item>каждый последний понедельник</item>
-    </string-array>
-    <string-array name="repeat_by_nth_sat">
-        <item>каждую первую субботу</item>
-        <item>каждую вторую субботу</item>
-        <item>каждую третью субботу</item>
-        <item>каждую четвертую субботу</item>
-        <item>каждую последнюю субботу</item>
-    </string-array>
-    <string-array name="repeat_by_nth_sun">
-        <item>каждое первое воскресенье</item>
-        <item>каждое второе воскресенье</item>
-        <item>каждое третье воскресенье</item>
-        <item>каждое четвертое воскресенье</item>
-        <item>каждое последнее воскресенье</item>
-    </string-array>
-    <string-array name="repeat_by_nth_thurs">
-        <item>каждый первый четверг</item>
-        <item>каждый второй четверг</item>
-        <item>каждый третий четверг</item>
-        <item>каждый четвертый четверг</item>
-        <item>каждый последний четверг</item>
-    </string-array>
-    <string-array name="repeat_by_nth_tues">
-        <item>каждый первый вторник</item>
-        <item>каждый второй вторник</item>
-        <item>каждый третий вторник</item>
-        <item>каждый четвертый вторник</item>
-        <item>каждый последний вторник</item>
-    </string-array>
-    <string-array name="repeat_by_nth_wed">
-        <item>каждую первую среду</item>
-        <item>каждую вторую среду</item>
-        <item>каждую третью среду</item>
-        <item>каждую четвертую среду</item>
-        <item>каждую последнюю среду</item>
-    </string-array>
-    <string-array name="timezone_rename_labels">
-        <item>Центральное Австралийское - NT</item>
-        <item>Центральное Австралийское - SA</item>
-        <item>Восточное Австралийское - QLD</item>
-        <item>Восточное Австралийское - NSW</item>
-        <item>Горное - Доусон Крик</item>
-        <item>Центральное стандартное - Саскачеван</item>
-        <item>Восточное стандартное - Atikokan</item>
-        <item>Атлантическое стандартное - Quebec</item>
-        <item>Гавайи Алеутское - Гаваи</item>
-        <item>Гавайи Алеутское - Аляска</item>
-        <item>Тихоокеанское стандартное - Метлакатла</item>
-        <item>Горное стандартное - Аризона</item>
-        <item>Тихоокеанское - Нижняя Калифорния</item>
-        <item>Горное - Чихуахуа</item>
-        <item>Центральное - Тамаулипас</item>
-        <item>Горное - Сонора</item>
-        <item>Востоафриканское время</item>
-        <item>Стандартноатлантическое время</item>
-        <item>Стандартноатлантическое время</item>
-        <item>Восточноевропейское время</item>
-        <item>Калининградское время</item>
-        <item>Амазонка - Рондония</item>
-        <item>Бразилия - Пара</item>
+        <item>Время</item>
+        <item>Таймер</item>
     </string-array>
 </resources>

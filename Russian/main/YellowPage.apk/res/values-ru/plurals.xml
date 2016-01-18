@@ -2,10 +2,12 @@
 <resources>
     <plurals name="more_coupons_count">
         <item quantity="other">Купонов: %d</item>
-        <item quantity="one">Купонов: 1</item>
+        <item quantity="one">1 купон</item>
+        <item quantity="few">Купонов: %d</item>
     </plurals>
     <plurals name="review_count">
-        <item quantity="other">Показать все отзывы (%d)</item>
-        <item quantity="one">Показать отзыв</item>
+        <item quantity="other">Показать комментарии (%d)</item>
+        <item quantity="one">Показать комментарий</item>
+        <item quantity="few">Показать комментарии (%d)</item>
     </plurals>
 </resources>

@@ -5,7 +5,8 @@
         <item quantity="one">Недавних приложений: 1</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
-        <item quantity="other">Блокировать приложения: %d</item>
-        <item quantity="one">Блокировать приложения: %d</item>
+        <item quantity="other">Отключить уведомления %d приложений?</item>
+        <item quantity="one">Отключить уведомления приложения?</item>
+        <item quantity="few">Отключить уведомления %d приложений?</item>
     </plurals>
 </resources>
